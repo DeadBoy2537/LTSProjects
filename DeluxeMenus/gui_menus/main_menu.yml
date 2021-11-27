@@ -102,14 +102,14 @@ items:
     slot: 30
     display_name: '§6个人所持资产'
     lore:
-    - '§6个人资产: §4%ue_money%'
+    - '§6个人所持资产: §4%ue_money%'
   balancetop:
     update: true
     material: BOOK
     slot: 32
     display_name: '§6个人银行资产'
     lore:
-    - '§6银行资产: §4%ue_bank%'
+    - '§6个人银行资产: §4%ue_bank%'
   nextmenu:
     material: GREEN_STAINED_GLASS_PANE
     slot: 40
