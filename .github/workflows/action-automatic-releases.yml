@@ -20,7 +20,7 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "[${{ github.workflow }}] Release ${{ github.run_number }} (ID : ${{ github.run.id }})"
+          automatic_release_tag: "[${{ github.workflow }}] Release ${{ github.run_number }}"
           prerelease: false
           title: "Development Build"
           files: |
