@@ -1,4 +1,4 @@
-Economy pay message v2: '&2你支付了&2$amount_sent $currency_name&2给$receiver&2， 他税后获得$amount_received。'
+Economy pay message v2: '&2你支付了&2$amount_sent $currency_name&2给$receiver&2， 对方税后获得$amount_received。'
 Economy currency left message: 你现在拥有&2$amount_left $currency_name
 Economy money from payment message: 你从$sender处获得了&2$amount_sent $currency_name
 Economy payment insuficient currency: '&c你没有足够多的$currency_name来这么做！'
