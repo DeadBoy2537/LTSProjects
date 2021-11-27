@@ -1,0 +1,17 @@
+isEnabled: true
+material: FISHING_ROD
+name: '&3深海钓鱼竿'
+lore:
+- '&3你想知道我是'
+- '&3怎么得到这个的？'
+- '&3坐好了，我要讲故事了……'
+enchantments:
+- LURE,3
+- LUCK,1
+- DURABILITY,6
+- VANISHING_CURSE,1
+potionEffects:
+- INVISIBILITY,0,self,onHit
+- SLOW,0,self,onHit
+- BLINDNESS,0,self,onHit
+itemType: unique

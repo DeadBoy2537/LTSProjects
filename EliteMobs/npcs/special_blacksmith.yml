@@ -1,0 +1,26 @@
+isEnabled: true
+name: Grog
+role: <Special Blacksmith>
+profession: WEAPONSMITH
+spawnLocation: em_adventurers_guild,282.5,93,258.5,-90,0
+greetings:
+- Need something?
+- Got anything good?
+- We have nothing but the best
+- Got anything worth selling?
+- We only buy elite mob gear.
+dialog:
+- We buy low and sell high.
+- No refunds.
+- Absolutely no refunds.
+- There are no refunds.
+- No taksies backsies.
+- Shop purchases are final.
+farewell:
+- Come back when you have\nmore to spend
+- Don't get yourself killed,\nwe want you to bring us\nmore gear.
+- Next time buy something \nmore expensive.
+- Don't forget, no refunds.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_SHOP

@@ -1,0 +1,24 @@
+isEnabled: true
+name: Ralph
+role: <Refiner>
+profession: WEAPONSMITH
+spawnLocation: em_adventurers_guild,292.5,81,269.5,90,0
+greetings:
+- Want to uprade your scrap?
+- Got scrap?
+- Looking for low level scrap!
+- Greetings, got scrap?
+- I'll recycle your scrap!
+dialog:
+- Need your scrap upgraded?
+- Upgrading scrap here!
+- Upgrade 10 scrap to a higher level!
+- Make your scrap more useful!
+- Got low level scrap?
+farewell:
+- Come back when you have\nmore to low level scrap
+- Don't forget to make that\nscrap useful!
+- Go get into a scrap!
+canTalk: true
+activationRadius: 3.0
+interactionType: REFINER

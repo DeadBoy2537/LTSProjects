@@ -1,0 +1,37 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Explosives
+    Liquid Air: 液态空气
+    Liquid Nitrogen: 液氮
+    Purified Liquid Nitrogen: 高纯度液氮
+    Nitrogen Triiodide: 三氧化氮
+    Azidoazide Azide: 杂环有机化合物
+    Arsenic: 砷
+    Thioacetone: 丙硫酮
+    Pyro Powder: 焦粉
+    Enriched Uranium: 富铀
+    Chemical Grenade: 化合手雷
+    Nuclear Bomb: 原子弹
+    # Intro
+    Don't touch: 不要触碰
+    Ice cream anyone: 来份冰淇淋
+    As pure as can be: 尽其所能的纯净了
+    A material for grenades: 手榴弹的一种材料
+    Very smelly indeed: 有够难闻的
+    A very explosive substance indeed: 一种爆炸性物质
+    Radiation level: 辐射等级
+    VERY DEADLY: 致死
+    Contents: 所含之物

@@ -1,0 +1,8 @@
+---
+isEnabled: true
+entityType: PIGLIN
+name: '&2$level级&f精英&e猪灵'
+deathMessages:
+  - '$entity&c将$player的遗体卖出了个好价格！'
+  - '$entity&c让$player&c懂得了金子的价值！'
+baseDamage: 13.0

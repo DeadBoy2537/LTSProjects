@@ -1,0 +1,9 @@
+---
+isEnabled: true
+entityType: ENDERMAN
+name: '&2$level级&f精英&5末影人'
+deathMessages:
+  - '$entity把$player送入了虚空！'
+  - '$player敢于直视$entity！'
+  - '$player&c和$entity&c成为了最好的朋友！'
+baseDamage: 10.0

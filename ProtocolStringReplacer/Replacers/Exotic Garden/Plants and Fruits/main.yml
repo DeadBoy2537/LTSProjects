@@ -1,0 +1,85 @@
+Options:
+  Enable: true
+  Priority: 31
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Plants and Fruits - 蔬菜&水果-成品
+    Grape: 葡萄
+    Blueberry: 蓝莓
+    Elderberry: 接骨木莓
+    Raspberry: 覆盆子
+    Blackberry: 黑莓
+    Cranberry: 小红莓
+    Cowberry: 越橘
+    Strawberry: 草莓
+    Tomato: 番茄
+    Lettuce: 莴苣
+    Tea Leaf: 茶叶
+    Cabbage: 卷心菜
+    Sweet Potato: 甘薯
+    Mustard Seed: 芥子
+    Curry Leaf: 咖喱叶
+    Onion: 洋葱
+    Garlic: 大蒜
+    Cilantro: 芫荽
+    Black Pepper: 黑胡椒
+    Corn: 玉米
+    Pineapple: 凤梨
+    Red Bell Pepper: 红甜椒
+    Oak Apple: 橡木苹果
+    Coconut: 椰子
+    Cherry: 樱桃
+    Pomegranate: 石榴
+    Lemon: 柠檬
+    Plum: 梅子
+    Lime: 酸橙/浅绿色
+    Orange: 橘子/橙色
+    Peach: 桃子
+    Pear: 梨子
+    Dragon Fruit: 火龙果
+    # Plants and Fruits - 蔬菜&水果-灌木丛
+    Grape Bush: 葡萄丛
+    Blueberry Bush: 蓝莓丛
+    Elderberry Bush: 接骨木莓丛
+    Raspberry Bush: 覆盆子丛
+    Blackberry Bush: 黑莓丛
+    Cranberry Bush: 小红莓丛
+    Cowberry Bush: 越橘丛
+    Strawberry Bush: 草莓丛
+    # Plants and Fruits - 蔬菜&水果-植物
+    Tomato Plant: 番茄植物
+    Lettuce Plant: 莴苣植物
+    Tea Leaf Plant: 茶叶植物
+    Cabbage Plant: 卷心菜植物
+    Sweet Potato Plant: 甘薯植物
+    Mustard Seed Plant: 芥子植物
+    Curry Leaf Plant: 咖喱叶植物
+    Onion Plant: 洋葱植物
+    Garlic Plant: 大蒜植物
+    Cilantro Plant: 芫荽植物
+    Black Pepper Plant: 黑胡椒植物
+    Corn Plant: 玉米植物
+    Pineapple Plant: 凤梨植物
+    Red Bell Pepper Plant: 红甜椒植物
+    # Plants and Fruits - 蔬菜&水果-树苗
+    Oak Apple Sapling: 橡木苹果树苗
+    Coconut Sapling: 椰子树苗
+    Cherry Sapling: 樱桃树苗
+    Pomegranate Sapling: 石榴树苗
+    Lemon Sapling: 柠檬树苗
+    Plum Sapling: 梅子树苗
+    Lime Sapling: 酸橙树苗
+    Orange Sapling: 橘子树苗
+    Peach Sapling: 桃子树苗
+    Pear Sapling: 梨子树苗
+    Dragon Fruit Sapling: 火龙果树苗

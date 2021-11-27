@@ -1,0 +1,12 @@
+isEnabled: true
+material: RABBIT_FOOT
+name: '&b跃兔护符'
+lore:
+- '&a持有该护符'
+- '&a你可以飞跃障碍'
+- '&a到达任何你想去的地方'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- JUMP,2,self,continuous
+dropWeight: '1'

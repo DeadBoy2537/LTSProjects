@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 冰寒
+effect: PACKED_ICE
+freezeMessage: '&8[EM] &9你被冻结了！'

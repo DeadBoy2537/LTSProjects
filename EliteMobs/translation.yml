@@ -1,0 +1,17 @@
+Economy pay message v2: '&2你支付了&2$amount_sent $currency_name&2给$receiver&2， 他税后获得$amount_received。'
+Economy currency left message: 你现在拥有&2$amount_left $currency_name
+Economy money from payment message: 你从$sender处获得了&2$amount_sent $currency_name
+Economy payment insuficient currency: '&c你没有足够多的$currency_name来这么做！'
+Wallet command message: 你现在拥有&2$balance $currency_name
+Tax confirmation message: '&cSending a payment will cost $percentage% in taxes. &aDo &9$command &ato proceed!'
+Shop buy message: '&a你用$item_value $currency_name购买了$item_name！'
+Shop current balance message: '&a你拥有$currency_amount $currency_name。'
+Shop insufficient funds message: '&c你没有足够多的$currency_name！'
+Shop item cost message: 那件物品需要&c$item_value $currency_name。
+Shop sell message: '&a你出售了$item_name &a，获得了$currency_amount $currency_name！'
+Shop sale player items warning: '&c你无法出售未绑定灵魂的装备！这包括其它声望等级的物品。'
+Shop sale instructions: '&c你只能在这里出售精英怪战利品！(精英怪掉落的盔甲或武器)'
+Teleport time left: '&7[EM] 将在&a$time&7后进行传送……'
+Teleport cancelled: '&7[EM] &c传送被终止！'
+npcSleepingMessage: '&7<睡觉中>'
+noPendingCommands: '&c您目前没有任何待处理的指令！'

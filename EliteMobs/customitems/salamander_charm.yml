@@ -1,0 +1,11 @@
+isEnabled: true
+material: LEATHER
+name: '&b沙罗曼蛇护符'
+lore:
+- '&a和插件作者'
+- '&a新的混音带一样火热！'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- FIRE_RESISTANCE,0,self,continuous
+dropWeight: '1'

@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 幸运
+onHitDuration: 30
+value: 50.0

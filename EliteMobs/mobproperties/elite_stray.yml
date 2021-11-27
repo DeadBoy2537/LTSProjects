@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: STRAY
+name: '&2$level级&f精英&b流浪者'
+deathMessages:
+  - '$player被$entity引入歧途！'
+baseDamage: 5.0

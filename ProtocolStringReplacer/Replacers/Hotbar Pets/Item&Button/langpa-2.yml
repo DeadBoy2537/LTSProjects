@@ -1,0 +1,82 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+  # 描述
+  #喜欢的食物
+    Carrots: 胡萝卜
+    # Seeds: 种子
+    Red Mushrooms: 红色蘑菇
+    Wheat: 小麦
+    Golden Carrots: 金萝卜
+    Raw Cod: 生鱼
+    Ink Sacks: 墨囊
+    Bamboo: 竹子
+    Iron Ingots: 铁锭
+    Glowstone Dust: 萤石粉
+    Rotten Flesh: 腐肉
+    Fire Charge: 火焰弹
+    Chorus Fruit: 紫颂果
+    Beetroot: 甜菜根
+    End Stone: 末地石
+    Gunpowder: 火药
+    Nether Quartz: 下界石英
+    Eyes Of Ender: 末影之眼
+    Soul Sand: 灵魂沙
+    Wool: 羊毛
+    Ender Pearls: 末影珍珠
+    Wooden Planks: 木板
+    Golden Apples: 金苹果
+    Cookies: 曲奇
+    Nether Wart: 下界疣
+    Souls: 灵魂
+  #宠物简介
+    Bonus Saturation when eating: 当你食用食物时获得饱和
+    Allows you to eat poisonous Food: 允许吃有毒的食物
+    Gives you Eggs over time: 每时每刻为你提供鸡蛋
+    Gives you Mushroom Stew over time: 每时每刻为你提供蘑菇煲
+    Removes negative Potion Effects: 消除所有效果
+    Gives you Golden Ingots over time: 每时每刻为你提供金锭
+    That means you have a net gain of 1 golden nugget: 这意味着你可以消耗一个胡萝卜来获取一粒金粒
+    Gives you Fish over time: 每时每刻为你提供鱼
+    Gives you Water Breathing: 获取水下呼吸效果
+    Gives you 30 seconds of Luck: 获取30秒的幸运效果
+    Dolphin's Grace: 获取海豚的恩惠效果
+    This sleepy Panda protects you from Insomnia: 这些昏昏欲睡的熊猫使你远离失眠症
+    Phantoms will no longer chase you at night: 幻翼将不再在晚上追赶你
+    Gives you Resistance: 获取抗性提升效果
+    Immune to Fall Damage: 免疫摔落伤害
+    Gives you Jump Boost: 获取跳跃提升效果
+    Launches Fireballs: 发射火球
+    Shoots arrows tipped with levitation: 发射潜影贝导弹
+    Gives Slow Falling: 获取缓降效果
+    Shoots an Ender Pearl: 发射末影珍珠
+    Immune to Explosions: 免疫爆炸
+    Explode: 爆炸
+    Immune to Lava: 免疫岩浆
+    Immune to Fire: 免疫火焰伤害
+    Quite hungry: 饥饿会加快
+    Allows you to eat Rotten Flesh: 当你食用腐肉时
+    without getting Hunger: 你将不再会得到饥饿效果
+    Shoots Dragon Fireball: 发射末影龙火球
+    Gives Resistance: 获取抗性提升效果
+    Immune to Wither Effect: 免疫凋零效果
+    Sleep: 睡觉
+    Open: 打开
+    Gives you Health Regeneration: 获取生命恢复效果
+    Gives Resistance, Regeneration, Strength,: 获取抗性提升，生命恢复，力量，
+    and Saturation: 饱和效果
+    Cannot drown: 无法溺死
+    Beware! Eyamaz makes a Soul Pie: 当心！噬魂兽会将你屠杀的每个生物的游离灵魂做
+    out of the Souls of everything you kill: 成灵魂派

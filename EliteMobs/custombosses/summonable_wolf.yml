@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: WOLF
+name: $normalLevel 恶狼
+level: dynamic
+healthMultiplier: 3.0
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers: []
+onDamageMessages:
+- 汪！
+onDamagedMessages:
+- 汪！
+trails:
+- BONE
+phases: []
+timeout: 3

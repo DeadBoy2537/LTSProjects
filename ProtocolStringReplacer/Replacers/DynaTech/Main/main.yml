@@ -1,0 +1,23 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - Chat
+    - Entity
+    - Title
+    - itemstack
+    - window-title
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # DynaTech
+    DynaTech: 动力科技
+    DynaTech Resources: 动力科技 - 资源
+    DynaTech Tools: 动力科技 - 工具
+    DynaTech Machines: 动力科技 - 机器
+    DynaTech Generators: 动力科技 - 发电机

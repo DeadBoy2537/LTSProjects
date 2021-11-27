@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: SHULKER
+name: '&2$level&f级精英&5潜影贝'
+deathMessages:
+- $entity&cs把$player&c带到了新的高度！
+baseDamage: 4.0

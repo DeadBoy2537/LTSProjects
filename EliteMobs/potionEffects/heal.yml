@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 瞬间治疗
+onHitDuration: 1
+value: 100.0

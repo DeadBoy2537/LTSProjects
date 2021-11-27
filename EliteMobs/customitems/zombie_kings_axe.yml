@@ -1,0 +1,22 @@
+isEnabled: true
+material: GOLDEN_AXE
+name: '&4尸王之斧'
+lore:
+- 僵尸王
+- 所用过的斧头
+- 这上面沾满了杀戮之血
+enchantments:
+- DAMAGE_ALL,10
+- DAMAGE_UNDEAD,5
+- DIG_SPEED,5
+- DURABILITY,5
+- KNOCKBACK,3
+- FIRE_ASPECT,4
+- LOOT_BONUS_MOBS,5
+- WATER_WORKER,5
+- FLAMETHROWER,1
+potionEffects:
+- FAST_DIGGING,0,self,onHit
+- NIGHT_VISION,0,self,continuous
+- WITHER,0,target,onHit
+itemType: unique

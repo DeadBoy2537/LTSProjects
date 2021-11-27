@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: RAVAGER
+name: '&2$level级&f精英&6劫掠兽'
+deathMessages:
+  - '$entity&c向$player&c展示了什么才是真正的力量！'
+baseDamage: 18.0

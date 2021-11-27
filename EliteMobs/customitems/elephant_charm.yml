@@ -1,0 +1,13 @@
+isEnabled: true
+material: ANVIL
+name: '&b巨象护符'
+lore:
+- '&a获得巨象之力'
+- '&a代价则是'
+- '&a巨象般迟钝的移速'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- INCREASE_DAMAGE,1,self,onHit
+- SLOW,3,self,onHit
+dropWeight: '1'

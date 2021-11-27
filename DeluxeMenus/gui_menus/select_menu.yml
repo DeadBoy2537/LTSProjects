@@ -1,0 +1,73 @@
+menu_title: '&fLeafTown菜单选择页面'
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  - '[message] 已打开LeafTown菜单选择页面!'
+close_commands:
+update_interval: 1
+size: 54
+args:
+  menu: -1
+items:
+  menu:
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 17
+    - 26
+    - 35
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '[菜单边界]'
+    lore:
+    - '左键以§4关闭菜单'
+    - '右键回到§1主菜单'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    - '[close]'
+    - '[message] 已关闭菜单!'
+    right_click_commands:
+    - '[openguimenu] main_menu'
+  function_menu:
+    material: ENCHANTED_BOOK
+    slot: 13
+    display_name: '§6前往功能菜单'
+    left_click_commands:
+    - '[message] 已打开功能菜单'
+    - '[openguimenu] function_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] 已打开功能菜单'
+    - '[openguimenu] function_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  shortcut_menu:
+    material: ENCHANTED_BOOK
+    slot: 22
+    display_name: '§6前往快捷菜单'
+    left_click_commands:
+    - '[message] 已打开快捷菜单'
+    - '[openguimenu] shortcut_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] 已打开快捷菜单'
+    - '[openguimenu] shortcut_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'

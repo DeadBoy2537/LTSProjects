@@ -1,0 +1,30 @@
+Options:
+  Enable: true
+  Priority: 30
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Slimefun - Util
+    Lucky Blocks: 幸运方块
+    Luck: 幸运值
+    Lucky Block: 幸运方块(普通)
+    Very lucky Block: 幸运方块(非常幸运)
+    Very unlucky Block: 幸运方块(非常不幸运)
+    Pandora"s Box: 潘多拉魔盒
+    Lucky Helmet: 幸运头盔
+    Lucky Chestplate: 幸运盔甲
+    Lucky Leggings: 幸运护腿
+    Lucky Boots: 幸运靴子
+    Lucky Pickaxe: 幸运镐
+    Lucky Sword: 幸运剑
+    Lucky Axe: 幸运斧
+    Lucky Hoe: 幸运锄

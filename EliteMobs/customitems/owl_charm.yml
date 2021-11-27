@@ -1,0 +1,14 @@
+isEnabled: true
+material: ELYTRA
+name: '&b夜鹰护符'
+lore:
+- '&a遁入黑暗'
+- '&a化身食物链顶端的夜间捕食者'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- GLOWING,0,target,onHit
+- JUMP,2,self,continuous
+- NIGHT_VISION,0,self,continuous
+- WEAKNESS,0,self,continuous
+dropWeight: '1'

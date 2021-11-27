@@ -1,0 +1,33 @@
+isEnabled: true
+entityType: PILLAGER
+name: $eventBossLevel &c巡逻队掠夺队长
+level: dynamic
+isPersistent: true
+healthMultiplier: 2.0
+damageMultiplier: 2.0
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList:
+- summon_merchant_scroll.yml:0.5
+- summon_merchant_scroll.yml:0.5
+- summon_merchant_scroll.yml:0.5
+- summon_merchant_scroll.yml:0.5
+- summon_merchant_scroll.yml:0.5
+powers:
+- bonus_loot.yml
+- arrow_fireworks.yml
+- arrow_rain.yml
+- summonable:summonType=ON_COMBAT_ENTER:filename=pillager_caravan_guard.yml:spawnNearby=true:inheritLevel=true
+- summonable:summonType=ON_COMBAT_ENTER:filename=pillager_caravan_guard.yml:spawnNearby=true:inheritLevel=true
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []
+locationMessage: '&c掠夺者巡逻队：$distance格之外'
+mountedEntity: pillager_caravan_beast.yml
+spawnMessage: '&c掠夺者巡逻队出现了！'
+announcementPriority: 2
+followDistance: 100

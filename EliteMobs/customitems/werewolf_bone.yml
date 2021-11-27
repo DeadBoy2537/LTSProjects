@@ -1,0 +1,11 @@
+isEnabled: true
+material: BONE
+name: '&6狼人的骨头'
+lore:
+- '&a杀死了狼人后'
+- '&a你暂时就是'
+- '&a狼群的首领了'
+enchantments:
+- SUMMON_WOLF,1
+potionEffects: []
+itemType: unique

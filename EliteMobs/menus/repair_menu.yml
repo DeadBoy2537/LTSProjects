@@ -1,0 +1,42 @@
+shopName: '[EM] 修复菜单'
+infoButtonSlot: 4
+eliteItemInputInformationSlot: 20
+eliteItemInputSlot: 29
+eliteScrapInputInformationSlot: 22
+eliteScrapInputSlot: 31
+informationOutputButtonSlot: 24
+outputSlot: 33
+cancelButtonSlot: 27
+confirmRepairSlot: 35
+infoButton:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&c插件作者：&4&lMagmaGuy'
+  lore:
+  - '&8支持这款插件吧'
+  - '&a用废品来修复精英物品'
+  owner: magmaguy
+eliteItemInputInformationButton:
+  material: GREEN_BANNER
+  name: §2精英物品输入格
+  lore:
+  - §a这里放你的精英物品！
+eliteScrapInputInformationButton:
+  material: GREEN_BANNER
+  name: §2精英废品输入格
+  lore:
+  - §a这里放你的精英废品！
+outputInformationButton:
+  material: RED_BANNER
+  name: §2输出格
+  lore:
+  - §a预览修复结果
+cancelButton:
+  material: BARRIER
+  name: §4取消
+  lore:
+  - §c取消修复
+confirmButton:
+  material: EMERALD
+  name: §2确认
+  lore:
+  - §a确认修复物品

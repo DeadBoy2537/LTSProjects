@@ -1,0 +1,23 @@
+Options:
+  Enable: true
+  Priority: 31
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Intro
+    Install on helmet: 安装在头盔上
+    Install on chestplate: 安装在盔甲上
+    Install on leggings: 安装在护腿上
+    Install on boots: 安装在靴子上
+    Install anywhere: 安装在任何地方
+    Uses: 每次消耗
+    Effect: 给予效果

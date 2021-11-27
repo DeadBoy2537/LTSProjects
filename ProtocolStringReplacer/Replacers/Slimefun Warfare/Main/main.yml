@@ -1,0 +1,38 @@
+Options:
+  Enable: true
+  Priority: 33
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - Chat
+    - Entity
+    - Title
+    - itemstack
+    - window-title
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Slimefun Warfare
+    Slimefun Warfare: 粘液科技战争
+    Slimefun Warfare - General: 粘液科技战争 - 一般物品
+    Slimefun Warfare - Machines: 粘液科技战争 - 机器
+    Slimefun Warfare - Guns: 粘液科技战争 - 枪械
+    Slimefun Warfare - Melee Weapons: 粘液科技战争 - 近战武器
+    Slimefun Warfare - Explosives: 粘液科技战争 - 炸药
+    Slimefun Warfare - Resources: 粘液科技战争 - 资源
+    Slimefun Warfare - Power Suits: 粘液科技战争 - 能量装备
+    When In Main Hand: 放在主手时
+    Attack Damage: 攻击伤害
+    Attack Speed: 攻击速度
+    Enter a new encryption key: 输入新的加密密钥
+    # Chat
+    The gun is still reloading!: 这把枪还在装填弹药!
+    You have run out of bullets!: 你没子弹了!
+    # Entity
+    Dummy: 训练假人
+    # Title
+    You have dealt: 你对训练假人造成了
+    half-hearts of damage: 点伤害 (四舍五入)

@@ -1,0 +1,27 @@
+isEnabled: false
+name: '&f墓穴'
+dungeonLocationType: SCHEMATIC
+customInfo:
+- '&f入门级地牢！'
+- '&6制作者：Realm of Lotheridon'
+relativeBossLocations:
+- catacombs_tier_5_evoker_guard_2.yml:2.5,0.5,13.5
+- catacombs_tier_5_illusioner_guard_1.yml:-2.5,2.5,16.5
+- catacombs_tier_15_boss.yml:0.5,-7.5,45.5
+- catacombs_tier_10_miniboss.yml:-8.5,-15.5,36.5
+relativeTreasureLocations: []
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: LAIR
+schematicName: em_catacombs.schem
+protect: true
+rotation: 0
+corner1: 13,-16,0
+corner2: -18,17,52
+teleportPoint: 0,0,0
+dungeonVersion: 2
+playerInfo: |-
+  难度：&a简单
+  $bossCount个boss，等级范围为$lowestTier - $highestTier
+  &2对新手而言最易上手的小地牢！
+regionEnterMessage: '&8[EM] &8正在进入墓穴。请小心脚下。'
+regionLeaveMessage: '&8[EM] &8你离开了墓穴。但这趟旅途值得吗？'

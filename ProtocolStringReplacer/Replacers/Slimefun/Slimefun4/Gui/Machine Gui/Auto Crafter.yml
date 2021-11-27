@@ -1,0 +1,24 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    Itemstack:
+      Window-Title:
+      - §2Auto-Crafter §8(Vanilla)
+      - §2Auto-Crafter §8(Enhanced)
+      - §2Auto-Crafter §8(Armor Forge)
+        
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    §aSelect this recipe: §a选择这个配方
+    §aThis recipe is currently enabled: §a此配方目前已启用
+    §eLeft Click §7to temporarily disable the recipe: §e左键单击 §7暂时禁用配方
+    §eRight Click §7to remove this recipe: §e右键单击 §7移除这个配方
+    §cThis recipe is currently disabled: §c此配方目前已禁用
+    §eLeft Click §7to re-enable this recipe: §e左键单击 §7重新启用此配方

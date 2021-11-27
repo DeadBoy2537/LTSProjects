@@ -1,0 +1,35 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &4僵尸王
+level: dynamic
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 4.0
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList:
+- zombie_kings_axe.yml:1
+powers:
+- flame_pyre.yml
+- flamethrower.yml
+- summon_the_returned.yml
+- spirit_walk.yml
+- summonable:summonType=GLOBAL:filename=the_living_dead.yml:amount=5:customSpawn=normal_surface_spawn.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails:
+- FLAME
+phases: []
+locationMessage: '&c僵尸王位置：$location格之外'
+spawnMessage: '&c僵尸王出现了！'
+deathMessage: '&a僵尸王被$players杀死了！'
+escapeMessage: '&4僵尸王已逃跑！'
+announcementPriority: 2
+helmet: DIAMOND_HELMET
+chestplate: DIAMOND_CHESTPLATE
+leggings: DIAMOND_LEGGINGS
+boots: DIAMOND_BOOTS
+mainHand: GOLDEN_AXE

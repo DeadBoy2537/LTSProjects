@@ -1,0 +1,33 @@
+Menu name: '[EM] 战利品商店'
+tierTranslation: 等级
+itemFilterTranslation: 根据等级过滤物品
+Info button:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs&r&c插件作者：&4&lMagmaGuy'
+  lore:
+  - '&8支持这款你喜欢的插件吧！'
+  owner: magmaguy
+Left button:
+  material: PLAYER_HEAD
+  name: 上一级物品
+  lore:
+  - ''
+  owner: MHF_ArrowLeft
+Right button:
+  material: PLAYER_HEAD
+  name: 下一级物品
+  lore:
+  - ''
+  owner: MHF_ArrowRight
+previousLoot:
+  material: PLAYER_HEAD
+  name: 上一页战利品
+  lore:
+  - ''
+  owner: MHF_ArrowLeft
+nextLoot:
+  material: PLAYER_HEAD
+  name: 下一页战利品
+  lore:
+  - ''
+  owner: MHF_ArrowRight

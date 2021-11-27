@@ -1,0 +1,60 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Hotbar Pets Gui
+    Hotbar Pets: 物品栏-随身宠物
+    # 归属
+    Farm Animal (Peaceful): 家畜 (和平)
+    Animal (Peaceful): 动物 (和平)
+    Mob (Passive): 生物 (中立)
+    Mob (Hostile): 生物 (敌对)
+    Boss Mob (Hostile): Boss级生物 (敌对)
+    Utility (Peaceful): 实用物品 (和平)
+    Special: 特殊
+    # 前置描述
+    Right-Click: 右键
+    # 宠物名
+    Bed Pet: 床
+    Cow Pet: 牛
+    Creeper Pet: 苦力怕
+    Dolphin Pet: 海豚
+    Enderman Pet: 末影人
+    Ghast Pet: 恶魂
+    Phantom Pet: 幻翼
+    Rabbit Pet: 兔子
+    Shulker Pet: 潜影贝
+    Spider Pet: 蜘蛛
+    Squid Pet: 鱿鱼
+    Pig Pet: 猪
+    Chicken Pet: 鸡
+    Mooshroom Pet: 哞菇
+    Golden Cow Pet: 金牛
+    Fish Pet: 鱼
+    Panda Pet: 熊猫
+    Iron Golem Pet: 铁傀儡
+    Slime Pet: 史莱姆 宠物
+    Magma Cube Pet: 岩浆怪
+    Blaze Pet: 烈焰人
+    Zombie Pet: 僵尸
+    Ender Dragon Pet: 末影龙
+    Wither Pet: 凋零
+    Ender Chest Pet: 末影箱
+    Workbench Pet: 工作台
+    Purplicious Cow Pet: 紫牛
+    mrCookieSlime Pet: 史莱姆饼干先生
+    Patriot Pet: 爱国者
+    Walshrus Pet: 海兽
+    Eyamaz Pet: 噬魂兽
+

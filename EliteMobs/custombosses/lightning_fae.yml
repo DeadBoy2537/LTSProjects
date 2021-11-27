@@ -1,0 +1,20 @@
+isEnabled: true
+entityType: VEX
+name: $eventBossLevel &e雷霆恼鬼
+level: dynamic
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList:
+- the_feller.yml:0.3
+powers:
+- attack_lightning.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails:
+- SPELL
+phases: []

@@ -1,0 +1,54 @@
+shopName: '[EM] 放入25件废品！'
+infoButtonSlot: 4
+informationInputButtonSlot: 11
+inputSlots:
+- 19
+- 20
+- 21
+- 28
+- 29
+- 30
+- 37
+- 38
+- 39
+informationOutputButtonSlot: 15
+outputSlots:
+- 23
+- 24
+- 25
+- 32
+- 33
+- 34
+- 41
+- 42
+- 43
+cancelButtonSlot: 27
+confirmScrapSlot: 35
+infoButton:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&c插件作者：&4&lMagmaGuy'
+  lore:
+  - '&a放入你背包里的&c25件&a废品'
+  - '&a来合成物品升级球！'
+  owner: magmaguy
+inputInformationButton:
+  material: GREEN_BANNER
+  name: §2废品输入格
+  lore:
+  - §a放入§c25件§a同级废品
+  - §a来合成物品升级球
+outputInformationButton:
+  material: RED_BANNER
+  name: §2升级球输出格
+  lore:
+  - §a查看你合成的物品！
+cancelButton:
+  material: BARRIER
+  name: §4取消
+  lore:
+  - §c取消合成
+confirmButton:
+  material: EMERALD
+  name: §2确认
+  lore:
+  - §a确认合成物品升级球

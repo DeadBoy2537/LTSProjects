@@ -1,0 +1,48 @@
+doEliteMobsLoot: true
+doMMORPGColorsForItems: true
+preventCustomItemPlacement: true
+itemLoreStructures:
+  - '§7§m§l---------§7<§l装备详情§7>§m§l---------'
+  - '§7§f物品$itemLevel级§7|声望§6$prestigeLevel级'
+  - '$soulbindInfo'
+  - '$itemSource'
+  - '$ifLore§7§m§l-----------§7< §f§lLore§7 >§m§l-----------'
+  - '$customLore'
+  - '$ifEnchantments§7§m§l--------§7<§9§l附魔§7>§m§l--------'
+  - '$enchantments'
+  - '$eliteEnchantments'
+  - '$ifCustomEnchantments§7§m§l------§7< §3§l自定义附魔§7 >§m§l------'
+  - '$customEnchantments'
+  - '$ifPotionEffects§7§m§l----------§7< §5§l效果§7 >§m§l----------'
+  - '$potionEffect'
+  - '§7§l§m-----------------------------'
+  - '$loreResaleValue'
+shopSourceItemLores: '&7从商店购买获得'
+mobSourceItemLores: '&7从精英$mob身上掠夺而得'
+loreWorths: '&7价值$worth $currencyName'
+loreResaleValues: '&7出售可获得$resale $currencyName'
+flatDropRateV2: 0.33
+tierIncreaseDropRateV2: 0.0
+proceduralItemDropWeight: 90.0
+weighedItemDropWeight: 1.0
+fixedItemDropWeight: 10.0
+limitedItemDropWeight: 3.0
+scalableItemDropWeight: 6.0
+defaultLootMultiplier: 0.0
+levelCapForDefaultLootMultiplier: 200
+defaultExperienceMultiplier: 1.0
+maximumLootTiers: 200
+useEliteEnchantments: true
+eliteEnchantmentLoreStrings: 精英
+useHoesAsWeapons: false
+enableRareItemParticleEffects: true
+potionEffectOnHitTargetLore: '&4⚔☠'
+potionEffectOnHitSelfLore: '&9⚔🛡'
+potionEffectContinuousLore: '&6⟲'
+eliteEnchantmentLoreColor: '&9◇'
+vanillaEnchantmentLoreColor: '&7◇'
+customEnchantmentColor: '&3◇'
+potionEffectLoreColor: '&5◇'
+noSoulbindLore: '&7未绑定灵魂！'
+preventEliteItemEnchantment: true
+preventEliteItemDiamondToNetheriteUpgrade: true

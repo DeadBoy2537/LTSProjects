@@ -1,0 +1,8 @@
+---
+isEnabled: true
+entityType: PILLAGER
+name: '&2$level级&f精英&8掠夺者'
+deathMessages:
+  - '$entity&c掠夺了$player&c！'
+  - '$entity&c劫掠了$player&c！'
+baseDamage: 5.0

@@ -1,0 +1,13 @@
+isEnabled: true
+material: TOTEM_OF_UNDYING
+name: '&b狂暴护符'
+lore:
+- '&a面对势不可挡的逆境'
+- '&a你陷入了狂暴'
+- '&a失去了自我...'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- BLINDNESS,0,self,onHit
+- FAST_DIGGING,0,self,onHit
+dropWeight: '1'

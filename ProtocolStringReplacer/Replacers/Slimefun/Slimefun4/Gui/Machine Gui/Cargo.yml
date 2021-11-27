@@ -1,0 +1,44 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    Itemstack:
+      Window-Title:
+      - Cargo Node (Input)
+      - Cargo Node (Output)
+      - Advanced Cargo Node (Output)
+        
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    §3Items: §3物品管理
+    §bPut in all Items you want to: §b在此处放入你想要添加
+    §bblacklist/whitelist: §b白名单或黑名单的物品
+    '§7Type: §rWhitelist': '§7过滤模式: §r白名单'
+    §e> Click to change it to Blacklist: §e> 点击切换为黑名单模式
+    '§7Type: §8Blacklist': '§7过滤模式: §8黑名单'
+    §e> Click to change it to Whitelist: §e> 点击切换为白名单模式
+    '§7Include Lore: §': '§7检查物品Lore: §'
+    §e> Click to toggle whether the Lore has to match: §e> 点击切换是否检测物品Lore数据
+    '§bChannel ID: §': '§b信道 ID: §'
+    §bPrevious Channel: §b上一信道
+    §e> Click to decrease the Channel ID by 1: §e> 点击切换到上一个信道
+    §bNext Channel: §b下一信道
+    §e> Click to increase the Channel ID by 1: §e> 点击切换到下一个信道
+    '§7Round-Robin Mode: §': '§7循环模式: §'
+    §e> Click to enable Round Robin Mode: §e> 点击启用循环模式
+    §e> Click to disable Round Robin Mode: §e> 点击禁用循环模式
+    Items will be equally distributed on the Channel: 用于让物品在不同信道中均匀发放
+    '§7"Smart-Filling" Mode:': '§7"智能填充" 模式:'
+    §e> Click to enable "Smart-Filling" Mode: §e> 单击 启用 "智能填充" 模式
+    §e> Click to disable "Smart-Filling" Mode: §e> 单击 禁用 "智能填充" 模式
+    §fIn this mode, the Cargo node will attempt: §f在此模式中, 货运节点将会尝试
+    §fto keep a constant amount of items: §f在容器中保持恒定的物品数量.
+    §fin the inventory. This is not perfect: §f此模式运行地不是非常完美, 并且
+    §fand will still fill in empty slots that: §f仍然会向在已配置的堆叠物
+    §fcome before a stack of a configured item: §f之前的空槽位中填充

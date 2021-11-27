@@ -1,0 +1,50 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Guns
+    Pistol: 手枪
+    Revolver: 左轮手枪
+    Machine Gun: 机关枪
+    Minigun: 米尼冈
+    Rifle: 步枪
+    Shotgun: 猎枪
+    Assault Rifle: 突击步枪
+    Sniper Rifle: 狙击步枪
+    Energy Rifle: 能量步枪
+    # Intro
+    Range: 最大距离
+    Minimum Range: 最小距离
+    Damage: 伤害
+    hearts: 血量
+    Cooldown: 冷却
+    seconds: 秒
+    A short range gun: 近距离枪械
+    that reloads quickly.: 能快速装弹
+    Useful for close combat: 对近距离战斗有用
+    The ultimate device: 用来刺激你的
+    to pepper your friends with.: 朋友的终极设备
+    A standard rifle: 标准步枪
+    Less range than a: 比步枪射程小
+    rifle, but more damage.: 但伤害更大
+    A derivative of: 步枪的衍生物
+    the rifle, the assault: 突击步枪
+    rifle is the standard: 是标准的
+    military weapon.: 军事武器
+    The ultimate long-range: 狙击步枪
+    gun, the sniper is very powerful: 拥有超高射程和超高的伤害力
+    Finally, no need to carry around bullets!: 终于不用随身携带子弹了！
+    'Note: The bullets visually shoot a little off': '注:子弹的视觉射击有点偏'
+    but you still hit the target: 但你仍然能击中目标
+    Uses 5J per shot: 每次发射弹药使用 5J

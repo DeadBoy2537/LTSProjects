@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: ILLUSIONER
+name: '&2$level级&f精英&8幻术师'
+deathMessages:
+  - '$player&c被$entity的幻象&c迷惑了！'
+baseDamage: 5.0

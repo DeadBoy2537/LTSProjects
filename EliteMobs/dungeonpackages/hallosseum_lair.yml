@@ -1,0 +1,26 @@
+isEnabled: false
+name: '&c万圣殿'
+dungeonLocationType: WORLD
+customInfo:
+- '&f2020年万圣节特供地牢！'
+- '&6制作者：MagmaGuy & 69OzCanOfBepis'
+relativeBossLocations:
+- ''
+relativeTreasureLocations:
+- ''
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: LAIR
+worldName: em_hallosseum
+environment: NETHER
+protect: true
+rotation: 0
+teleportPoint: 0,0,0
+teleportPointPitch: -130.0
+teleportPointYaw: 0.0
+dungeonVersion: 2
+playerInfo: |-
+  难度：&6普通
+  $bossCount个$lowestTier级的Boss等待着你去挑战！
+  &6一场有趣的万圣节挑战！
+regionEnterMessage: '&8[EM] &4不给糖就捣蛋！ &8你的灵魂将归我所有！'
+regionLeaveMessage: '&8[EM] &4你的灵魂完好无损，你成功逃脱了。'

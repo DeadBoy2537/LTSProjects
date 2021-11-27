@@ -1,0 +1,18 @@
+Options:
+  Enable: true
+  Priority: 34
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Resources
+    Vex: 恼鬼

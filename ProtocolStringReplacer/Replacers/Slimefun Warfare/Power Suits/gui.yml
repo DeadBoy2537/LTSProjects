@@ -1,0 +1,22 @@
+Options:
+  Enable: true
+  Priority: 30
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    - window-title
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Module Manipulator
+    Module Manipulator: 模块操纵器
+    Place Suit Piece Here: 能量套装输入口
+    Place Module Here: 模块输入口
+    Installed Modules (Click to Refresh): 查看已安装模块 (点击刷新)
+    Install/Uninstall Module: 安装/卸载模块

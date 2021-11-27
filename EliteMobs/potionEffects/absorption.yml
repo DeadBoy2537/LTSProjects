@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 伤害吸收
+onHitDuration: 2
+value: 100.0

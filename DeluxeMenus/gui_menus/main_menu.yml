@@ -1,0 +1,122 @@
+menu_title: '&fLeafTown主菜单'
+open_command: menu
+register_command: true
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  - '[message] 已打开LeafTown主菜单!'
+update_interval: 1
+size: 54
+args:
+  menu: -1
+args_usage_message: "命令使用方式不对,/menu <玩家ID>"
+items:
+  menu:
+    material: RED_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 17
+    - 26
+    - 35
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '§4[菜单边界] 关闭菜单'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    - '[close]'
+    - '[message] 已关闭菜单!'
+    right_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    - '[close]'
+    - '[message] 已关闭菜单!'
+  playerdata:
+    update: true
+    material: head-%player_name%
+    slot: 13
+    display_name: '§6%player_name% 的数据'
+    lore:
+    - '§6玩家名字: §4%player_name% (UUID: %player_uuid%)'
+    - '§6是否为OP: §4%player_is_op%'
+    - '§6第一次加入服务器时间: §4%player_first_join_date%'
+    - '§6总加入服务器时间: §4%statistic_time_played%'
+    - '§6所在坐标: §4%player_world% X: %player_x% Y:%player_y% Z: %player_z%'
+    - '§6重生点坐标: §4%player_bed_world% X: %player_bed_x% Y: %player_bed_y% Z: %player_bed_z%'
+    - '§6游戏模式: §4%player_gamemode%'
+    - '§6生命值: §4%player_health%/%player_max_health%'
+    - '§6饥饿值: §4%player_food_level%'
+    - '§6经验值: §4%player_level%'
+    - '§6死亡次数: §4%statistic_deaths%'
+    - '§6杀死生物次数: §4%statistic_MOB_KILLS%'
+    - '§6杀死玩家次数: §4%statistic_player_kills%'
+    - '§6延迟: §4%player_ping%MS'
+  serverinfo:
+    update: true
+    material: OBSERVER
+    slot: 20
+    display_name: '§6服务器数据'
+    lore:
+    - '§6服务器名字: §4%server_name%'
+    - '§6服务器人数: §4%server_online%/%server_max_players%'
+    - '§6服务器版本: §4%server_version%'
+    - '§6服务器运行时间: §4%server_uptime%'
+    - '§6服务器内存占用: §4%server_ram_used%/%server_ram_total% (MAX: %server_ram_max%)'
+    - '§6服务器TPS: §4%server_tps%'
+    - '§6主世界玩家数: §4%server_online_world%'
+    - '§6下界玩家数: §4%server_online_world_nether%'
+    - '§6末地玩家数: §4%server_online_world_the_end%'
+    - '§6服务器时间: §4%server_time_yyyy.MM.dd G - HH:mm:ss z%'
+  worldinfo:
+    update: true
+    material: OAK_SIGN
+    slot: 24
+    display_name: '§6世界数据'
+    lore:
+    - '§6世界名字: §4%world_name_world%'
+    - '§6世界难度: §4%world_difficulty_world%'
+    - '§6世界种子: §4%world_seed_world%'
+    - '§6世界海平面高度: §4%world_sealevel_world%'
+    - '§6世界时间: §4%world_time_world%'
+    - '§6世界生物群系: §4%world_biome%'
+  balance:
+    update: true
+    material: PAPER
+    slot: 30
+    display_name: '§6个人所持资产'
+    lore:
+    - '§6个人资产: §4%ue_money%'
+  balancetop:
+    update: true
+    material: BOOK
+    slot: 32
+    display_name: '§6个人银行资产'
+    lore:
+    - '§6银行资产: §4%ue_bank%'
+  nextmenu:
+    material: GREEN_STAINED_GLASS_PANE
+    slot: 40
+    display_name: '§a前往 菜单选择页面'
+    left_click_commands:
+    - '[openguimenu] select_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[openguimenu] select_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'

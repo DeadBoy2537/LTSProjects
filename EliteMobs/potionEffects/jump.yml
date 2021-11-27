@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 跳跃提升
+onHitDuration: 10
+value: 50.0

@@ -1,0 +1,28 @@
+---
+menuName: '[EM] 选择任务'
+cancelQuestMessage1: '&c&l&m&o---------------------------------------------&c你一次只能接受一个任务！ 取消你进行中的任务会重置任务进度！'
+cancelQuestMessage2: '&2[点击取消任务]'
+cancelQuestMessage3: '&7你可以输入 &a/em quest查看任务状态&c&l&m&o---------------------------------------------'
+questCancelMessage: '&7[精英怪物] &c已取消你进行中的任务！'
+questStartTitle: 你成功地接受了一个任务！
+questStartSubtitle: 杀死$objectiveAmount只$objectiveName
+questCompleteTitle: 任务完成！
+questCompleteSubtitle: 你已杀死$objectiveAmount只$objectiveName
+bossBarObjective: 杀死$objectiveAmount只$objectiveName
+questRewardMessage: '&7[EM] &a任务完成！&你获得了奖励：&2$reward $currencyName'
+questCompleteBroadcastMessage: '&7[EM] $player&2完成了$rank&2任务！'
+questStartBroadcastMessage: '&7[EM] $player&2接受了$rank&2任务！'
+questStatusMessage: '&7[EM] &a你已杀死&a$currentAmount &f/ &c$objectiveAmount 只&a$objectiveName'
+validTierButton:
+  material: GREEN_STAINED_GLASS_PANE
+  name: '§2接受$rank §2任务！'
+  lore:
+  - '§a点击接受$rank§a任务'
+  - '§a以获取特殊奖励！'
+killObjectiveButton:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: '§2杀死$objectiveAmount只$objectiveName'
+  lore:
+  - '§a杀死$objectiveAmount只$objectiveName§a怪物.'
+  - '§f任务进度：§a$currentAmount §f/§c $objectiveAmount'
+  - '§a任务奖励：§e$rewardAmount'

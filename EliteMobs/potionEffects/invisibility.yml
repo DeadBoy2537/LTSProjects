@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 隐身
+onHitDuration: 3
+value: 50.0

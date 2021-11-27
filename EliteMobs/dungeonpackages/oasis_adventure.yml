@@ -1,0 +1,24 @@
+isEnabled: false
+name: '&6绿洲'
+dungeonLocationType: WORLD
+customInfo:
+- '&f初学者的大型冒险！'
+- '&6制作者：69OzCanOfBepis'
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: ADVENTURE
+worldName: em_oasis
+environment: NORMAL
+protect: true
+rotation: 0
+corner1: 0,0,0
+corner2: 0,0,0
+teleportPoint: 0,0,0
+teleportPointPitch: 0.0
+teleportPointYaw: 0.0
+dungeonVersion: 2
+playerInfo: |-
+  难度：&6普通
+  $bossCount个boss，等级范围为$lowestTier - $highestTier
+  &6初学者的大型冒险！
+regionEnterMessage: '&8[EM] &6你抵达了绿洲！'
+regionLeaveMessage: '&8[EM] &6你离开了绿洲！'

@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: EVOKER
+name: '&2$level级&f精英&5唤魔者'
+deathMessages:
+  - '$player&c被$entity&c杀死了！'
+baseDamage: 9.0

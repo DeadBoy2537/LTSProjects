@@ -1,0 +1,31 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Resources
+    Stainless Steel Ingot: 不锈钢锭
+    Stainless Steel Rotor: 不锈钢轮
+    Ancient Machine Core: 古老机器核心
+    Machine Scrap: 机器齿轮
+    Advanced Machine Scrap: 高级机器齿轮
+    Vex Gem: 恼鬼宝石
+    Stardust Meteor: 坠落的陨星
+    Geomined from Mountain or Badlands Biomes: 使用GEO矿机在高山或恶地上开采而来
+    Ghostly Essence: 幽灵膜
+    Tesseracting Object: 超立方体物品
+    It shimmers and shifts in your hands: 它会在你的手上转变并闪闪发光
+    Bee: 蜜蜂
+    Robotic Bee: 机械蜜蜂
+    Advanced Robotic Bee: 高级机械蜜蜂

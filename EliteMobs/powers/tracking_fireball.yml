@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 追踪火球
+effect: FIRE_CHARGE
+fireballSpeed: 0.5

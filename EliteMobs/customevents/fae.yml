@@ -1,0 +1,12 @@
+isEnabled: true
+eventType: BREAK_BLOCK
+bossFilenames:
+- fire_fae.yml
+- ice_fae.yml
+- lightning_fae.yml
+eventStartCommands: []
+eventEndCommands: []
+chance: 1.0E-4
+breakableMaterials: []
+weight: 0.0
+eventDuration: 20.0

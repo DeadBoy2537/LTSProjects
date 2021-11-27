@@ -1,0 +1,8 @@
+---
+isEnabled: true
+entityType: POLAR_BEAR
+name: '&2$level级&f精英&f北极熊'
+deathMessages:
+  - '$player被$entity一爪拍死了！'
+  - '$player被$entity撕成碎片！'
+baseDamage: 9.0

@@ -1,0 +1,979 @@
+Options:
+  Enable: true
+  Priority: 33
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - entity
+    - chat
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Slimefun - Util
+    Slimefun Guide §7(Chest GUI): 粘液科技指南 §7(箱子界面)
+    Slimefun Guide §4(Cheat Sheet): 粘液科技指南 §4(作弊模式)
+    §4§lOnly openable by Admins: §4§l只有管理员可以打开
+    Right Click §8⇨ §7Browse Items: 右键 §8⇨ §7浏览项目
+    Right Click §8⇨ §7Open Settings / Credits: 右键 §8⇨ §7打开 设置 & 详情
+    '§7Last Activity: ': '§7上次活动: '
+    '§7Forks: ': '§7分叉: '
+    '§7Stars: ': '§7星星: '
+    §7§oSlimefun 4 is a community project,: §7§oSlimefun 4 是一个社区项目,
+    §7§othe source code is available on GitHub: §7§o源代码可以在 GitHub 上查看
+    §7§oand if you want to keep this Plugin alive: §7§o同时如果你想要保持这个插件的活动
+    §7§othen please consider contributing to it: §7§o那么请考虑为插件做出贡献
+    §7⇨ §eClick to go to GitHub: §7⇨ §e单击前往 GitHub
+    §7Do you need help with an Item or machine\?: §7你是否需要关于一个物品或武器的帮助?
+    §7You cannot figure out what to do\?: §7你是否不了解要做什么?
+    §7Check out our community-maintained Wiki: §7看看我们的社区维护的维基
+    §7and become one of our Editors!: §7并成为其中的一个编辑者!
+    §7⇨ §eClick to go to the official Slimefun Wiki: §7⇨ §e单击前往粘液科技官方维基
+    '§7Slimefun Guide Type: §eSurvival Mode': '§7粘液科技指南种类: §e生存模式'
+    '§7Slimefun Guide Type: §eCheat Mode': '§7粘液科技指南种类: §e作弊模式'
+    §7⇨ §eClick to change the type: §7⇨ §e单击更改种类
+    '§bFireworks: §aYes': '§b烟花效果: §a开启'
+    '§bFireworks: §4No': '§b烟花效果: §4关闭'
+    §7You can now toggle whether you: §7你现在可以切换
+    §7will be presented with a big firework: §7是否在头上放出一个大烟花
+    §7upon researching an item: §7在你解锁一个物品的研究时
+    §7⇨ §eClick to enable your fireworks: §7⇨ §e单击开启你的烟花效果
+    §7⇨ §eClick to disable your fireworks: §7⇨ §e单击关闭你的烟花效果
+    '§bLearning Animation: §aYes': '§b学习动画: §a开启'
+    '§bLearning Animation: §4No': '§b学习动画: §4关闭'
+    §7will see information about your pondering in chat: §7是否在聊天中显示你的思考
+    §7⇨ §eClick to enable your learning animation: §7⇨ §e单击开启你的学习动画
+    §7⇨ §eClick to disable your learning animation: §7⇨ §e单击关闭你的学习动画
+    §7Slimefun is huge. But its addons are what makes: §7粘液科技十分庞大. 但它的附属更是让
+    §7this plugin truly shine. Go check them out, some: §7这个插件真正闪耀的东西. 请看看它们,
+    §7of them may be exactly what you were missing out on!: §7你可能恰恰错过了其中的一些东西!
+    '§7Installed on this Server: ': '§7此服务器安装的附属: '
+    §7⇨ §eClick to see all available addons for Slimefun4: §7⇨ §e单击查看所有 Slimefun4
+      的可用附属插件
+    §7§oBug reports have to be made in English!: §7§o必须使用英语编写问题反馈!
+    '§7Open Issues: ': '§7开启的议题: '
+    '§7Pending Pull Requests: ': '§7待定拉取请求: '
+    §7⇨ §eClick to go to the Slimefun4 Bug Tracker: §7⇨ §e单击前往 Slimefun4 问题追踪器
+    '> Click to unlock': '> 点击解锁'
+    '§7Cost: §b': '§7花费: §b'
+    §eRight Click§7 to use: §e右键§7 使用
+    §eRight Click§7 to open: §e右键§7 打开
+    Needs to be unlocked elsewhere: 需要在别处解锁
+    '§fLeft Click: §7Go back to previous Page': '§f左键: §7回到上一页'
+    'left Click: §7Go back to Main Menu': '左键: §7回到主菜单'
+    (Double chest): (大型箱子)
+    (Facing up): 朝上
+    
+    # Slimefun - 能源与电力
+    ' J Buffer': ' J 缓冲区'
+    ' J Capacity': ' J 容量'
+    Energy Regulator: 能源网络调节器
+    Core Component of an Energy Network: 能源网络的核心组成部分
+    Energy Connector: 能源网络连接器
+    '§7Range: §c6 blocks': '§7范围: §c6 方块'
+    Place this between machines: 将连接器放于机器和
+    and generators to connect them: 能源网络调节器之间
+    to your regulator: 以连接它们到网络
+    Small Energy Capacitor: 小型能源电容器
+    Basic Capacitor: 基础电容器
+    Medium Energy Capacitor: 中型能源电容器
+    Average Capacitor: 普通电容器
+    Big Energy Capacitor: 大型能源电容器
+    Medium Capacitor: 中级电容器
+    Large Energy Capacitor: 巨型能源电容器
+    Good Capacitor: 优质电容器
+    Carbonado Edged Energy Capacitor: 黑金刚石镶边能源电容器
+    End-Game Capacitor: 终级电容器
+    Energized Energy Capacitor: 电力强化能源电容器
+    §bSolar Generator: §b太阳能发电机
+    Basic Generator: 基础发电机
+    Advanced Solar Generator: 高级太阳能发电机
+    Medium Generator: 中级发电机
+    Carbonado Solar Generator: 黑金刚石太阳能发电机
+    End-Game Generator: 终级发电机
+    Energized Solar Generator: 电力强化太阳能发电机
+    §9Works at Night: §9可在夜晚中工作
+    Charging Bench: 充电座
+    Charges Items such as Jetpacks: 为喷气背包等物品充能
+    Basic Machine: 基础电力机器
+    '§8⇨ §e⚡ §7Energy Loss: §c': '§8⇨ §e⚡ §7能源损耗: §c'
+    Electric Furnace: 电炉
+    Medium Machine: 中级电力机器
+    Electric Gold Pan: 电力淘金盘
+    End-Game Machine: 终级电力机器
+    Electric Dust Washer: 电力洗矿机
+    Electric Ingot Factory: 电力冶炼炉
+    Electrified Crucible: 电力坩埚
+    Electric Ore Grinder: 电力矿磨机
+    Works as an Ore Crusher and Grind Stone: 具有碎矿机和磨石的功能
+    Heated Pressure Chamber: 电热压力舱
+    Electric Ingot Pulverizer: 电力碎锭机
+    Pulverizes Ingots into Dust: 将锭全部粉碎为矿粉
+    Coal Generator: 煤炭发电机
+    Average Generator: 普通发电机
+    Advanced Generator: 高级发电机
+    Bio Reactor: 生物反应器
+    Auto Drier: 自动烘干机
+    Auto Brewer: 自动酿造机
+    Electric Press: 电力压缩机
+    Magnesium-powered Generator: 镁能发电机
+    Auto Enchanter: 自动附魔机
+    Auto Disenchanter: 自动祛魔机
+    Auto Anvil: 自动铁砧
+    '§8⇨ §7Repair Factor: ': '§8⇨ §7修复倍率: '
+    Book Binder: 附魔集合机
+    Binds multiple enchanted books into one: 将多本附魔书结合为一本
+    Refinery: 炼油厂
+    Refines Oil to create Fuel: 提炼原油并制成燃油
+    Lava Generator: 熔岩发电机
+    Combustion Reactor: 燃烧反应机
+    Food Fabricator: 食品加工器
+    Produces §aOrganic Food: 生产 §a有机食物
+    Auto-Breeder: 自动喂养器
+    Runs on §aOrganic Food: 基于 §a有机食物 §f运行
+    Animal Growth Accelerator: 动物成长加速器
+    Tree Growth Accelerator: 树木生长加速器
+    Runs on §aOrganic Fertilizer: 基于 §a有机肥料 §f运行
+    '§8⇨ §7Radius: ': '§8⇨ §7范围: '
+    EXP Collector: 经验收集器
+    Collects nearby Exp and stores it: 收集附近的经验球并储存它们
+    Food Composter: 食物堆肥机
+    Produces §aOrganic Fertilizer: 生产 §a有机肥料
+    Advanced Machine: 高级电力机器
+    Crop Growth Accelerator: 作物生长加速器
+    Freezer: 电力冰冻机
+    Nuclear Reactor: 核能反应机
+    Requires Cooling: 需要降温冷却
+    Must be surrounded by Water: 必须使用水包围住
+    Must be supplied with Reactor Coolant Cells: 必须供给反应冷却单元
+    Nether Star Reactor: 下界之星反应机
+    Runs on Nether Stars: 基于 下界之星 运行
+    84M J in total: 84 MJ 发电量
+    Must be supplied with Nether Ice Coolant Cells: 必须供给下界冰冷却单元
+    Causes nearby Entities to get Withered: 导致附近的实体受到凋零效果
+    Automated Crafting Chamber: 自动工作台
+    ' J/Item': ' J/物品'
+    Fluid Pump: 流体泵
+    ' J/Block': ' J/方块'
+    ' J/Animal': ' J/动物'
+    ' J/Golem': ' J/铁傀儡'
+    ' J/Wither': ' J/凋零'
+    Carbon Press: 电力碳压机
+    Electric Smeltery: 电力冶炼炉
+    Alloys-Only, doesn't smelt Dust into Ingots: 仅用于制作合金, 不可用于炼锭
+    Iron Golem Assembler: 铁傀儡构建器
+    '§7Cooldown: §b30 Seconds': '§8⇨ §7冷却时长: §b30秒'
+    Wither Assembler: 凋零构建器
+    §7Pumpkin Slot: §7南瓜槽
+    This Slot accepts Pumpkins: 此槽位允许放入南瓜
+    §7Iron Block Slot: §7铁块槽
+    This Slot accepts Iron Blocks: 此槽位允许放入铁块
+    This Machine takes up to half a Minute to operate: 这个机器需要半分钟来进行操作
+    so give it some Time!: 让我们给它一点时间吧!
+    '§7Enabled: §4✘': '§7启用: §4✘'
+    §e> Click to enable this Machine: §e> 点击启用这个机器
+    '§7Enabled: §a✔': '§7启用: §a✔'
+    §e> Click to disable this Machine: §e> 点击关闭这个机器
+    '§7Enabled: §2✔': '§7启用: §2✔'
+    §e> Click to disable this Machine: §e> 点击关闭这个机器
+    §7Wither Skeleton Skull Slot: §7凋零骷髅头颅槽
+    This Slot accepts Wither Skeleton Skulls: 此槽位允许放入凋零骷髅头颅
+    §7Soul Sand Slot: §7灵魂沙槽
+    This Slot accepts Soul Sand: 此槽位允许放入灵魂沙
+    §7Fuel Slot: §7燃料槽
+    This Slot accepts radioactive Fuel such as: 此槽位允许放入放射性燃料, 如
+    §2Uranium §for §aNeptunium: §2铀块 §f和 §a镎块
+    §bCoolant Slot: §b冷却槽
+    This Slot accepts Coolant Cells: 此槽位允许放入冷却单元
+    Without any Coolant Cells, your Reactor: 如果没有放入冷却单元
+    §4will explode: §4你的反应机将会爆炸
+    §7Access Port: §7反应机交互枢纽
+    §cNot detected: §c未检测到
+    §7Access Port must be: §7反应机交互枢纽必须
+    §7placed 3 blocks above: §7放置在这个反应机上
+    §7a reactor!: §7三个方块的位置!
+    §7> Click to view Access Port: §7> 点击查看交互枢纽
+    '§7Focus: §eElectricity': '§7重心: §e发电'
+    §6Your Reactor will focus on Power Generation: §6你的反应机会注重于发电
+    §6If your Energy Network doesn't need Power: §6如果你的能源网络不需要电力
+    §6it will not produce any either: §6反应机会停止生产
+    §7⇨ Click to change the Focus to §eProduction: §7⇨ 点击切换重心为 §e生产
+    '§7Focus: §eProduction': '§7重心: §e生产'
+    §6Your Reactor will focus on producing goods: §6你的反应机会注重于生产
+    §6it will continue to run and simply will: §6反应机仍会继续运行
+    §6not generate any Power in the mean time: §6但不会产生电能
+    §7⇨ Click to change the Focus to §ePower Generation: §7⇨ 点击切换重心为 §e发电
+    §bProduce Collector: §b产物收集器
+    §fThis machine allows you to: §f这个机器可以让你
+    §fcollect produce from nearby animals: §f收集附近动物的产物
+    
+    # Slimefun - 武器
+    Grandmas Walking Stick: 祖母的拐杖
+    Grandpas Walking Stick: 祖父的拐杖
+    Sword of Beheading: 处决之剑
+    Beheading II: 斩首者 II
+    Has a chance to behead Mobs: 有概率斩下怪物的头颅
+    (even a higher chance for Wither Skeletons): (凋零骷髅也可获得更高掉落几率)
+    Blade of Vampires: 吸血鬼之刃
+    Life Steal I: 生命偷取 I
+    Everytime you attack something: 每次你攻击生物时
+    you have a 45% chance to: 你将有 45% 的概率
+    recover 2 Hearts of your Health: 回复自己 2♥ 血量
+    Seismic Axe: 地震斧
+    §7§oA portable Earthquake: §7§o一个随身携带的地震制造者
+    Soulbound Sword: 灵魂绑定剑
+    Soulbound Trident: 灵魂绑定三叉戟
+    Soulbound Bow: 灵魂绑定弓
+    Explosive Bow: 爆炸之弓
+    will launch hit enemys into the air: 会将击中的敌人弹射到空中
+    Icy Bow: 冰封之弓
+    Any Arrows fired using this Bow: 这个弓射出的弓箭
+    will prevent hit enemys from moving: 会阻止击中的敌人移动
+    for 2 seconds: 持续 2 秒
+    
+    # Slimefun - 有用的物品
+    Portable Crafter: 便携工作台
+    §a§oA portable Crafting Table: §a§o一个随身携带的工作台
+    Portable Dustbin: 便携垃圾桶
+    Your portable Item-Destroyer: 一个随身携带的物品摧毁器
+    Rag: 碎布
+    Extinguishes Fire: 扑灭身上的火焰
+    Bandage: 绷带
+    Splint: 夹板
+    Vitamins: 维他命
+    Cures Poison/Wither/Radiation: 治愈 毒药/凋零/辐射
+    §cMedicine: §c医药
+    §eSmall Backpack: §e小型背包
+    §eBackpack: §e背包
+    §eLarge Backpack: §e大型背包
+    §eWoven Backpack: §e编织背包
+    §eGilded Backpack: §e镀金背包
+    §eRadiant Backpack: §e金光闪闪的背包
+    §bCooler: §b冰箱
+    Allows you to store Juices/Smoothies: 可以储存饮料和冰沙
+    and automatically consumes them when you are hungry: 并在你饿的时候自动食用它们
+    and you have this in your Inventory: 你必须把此物品随身携带在物品栏内
+    Tape Measure: 卷尺
+    §eCrouch & Right Click §7to set an anchor: §e潜行 + 右键 §7设置锚点
+    §eRight Click §7to measure: §e右键 §7测量
+    
+    # Slimefun - 基础机器
+    Output Chest: 基础物品输出箱
+    A basic machine will try to put: 如果基础机器放置于发射器
+    items in this chest if it's placed: 附近, 机器会尝试把物品
+    adjacent to the dispenser: 放进这个箱子里
+    §eEnhanced Crafting Table: §e增强型工作台
+    A regular Crafting Table cannot: 普通的工作台已经无法
+    hold this massive Amount of Power: 容纳如此庞大的能量了
+    §bGrind Stone: §b磨石
+    Grinds items down into other items: 将物品磨成其他东西
+    §6Armor Forge: §6盔甲锻造台
+    Gives you the ability to create powerful armor: 让你获得制作强大盔甲的能力
+    §bOre Crusher: §b碎矿机
+    Crushes ores to double them: 磨碎矿石以获得双倍资源
+    §bCompressor: §b压缩机
+    §aCompresses Items: §a压缩物品
+    Makeshift Smeltery: 临时冶炼炉
+    Improvised version of the Smeltery: 临时使用版的冶炼炉
+    that only allows you to: 它仅可以用于
+    smelt dusts into ingots: 将碎矿熔炼成锭
+    §6Smeltery: §6冶炼炉
+    A high-temperature furnace: 一个高温的冶炼炉
+    that allows you to smelt dusts: 它可以用于把碎矿
+    into ingots and create alloys: 熔炼成锭和制造合金
+    Automatic Ignition Chamber: 自动点火机
+    Prevents the Smeltery from using up fire: 让冶炼炉始终充满火焰
+    Just fill it up with "Flint and Steel": 只需要填充 "打火石" 在里面
+    and place it adjacent to the Smeltery's dispenser: 并将其放置在冶炼炉的发射器旁边
+    §bPressure Chamber: §b压力机
+    §aCompresses Items even further: §a更进一步地压缩物品
+    Magic Workbench: 魔法工作台
+    Infuses Items with magical Energy: 注入魔力到物品里面
+    Ore Washer: 洗矿机
+    Washes Sifted Ore to filter Ores: 洗涤筛石, 过滤矿石
+    and gives you small Stone Chunks: 并给予你一些小石块
+    Table Saw: 桌锯
+    Allows you to get 8 planks from 1 Log: 切割一个原木为8块木板
+    Works with all log types: 适用于所有原木种类
+    §aComposter: §a泥土堆肥机
+    Can convert various Materials over Time: 消耗时间来转换一些物料
+    Automated Panning Machine: 自动淘金机
+    A MultiBlock Version of the Gold Pan: 一个多方块结构化的机器
+    and Nether Gold Pan combined in one machine: 淘金盘和下界淘金盘的结合体
+    Industrial Miner: 工业挖矿机
+    This Multiblock will mine any Ores: 这个多方块结构化的机器会采集
+    in a 7x7 area underneath it: 它下面7x7范围内的所有矿石
+    Place coal or similar in its chest: 在其箱子内放入煤炭
+    §fto fuel this machine: §f或者其他东西来提供燃料
+    Advanced Industrial Miner: 高级工业挖矿机
+    in a 11x11 area underneath it: 它下面11x11范围内的所有矿石
+    Place a bucket of fuel or lava in: 在其箱子内放入燃油桶
+    its chest to fuel this machine: 或者熔岩桶来提供燃料
+    §a+ Silk Touch: §a+ 精准采集
+    §cCrucible: §c坩埚
+    Used to smelt Items into Liquids: 用于将物品熔化成液体
+    Juicer: 榨汁机
+    Allows you to create delicious Juice: 用于制作可口的饮料
+    Enhanced Furnace: 增强型熔炉
+    'Processing Speed: ': '熔炼速度: '
+    'Fuel Efficiency: ': '燃料效率: '
+    'Luck Multiplier: ': '幸运倍率: '
+    Reinforced Furnace: 强化熔炉
+    Carbonado Edged Furnace: 黑金刚石镶边熔炉
+    Block Placer: 方块放置机
+    All Blocks in this Dispenser: 置于这个发射器的方块
+    will automatically get placed: 会自动地被放置
+    
+    # Slimefun - 工具
+    §6Gold Pan: §6淘金盘
+    §eRight Click§7 to collect resources: §e单击右键 §7>
+    §7from Gravel: §7回收沙砾为其它资源
+    §4Nether Gold Pan: §4下界淘金盘
+    §7from Soul Sand: §7回收灵魂沙为其它资源
+    Grappling Hook: 抓钩
+    Smelter's Pickaxe: 熔炉镐
+    §c§lAuto-Smelting: §c§l自动熔炼
+    §9Works with Fortune: §9可配合时运附魔使用
+    Lumber Axe: 伐木斧
+    Cuts down the whole Tree: 砍掉一整棵树木
+    Pickaxe of Containment: 刷怪笼之镐
+    §9Can pickup Spawners: §9可以挖掘刷怪笼
+    Hercules' Pickaxe: 赫拉克勒斯之镐
+    So powerful that it: 由于过于强力
+    crushes all mined Ores: 使得挖掘的矿石
+    into Dust: 全部破碎为矿粉
+    Explosive Pickaxe: 爆炸之镐
+    Allows you to mine a good bit: 让你每一次都能够
+    of Blocks at once: 挖掘更多的方块
+    Explosive Shovel: 爆炸之锹
+    of diggable Blocks at once: 挖掘更多可采掘的方块
+    Pickaxe of the Seeker: 寻矿镐
+    Will always point you to the nearest Ore: 让你指向离你最近的矿石
+    but might get damaged when doing it: 但同时可能会消耗耐久
+    §eRight Click§7 to be pointed to the nearest Ore: §e右键 §7指向最近的矿石
+    Cobalt Pickaxe: 高速镐
+    Pickaxe of Vein Mining: 矿脉镐
+    This Pickaxe will dig out: 这个镐子可以让你挖掘
+    whole Veins of Ores: 整个连锁的矿石
+    Climbing Pick: 攀岩镐
+    Allows you to climb certain surfaces: 让你攀爬上特定的表面
+    by right-clicking: 通过单击右键使用
+    Enchant this pick with Efficiency to: 效率附魔可以让你
+    climb even faster: 攀爬得更快
+    Soulbound Pickaxe: 灵魂绑定镐
+    Soulbound Axe: 灵魂绑定斧
+    Soulbound Shovel: 灵魂绑定锹
+    Soulbound Hoe: 灵魂绑定锄
+    
+    # Slimefun - 矿物资源
+    Reinforced Alloy Ingot: 强化合金锭
+    Hardened Metal: 硬化金属
+    Damascus Steel Ingot: 大马士革钢锭
+    Steel Ingot: 钢锭
+    §bBronze Ingot: §b青铜合金锭
+    Duralumin Ingot: 硬铝合金锭
+    Billon Ingot: 银铜合金锭
+    §bBrass Ingot: §b黄铜合金锭
+    Aluminum Brass Ingot: 铝黄铜合金锭
+    Aluminum Bronze Ingot: 铝青铜合金锭
+    Corinthian Bronze Ingot: 科林斯青铜合金锭
+    Solder Ingot: 铅锡合金锭
+    Synthetic Sapphire: 人造蓝宝石
+    This item can be used in a: 这个物品可以像普通的
+    workbench and acts like Lapis Lazuli: 青金石一样在工作台中使用
+    Synthetic Diamond: 人造钻石
+    workbench and acts like a normal Diamond: 钻石一样在工作台中使用
+    Raw Carbonado: 黑色钻石
+    Nickel Ingot: 镍锭
+    Cobalt Ingot: 钴锭
+    §b§lCarbonado: §b§l黑金刚石
+    '"Black Diamond"': '"黑色钻石"'
+    Ferrosilicon: 硅铁
+    Iron Dust: 铁粉
+    Gold Dust: 金粉
+    Copper Dust: 铜粉
+    Tin Dust: 锡粉
+    Lead Dust: 铅粉
+    Silver Dust: 银粉
+    Aluminum Dust: 铝粉
+    Zinc Dust: 锌粉
+    §6Magnesium: §6镁粉
+    Copper Ingot: 铜锭
+    Tin Ingot: 锡锭
+    Silver Ingot: 银锭
+    Lead Ingot: 铅锭
+    Aluminum Ingot: 铝锭
+    Zinc Ingot: 锌锭
+    Magnesium Ingot: 镁锭
+    Sulfate: 硫粉
+    §eCarbon: §e碳
+    Compressed Carbon: 压缩碳
+    Carbon Chunk: 碳块
+    §fGold Ingot §7: §f金锭 §7
+    Silicon: 纯硅
+    §6§lGilded Iron: §6§l闪闪发光的铁锭
+    Synthetic Emerald: 人造绿宝石
+    This item can be used to: 这个物品可以用于
+    trade with Villagers: 和村民们交易
+    §4Uranium: §4铀块
+    'Radiation level: §2HIGH': '辐射等级: §2高'
+    Hazmat Suit required: 需要装备防化服
+    Redstone Alloy Ingot: 红石合金锭
+    'Magnesium ': 镁
+    Magnesium Salt: 镁盐
+    A special type of fuel that can be: 一种特殊的燃料, 可以用在
+    used in a Magnesium-powered Generator: 以镁为动力的发电机中
+    Bucket of Oil: 原油桶
+    Bucket of Fuel: 燃油桶
+    §eNether Ice: §e下界冰冷却剂
+    'Radiation level: §eMODERATE': '辐射等级: §e中等'
+    Blistering Ingot: 发疱锭
+    Enriched Nether Ice: 浓缩下界冰冷却剂
+    'Radiation level: §cVERY HIGH': '辐射等级: §c非常高'
+    §aNeptunium: §a镎块
+    §7Plutonium: §7钚块
+    §2Boosted Uranium: §2强化铀块
+    
+    # Slimefun - 食物
+    Fortune Cookie: 幸运曲奇
+    Tells you stuff about your Future: 预测你未来的一些事
+    Diet Cookie: 减肥曲奇
+    A very §a§olightweight §acookie: 一个非常 §o轻薄 §a的曲奇
+    Beef Jerky: 牛肉干
+    Pork Jerky: 猪肉干
+    Chicken Jerky: 鸡肉干
+    Mutton Jerky: 羊肉干
+    Rabbit Jerky: 兔肉干
+    Fish Jerky: 鱼肉干
+    Extra saturating: 获得额外的饱食度
+    Kelp Cookie: 海藻曲奇
+    Magic Sugar: 魔法糖
+    Feel the Power of Hermes: 感受赫耳墨斯的力量吧
+    Monster Jerky: 怪物肉干
+    No longer hungry: 让饥饿远离我
+    §cApple Juice: §c苹果汁
+    Carrot Juice: 胡萝卜汁
+    Melon Juice: 西瓜汁
+    Pumpkin Juice: 南瓜汁
+    Sweet Berry Juice: 甜浆果汁
+    Restores §b§o: 回复 §b§o
+    Golden Apple Juice: 金苹果汁
+    0 §7§oHunger: 0 §7§o饥饿度
+    5 §7§oHunger: 5 §7§o饥饿度
+    
+    # Slimefun - 魔法物品
+    Magical Lump: 魔法因子
+    Ender Lump: 末影因子
+    '§c§oTier: ': '§c§o等级: '
+    Magical Book Cover: 魔法书封面
+    Used for various Magic Books: 用于各种魔法书
+    Magical Glass: 魔法玻璃
+    Used for various Magical Gadgets: 用于各种魔法道具
+    Lava Crystal: 熔岩水晶
+    Common Talisman: 普通护身符
+    Necrotic Skull: 死灵头颅
+    Essence of Afterlife: 后生精华
+    Synthetic Shulker Shell: 人造潜影贝
+    workbench like a normal Shulker Shell: 潜影贝一样在工作台中使用
+    Broken Spawner: 破碎的刷怪笼
+    '§7Type: §b': '§7种类: §b'
+    Fractured, must be repaired in an Ancient Altar: 已破碎, 需要在古老祭坛中修复
+    Ancient Pedestal: 古代基座
+    Part of the Ancient Altar: 古老祭坛的一部分
+    Blank Rune: 黑色符石
+    Ancient Rune: 古代符石
+    §b§lAir§8§l]: §b§l气§8§l]
+    §c§lEarth§8§l]: §c§l地§8§l]
+    §4§lFire§8§l]: §4§l火§8§l]
+    §1§lWater§8§l]: §1§l水§8§l]
+    §5§lEnder§8§l]: §5§l末影§8§l]
+    §e§lLightning§8§l]: §e§l闪电§8§l]
+    §d§lRainbow§8§l]: §d§l彩虹§8§l]
+    §5§lSoulbound§8§l]: §5§l系魂§8§l]
+    §6§lEnchantment§8§l]: §6§l附魔§8§l]
+    §eDrop this rune onto a dropped item to: §e通过将这个符石丢至一个掉落物上
+    §5bind §ethat item to your soul: §e你可以 §5灵魂绑定 §e那个物品
+    §eIt is advised that you only use this rune: §e建议你仅将这个符石
+    §eon §6important §eitems: §e用于 §6重要 §e的物品上
+    §eItems bound to your soul won't drop on death: §e死亡时, 不会掉落你灵魂绑定的物品
+    §6enchant §ethat item with a random enchantment: §e你可以为它添加一个随机的 §6附魔 §e
+    Strange Nether Goo: 奇怪的下界粘液
+    A strange bio matter that: 一个奇怪的生物物质
+    can be acquired from: 可以通过与猪灵
+    bartering with Piglins: 交换物品取得
+    §4§lVillagers§8§l]: §4§l村民§8§l]
+    Right click a villager to clear: 右键一个村民可以清除
+    their current job and trades: 他目前的职业和交易组合
+    The villager will start looking: 过一段时间之后
+    for a job again after some: 村民会重新寻找
+    time has passed: 一个新的职业
+    
+    # Slimefun - 魔法防具
+    Ender Helmet: 末影帽子
+    Ender Chestplate: 末影外套
+    Ender Leggings: 末影裤子
+    Ender Boots: 末影靴子
+    Sometimes its here, sometimes there: 有时我在这里, 有时我又在那里
+    + No Enderpearl Damage: + 免除末影珍珠伤害
+    + Speed: + 速度
+    Slime Helmet: 粘液头盔
+    Slime Chestplate: 粘液盔甲
+    Slime Leggings: 粘液护腿
+    Slime Boots: 粘液靴子
+    Bouncy Feeling: 很有弹性的防具
+    + Jump Boost: + 跳跃提升
+    + No Fall Damage: + 免除掉落伤害
+    Glowstone Helmet: 荧石帽子
+    Glowstone Chestplate: 荧石外套
+    Glowstone Leggings: 荧石裤子
+    Glowstone Boots: 荧石靴子
+    Shining like the sun: 像阳光一样闪耀
+    ' Night Vision': ' 夜视'
+    §oReinforced: §o强化版
+    Farmer Shoes: 农夫靴
+    Prevents you from trampling your Crops: 防止你践踏你的农作物
+    Boots of the Stomper: 践踏者之靴
+    All Fall Damage you receive: 转移你将受到的掉落伤害
+    will be applied to nearby Mobs/Players: 到附近的怪物/玩家身上
+    Soulbound Helmet: 灵魂绑定头盔
+    Soulbound Chestplate: 灵魂绑定胸甲
+    Soulbound Leggings: 灵魂绑定护腿
+    Soulbound Boots: 灵魂绑定靴子
+    Bee Helmet: 蜜蜂头盔
+    Bee Wings: 蜜蜂翅膀
+    §9Activates Slow falling: §9在接近地面时
+    §9when approaching the ground: §9会激活缓慢降落
+    Bee Leggings: 蜜蜂护腿
+    Bee Boots: 蜜蜂靴子
+    Elytra Cap: 鞘翅帽
+    This helmet will protect you from: 当你在使用鞘翅飞行时
+    crashing while flying with an elytra: 使用这个头盔可以保护你不会撞死
+    
+    # Slimefun - 杂项用品
+    §6Sifted Ore: §6筛矿
+    Wheat Flour: 面粉
+    Steel Plate: 钢板
+    Chain: 锁链
+    Hook: 钩子
+    §6Stone Chunk: §6石块
+    Salt: 盐
+    Heavy Cream: 浓奶油
+    Cheese: 奶酪
+    Butter: 黄油
+    Crushed Ore: 碎矿
+    Pulverized Ore: 碎矿粉
+    Pure Ore Cluster: 纯矿簇
+    Tiny Pile of Uranium: 碎铀块
+    'Radiation level: §eLOW': '辐射等级: §e低'
+    Small Chunk of Uranium: 小型铀块
+    §bCloth: §b布料
+    Tin Can: 锡罐头
+    Gold Block: 金块
+    Reinforced Plate: 强化合金板
+    Duct Tape: 胶带
+    You can repair Items using this: 在自动铁砧中使用此胶带
+    in an Auto-Anvil: 以修复你的物品
+    Organic Food: 有机食物
+    '§7Content: §9Wheat': '§7装纳: §9小麦'
+    '§7Content: §9Carrots': '§7装纳: §9胡萝卜'
+    '§7Content: §9Potatoes': '§7装纳: §9马铃薯'
+    '§7Content: §9Seeds': '§7装纳: §9小麦种子'
+    '§7Content: §9Beetroot': '§7装纳: §9甜菜根'
+    '§7Content: §9Melon': '§7装纳: §9西瓜'
+    '§7Content: §9Apple': '§7装纳: §9苹果'
+    '§7Content: §9Sweet Berries': '§7装纳: §9甜浆果'
+    '§7Content: §9Dried Kelp': '§7装纳: §9干海带'
+    '§7Content: §9Cocoa Beans': '§7装纳: §9可可豆'
+    Organic Fertilizer: 有机肥料
+    '§7Content: §9Cocoa beans': '§7装纳: §9可可豆'
+    
+    # Slimefun - 防具
+    Damascus Steel Helmet: 大马士革钢头盔
+    Damascus Steel Chestplate: 大马士革钢胸甲
+    Damascus Steel Leggings: 大马士革钢护腿
+    Damascus Steel Boots: 大马士革钢靴子
+    Reinforced Helmet: 强化合金头盔
+    Reinforced Chestplate: 强化合金胸甲
+    Reinforced Leggings: 强化合金护腿
+    Reinforced Boots: 强化合金靴子
+    Cactus Helmet: 仙人掌帽子
+    Cactus Chestplate: 仙人掌外套
+    Cactus Leggings: 仙人掌裤子
+    Cactus Boots: 仙人掌靴子
+    Gilded Iron Helmet: 闪闪发光的铁头盔
+    Gilded Iron Chestplate: 闪闪发光的铁胸甲
+    Gilded Iron Leggings: 闪闪发光的铁护腿
+    Gilded Iron Boots: 闪闪发光的铁靴子
+    Scuba Helmet: 水下呼吸帽
+    Allows you to breathe underwater: 让你在水下也能呼吸
+    Hazmat Suit: 防化服胸甲
+    Hazmat Suit Leggings: 防化服护腿
+    Allows you to walk through fire and lava: 让你在火和熔岩中也能穿行
+    Hazmat Boots: 防化服靴子
+    'Full set effects:': '套装效果:'
+    '- Radiation immunity': '- 免除辐射伤害'
+    '- Bee Sting protection': '- 免除蜂蜇伤害'
+    Golden Helmet: 黄金头盔
+    Golden Chestplate: 黄金胸甲
+    Golden Leggings: 黄金护腿
+    Golden Boots: 黄金靴子
+    
+    # Slimefun - 护身符 (I 级)
+    Talisman of the Anvil: 铁砧护身符
+    Each Talisman can prevent: 每个护身符都可以保护
+    1 Tool from breaking, but will then: 1 个工具不受损坏
+    be consumed: 然后消耗殆尽自身的能力
+    '§4§lWARNING:': '§4§l警告:'
+    This Talisman does not work on: 此护身符不能在过于
+    Tools which are too powerful: 强大的工具上发挥作用
+    due to their complexity: 因为它们的结构过于复杂
+    Talisman of the Miner: 矿工护身符
+    While you have this Talisman: 如果你把此护身符
+    in your Inventory it has: 放于你的物品栏
+    a 20% chance of doubling: 每次你都有 20% 的概率
+    all Ores you mine: 获得双倍的挖掘掉落
+    Talisman of the Hunter: 猎人护身符
+    all Drops from Mobs you kill: 获得双倍的击杀怪物掉落
+    Talisman of the Lava Walker: 熔岩行者护身符
+    in your Inventory it will: 放于你的物品栏
+    give you Fire Resistance: 你将会获得抗火效果
+    as soon as you touch Lava: 如果你触碰到熔岩
+    but will then be consumed: 然后护身符会消耗殆尽自身的能力
+    Talisman of the Water Breather: 潜水者护身符
+    give you the ability: 如果你在水底缺氧
+    to breath underwater as: 你将会获得
+    soon as you start drowning: 水下呼吸效果
+    Talisman of the Angel: 天使护身符
+    in your Inventory it has a: 于你的物品栏
+    75% chance to prevent you: 每次你都有 75% 的概率
+    from taking Fall Damage: 免受掉落导致的伤害
+    Talisman of the Firefighter: 消防员护身符
+    as soon as you start burning: 如果你着火了
+    Talisman of the Magician: 法师护身符
+    in your Inventory it gives: 放于你的物品栏
+    you a 80% Luck Bonus on Enchanting: 每次你附魔时都有 80% 的幸运加成
+    You will sometimes get an Extra Enchantment: 偶尔可以获得一个额外的附魔
+    Talisman of the Traveller: 旅行者护身符
+    you a 60% Chance for a decent: 每次你开始疾跑时你都有
+    Speed Buff when you start sprinting: 60% 的概率获得速度效果
+    Talisman of the Warrior: 战士护身符
+    you Strength III whenever you get hit: 如果你被攻击你会获得 力量III 效果
+    Talisman of the Knight: 骑士护身符
+    you a 30% Chance for 5 Seconds of Regeneration: 如果你被攻击你有 30% 的概率
+    whenever You get hit: 获得 5 秒的生命恢复效果
+    Talisman of the Caveman: 穴居人护身符
+    in your inventory it gives: 放于你的物品栏
+    you a 50% chance for a decent: 每次你挖掘矿石你都有 50%
+    Haste buff when you mine any ore: 的概率获得急迫效果
+    Talisman of the Wise: 智者护身符
+    you a 20% chance of doubling: 每次你都有 20% 的概率
+    any experience you obtain: 获得双倍的经验值拾取
+    Talisman of the Whirlwind: 旋风护身符
+    Having this Talisman: 如果把此护身符放于物品栏
+    in your Inventory will reflect: 每次你都有 60% 的概率
+    60% of any projectiles fired at you: 反弹射击在你身上的东西
+    Only a thrown Trident can pierce: 只有掷出的三叉戟
+    through this layer of protection: 可以刺穿它的保护罩
+    Talisman of the Wizard: 巫师护身符
+    in your Inventory it allows you to: 放于你的物品栏
+    obtain Fortune Level 4/5 however: 你有机会获得 时运 4/5 级
+    it also has a chance to lower the: 但它也可能导致你的物品
+    Level of some Enchantments on your Item: 的其他附魔的等级得到降低
+    
+    # Slimefun - 魔法道具
+    Ender Backpack: 末影背包
+    A portable Ender Chest: 一个随身携带的末影箱
+    Magic Eye of Ender: 魔法末影之眼
+    Requires full Ender Armor: 需要装备末影套装
+    Right Click§7 to shoot an Ender Pearl: 右键§7 掷出末影珍珠
+    Elemental Staff §7- §b§oWind: 元素法杖 §7- §b§o风
+    'Element: §b§oWind': '元素: §b§o风'
+    Right Click§7 to launch yourself forward: 右键§7 将你向前方推送
+    Elemental Staff §7- §1§oWater: 元素法杖 §7- §1§o水
+    'Element: §1§oWater': '元素: §1§o水'
+    Right Click§7 to extinguish yourself: 右键§7 扑灭身上的火焰
+    §7- §c§oFire: §7- §c§o火
+    'Element: §c§oFire': '元素: §c§o火'
+    §7- §8§oStorm: §7- §8§o风暴
+    'Element: §8§oStorm': '元素: §8§o风暴'
+    Elemental Staff: 元素法杖
+    Right Click§7 to summon a lightning: 右键§7 释放闪电
+    ' Uses §7left': ' 次 §7剩余使用次数'
+    Magical Zombie Pills: 魔法僵尸重生药
+    Right Click §7a Zombified Villager: 右键 §7僵尸村民
+    or §7a Zombified Piglin to: 或者 §7僵尸猪灵
+    instantly cure it from its curse: 可以瞬间解除它们受到的诅咒
+    Infused Magnet: 注入磁铁
+    Magical infused Magnets: 充满魔法的注入磁铁
+    attract nearby Items: 会吸引附近的掉落物
+    as long as it is somewhere in: 并将它们全部马上
+    your Inventory: 注入到你的物品栏内
+    Hold §eShift§7 to pick up nearby Items: 按住 §eShift §7吸取附近的物品
+    Soulbound Backpack: 灵魂绑定背包
+    Reinforced Spawner: 修复的刷怪笼
+    Scroll of Dimensional Teleposition: 空间传送卷轴
+    This Scroll is capable of creating: 这个卷轴可以创建
+    a temporary black Hole which pulls: 一个临时的黑洞
+    nearby Entities into itself and sends: 吸入附近的实体
+    them into another Dimension where: 并将他们传送到
+    everything is turned around: 另一翻转的维度
+    'In other words: Makes Entities turn by 180 Degrees': '简单点说就是: 让实体旋转180度'
+    Tome of Knowledge Sharing: 学识巨著
+    '§7Owner: §bNone': '§7著主: §b无'
+    '§7Owner: §b': '§7著主: §b'
+    §eRight Click§7 to bind this Tome to yourself: §e右键单击§7 绑定这本巨著到自己
+    §eRight Click§7 to obtain all Researches by: §e右键单击§7 获得之前著主的所有研究
+    §7the previously assigned Owner: §7
+    Flask of Knowledge: 知识之瓶
+    Allows you to store some of: 让你存储一些经验
+    your Experience in a Bottle: 到玻璃瓶之中
+    'Cost: §a1 Level': '消耗: §a1 级'
+    Ancient Altar: 古代祭坛
+    Multi-Block Altar for: 一个多方块结构化的祭坛
+    magical Crafting Processes: 用于魔法合成工序
+    Infernal Bonemeal: 下界骨粉
+    Speeds up the Growth of: 也可以用于
+    Nether Warts as well: 催熟下界疣
+    Elytra Scale: 鞘翅鳞片
+    Infused Elytra: 经验注入鞘翅
+    Soulbound Elytra: 灵魂绑定鞘翅
+    Rainbow Wool: 彩虹羊毛
+    Rainbow Glass Pane: 彩虹玻璃板
+    Rainbow Glass: 彩虹玻璃
+    Rainbow Clay: 彩虹粘土块
+    Rainbow Concrete: 彩虹混凝土
+    Rainbow Glazed Terracotta: 彩虹带釉陶瓦
+    Cycles through all Colors of the Rainbow: 在彩虹的所有颜色间循环切换
+    Infused Hopper: 注入漏斗
+    Automatically picks up nearby Items in a 7x7x7: 自动吸取附近 7x7x7
+    Radius when placed: 范围内的掉落物
+    
+    # Slimefun - 科技工具
+    Electric Jetpack: 喷气背包
+    '§8⇨ §7Material: §bDuralumin': '§8⇨ §7材质: §b硬铝合金'
+    '§8⇨ §7Material: §bSolder': '§8⇨ §7材质: §b铅锡合金'
+    '§8⇨ §7Material: §bBillon': '§8⇨ §7材质: §b银铜合金'
+    '§8⇨ §7Material: §bSteel': '§8⇨ §7材质: §b钢'
+    '§8⇨ §7Material: §bDamascus Steel': '§8⇨ §7材质: §b大马士革钢'
+    '§8⇨ §7Material: §bReinforced Alloy': '§8⇨ §7材质: §b强化合金'
+    '§8⇨ §7Material: §bCarbonado': '§8⇨ §7材质: §b黑金刚石'
+    '§8⇨ §7Thrust: §c': '§8⇨ §7推动力: §c'
+    §eCrouch§7 to use: §e潜行§7 使用
+    Multi Tool: 万用工具
+    §eCrouch & Right Click§7 to switch modes: §e潜行 & 右键§7 切换模式
+    Jet Boots: 喷气靴子
+    '§b⚡ §7Speed: §b': '§b⚡ §7效率: §b'
+    '§8⇨ §7Accuracy: §': '§8⇨ §7精确度: §'
+    Parachute: 降落伞
+    Hologram Projector: 全息投影仪
+    Projects an Editable Hologram: 投影一个可编辑的全息图像
+    Text §e: 文本 §e
+    Click to edit: 点击编辑
+    '§7Offset: §': '§7偏移: §'
+    'Left Click: §7': '左键: §7'
+    'Right Click: §7': '右键: §7'
+    Solar Helmet: 太阳能头盔
+    Charges held Items and Armor: 为手持的物品和装备充能
+    Night Vision Goggles: 夜视镜
+    Armored Jet Boots: 装甲喷气靴子
+    Multimeter: 多用电表
+    Measures the Amount of stored: 测量一个方块内
+    Energy in a Block: 存储的能量
+    
+    # Slimefun - 末影护身符 (II 级)
+    Ender Talisman of the Anvil: 末影铁砧护身符
+    Ender Talisman of the Miner: 末影矿工护身符
+    Ender Talisman of the Hunter: 末影猎人护身符
+    Ender Talisman of the Lava Walker: 末影熔岩行者护身符
+    Ender Talisman of the Water Breather: 末影潜水者护身符
+    Ender Talisman of the Angel: 末影天使护身符
+    Ender Talisman of the Firefighter: 末影消防员护身符
+    Ender Talisman of the Magician: 末影法师护身符
+    Ender Talisman of the Traveller: 末影旅行者护身符
+    Ender Talisman of the Warrior: 末影战士护身符
+    Ender Talisman of the Knight: 末影骑士护身符
+    Ender Talisman of the Caveman: 末影穴居人护身符
+    Ender Talisman of the Wise: 末影智者护身符
+    Ender Talisman of the Whirlwind: 末影旋风护身符
+    Ender Talisman of the Wizard: 末影巫师护身符
+    §oEnder Infused: §o末影能力注入
+    
+    # Slimefun - 可编程式机器人
+    Android Interface §9(Items): 安卓机器人容器 §9(物品)
+    Android Interface §c(Fuel): 安卓机器人容器 §c(燃料)
+    Items stored in an Android's Inventory: 安卓机器人会把库存
+    will be inserted into this Interface: 中的物品放入这个容器中
+    when its Script tells them to do so: 如果接收到指定的脚本指令
+    Items stored in this Interface: 安卓机器人会获取这个
+    will be inserted into an Android's Fuel Slot: 容器中的物品放入燃料槽
+    §cProgrammable Android: §c可编程式机器人
+    '§8⇨ §7Function: None': '§8⇨ §7专职: 无'
+    '§8⇨ §7Function: Mining': '§8⇨ §7专职: 挖矿'
+    '§8⇨ §7Function: Farming': '§8⇨ §7专职: 农作'
+    '§8⇨ §7Function: Woodcutting': '§8⇨ §7专职: 伐木'
+    '§8⇨ §7Function: Fishing': '§8⇨ §7专职: 钓鱼'
+    '§8⇨ §7Function: Slaughtering': '§8⇨ §7专职: 屠宰'
+    '§8⇨ §7Success Rate: ': '§8⇨ §7捕获率: '
+    '§8⇨ §7Damage: ': '§8⇨ §7伤害值: '
+    Advanced Programmable Android: 高级可编程式机器人
+    Can also harvest Plants from ExoticGarden: 可用于收获异域花园的作物
+    Empowered Programmable Android: 可授权编程式机器人
+    ' §7(Normal)': ' §7(普通)'
+    ' §7(Miner)': ' §7(矿工)'
+    ' §7(Farmer)': ' §7(农夫)'
+    ' §7(Woodcutter)': ' §7(伐木工)'
+    ' §7(Fisherman)': ' §7(渔夫)'
+    ' §7(Butcher)': ' §7(屠夫)'
+    
+    # Slimefun - 货物管理
+    Cargo Motor: 货运马达
+    §7Important ingredient for items: §7与货运管理相关的
+    §7related to Cargo Management: §7物品的重要材料
+    Cargo Manager: 货运网络管理器
+    Core Component of an Item Transport Network: 货运网络的核心组成部分
+    Advanced Cargo Node §c(Output): 高级货运节点 §c(输出)
+    §7Cargo Node §c(Input): §7货运网络节点 §c(输入)
+    §7Cargo Node §c(Output): §7货运网络节点 §c(输出)
+    §7Cargo Node §c(Connector): §7货运网络节点 §c(连接器)
+    Cargo Connector Pipe: 货运网络的连接管
+    Cargo Input Pipe: 货运网络的输入器
+    Cargo Output Pipe: 货运网络的输出器
+    Reactor Access Port: 反应机交互枢纽
+    Allows you to interact with a Reactor: 允许货运节点与
+    via Cargo Nodes, can also be used: 反应机交互
+    as a Buffer: 也可以用作缓冲器
+    Must be placed §a3 Blocks §eabove the Reactor: 必须放在高于反应堆 §33个方块 §e的位置
+    §7Byproduct Slot: §7副产物槽
+    This Slot contains the Reactor's Byproduct: 此槽位能够容纳反应机的副产物
+    such as §aNeptunium §for §7Plutonium: 例如 §2镎块 §f和 §a钚块
+    §7Reactor: §7反应机
+    §7Reactor must be: §7反应机必须放置在
+    §7placed 3 blocks below: §7这个反应机交互枢纽
+    §7the access port!: §7下面三个方块的位置!
+    §6Detected: §6已检测到
+    §7> Click to view Reactor: §7> 点击查看反应机
+    Trash Can: 垃圾桶
+    Will destroy all Items put into it: 会摧毁一切放入其中的物品
+    
+    §6Crafting Motor: §6合成马达
+    §7Important component of Auto-Crafters: §7自动合成器的重要组成部分
+    §2Auto-Crafter §8(Vanilla): §2自动合成器§8 (原版)
+    Place this machine on top of a: 将这个机器放在箱子或类似的
+    chest or similar and make it craft: 方块上面, 以让它自动地合成
+    normal §eCrafting Table: 普通的 §e工作台
+    §2Auto-Crafter §8(Enhanced): §2自动合成器§8 (增强)
+    §2Auto-Crafter §8(Armor Forge): §2自动合成器§8 (盔甲锻造台)
+    §eArmor Forge: §e盔甲锻造台
+    
+    # Slimefun - 节日
+    §bBirthday Cake: §b生日蛋糕
+    §6Glass of Milk: §6一瓶牛奶
+    §6Chocolate Milk: §6巧克力牛奶
+    §aEgg Nog: §a蛋乳
+    §cApple Cider: §c苹果酒
+    §aC§ch§ar§ci§as§ct§am§ca§as§c §aC§co§ao§ck§ai§ce: §a圣§c诞§a曲§c奇
+    §aF§cr§au§ci§at§c §aC§ca§ak§ce: §a水§c果§a蛋§c糕
+    §fApple Pie: §f苹果派
+    §6Hot Chocolate: §6热巧克力
+    §aC§ch§ar§ci§as§ct§am§ca§as§c §aC§ca§ak§ce: §a圣§c诞§a蛋§c糕
+    §6Caramel: §6焦糖
+    §6Caramel Apple: §6焦糖苹果
+    §6Chocolate Apple: §6巧克力苹果
+    §aC§ch§ar§ci§as§ct§am§ca§as§c §aP§cr§ae§cs§ae§cn§at: §a圣§c诞§a礼§c物
+    '§7From: §cTheBusyBiscuit': '§7来自: §cTheBusyBiscuit'
+    '§7To: §eYou': '§7送往: §e你'
+    ' §7(Christmas)': ' §7(圣诞节)'
+    §a[§cC§ah§cr§ai§cs§at§cm§aa§cs§a §cE§ad§ci§at§ci§ao§cn§a]: §a【§c圣§a诞§c节§a限§c定§a】
+    ' §7(Halloween)': ' §7(万圣节)'
+    §c[§6Halloween Edition§c]: §c【§6万圣节限定§c】
+    §6Carrot Pie: §6胡萝卜派
+    §fEaster Egg: §f复活节彩蛋
+    §dHappy Easter! Have a surprise: §d复活节快乐! 带走惊喜吧
+    ' §7(Valentine''s Day)': ' §7(情人节)'
+    §5[§dValentine's Day Edition§5]: §5【§d情人节限定§5】
+    
+    # Slimefun - 基于 GPS 的机器
+    §bGPS Transmitter: §bGPS 发射器
+    Advanced GPS Transmitter: 高级 GPS 发射器
+    Carbonado GPS Transmitter: 黑金刚石镶边 GPS 发射器
+    Energized GPS Transmitter: 电力强化 GPS 发射器
+    GPS Control Panel: GPS 控制面板
+    Allows you to track your Satellites: 能够追踪卫星
+    and manage your Waypoints: 和管理路径点
+    GPS Marker Tool: GPS 标记工具
+    Allows you to set a Waypoint at: 能够在放置这个的地方
+    the Location you place this: 创建一个路径点
+    GPS Emergency Transmitter: GPS 紧急发射器
+    Carrying this in your Inventory: 如果你把这个放于你的物品栏
+    automatically sets a Waypoint: 每次你死亡的时候都会自动
+    at your Location when you die: 在这个地方创建一个路径点
+    GPS Geo-Scanner: GEO 地形扫描器
+    Scans a Chunk for natural Resources: 扫描区块中的自然资源
+    such as §8Oil: 例如 §8原油
+    Portable Geo-Scanner: 便携 GEO 地形扫描器
+    Right Click§7 to scan: 右键 §7扫描
+    Oil Pump: 原油泵
+    Pumps up Oil and fills it into Buckets: 抽出原油并装灌到桶内
+    Make sure to Geo-Scan the Chunk first: 需要先进行 GEO 地形扫描
+    GEO Miner: GEO 矿机
+    Mines up resources from the chunk: 采掘区块中无法使用
+    These Resources cannot be mined with a pickaxe: 镐来获取的资源
+    Small Chunks of Uranium: 小型铀块
+    Nether Ice: 下界冰
+    GPS Teleporter Pylon: GPS 传送塔
+    Teleporter Component: 传送器的核心组成部分
+    GPS Teleporter Matrix: GPS 传送网
+    This is your Teleporter's Main Component: 传送器的核心组成部分
+    This Matrix allows Players to choose from all: 用于让玩家选择放置
+    Waypoints made by the Player who has placed: 这个装置的人创建的
+    §fthis Device: §f所有路径点
+    §bPortable Teleporter: §b便携传送器
+    §fThis device allows you to teleport: §f这个装置可以让你从各个地方
+    §fto your waypoints from anywhere: §f传送到你的路径点
+    GPS Activation Device §3(Shared): GPS 传送激活装置 §3(共享)
+    GPS Activation Device §a(Personal): GPS 传送激活装置 §a(私人)
+    Place this onto a Teleportation Matrix: 将这个东西放置于
+    and step onto this Plate to activate: GPS 传送网上, 踩上去
+    the Teleportation Process: 即可启动传送程序
+    This Version only allows the Person who: 这个型号的激活装置
+    placed this Device to use it: 只允许放置它的人使用
+    §bElevator Plate: §b电梯
+    Place an Elevator Plate on every floor: 将这个电梯放于不同的楼层
+    and you will be able to teleport between them: 然后你就可以在它们之间传送
+    Right Click this Block §7to name it: 右键此方块 §7命名电梯楼层
+    §7Floor Name §e: §7楼层名 §e
+    
+    # Slimefun - 科技零件
+    Basic Circuit Board: 基础电路板
+    Advanced Circuit Board: 高级电路板
+    Battery: 电池
+    Steel Thruster: 钢制推进器
+    Power Crystal: 能量水晶
+    Solar Panel: 太阳能板
+    Transforms Sunlight to Energy: 将太阳能转化为电能
+    §9Photovoltaic Cell: §9太阳能单元
+    §7Important component for: §b太阳能发电机
+    §7crafting a §bSolar Generator: §7的重要制作材料
+    Reinforced Cloth: 强化布料
+    This cloth has been reinforced: 这种布使用了 §b铅
+    with §bLead §fto protect against: 来用于加固, 以保护
+    radioactive substances: 你免受辐射伤害
+    §cMagnet: §c磁铁
+    Electromagnet: 电磁铁
+    Electric Motor: 电动马达
+    Heating Coil: 加热线圈
+    Copper Wire: 铜丝
+    Crucial component in electric modules: 电器组件的关键材料
+    Hardened Glass: 硬化玻璃
+    Withstands Explosions: 能够承受爆炸伤害
+    Withstands Wither Bosses: 能够承受凋零打击
+    Cooling Unit: 冷却装置
+    Wither-Proof Obsidian: 防凋零黑曜石
+    Plastic Sheet: 塑料片
+    Android Memory Core: 安卓内存核心
+    Wither-Proof Glass: 防凋零玻璃
+    §bReactor Coolant Cell: §b反应冷却单元
+    §6Nether Ice Coolant Cell: §6下界冰冷却单元

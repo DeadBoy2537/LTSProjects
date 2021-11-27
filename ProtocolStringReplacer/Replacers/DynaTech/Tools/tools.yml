@@ -1,0 +1,52 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Tools
+    Picnic Basket: 野餐袋
+    Allows you to store food: 允许你存储任何食物
+    "Automatically consumes them when you're hungry": "当你饥饿时自动把食物塞进你嘴里"
+    Must be in your inventory: 必须在你的物品栏中
+    §eRight Click §7to open: §e右键§7打开
+    Inventory Filter: 物品栏过滤器
+    "Filters out items on the floor that are in it's inventory": "自动过滤地面上那些在物品栏过滤器中的物品"
+    Electrical Stimulator: 电力刺激器
+    Automatically feed you for energy: 自动释放能量
+    Stimulate your senses: 刺激你的感官
+    Flight Gem: 飞行宝石
+    Permanent Creative Flight: 永久创造飞行
+    Has some speed adjustment settings: 具有一些速度调整设置
+    Scoop: 捕虫网
+    Used to capture bees: 用来捕捉蜜蜂
+    Make sure not to get stung: 确保不要被蛰
+    Dimensional Home: 维度之家
+    Teleports you to a: 把你传送到纬度之家
+    seperate dimensional home and back: 或者返回
+    Healthy Item Band: 健康物品模块
+    When applied to armor or tools: 当应用于盔甲或工具时
+    gives you 2 levels of Health Boost: 给你2级的生命提升
+    Hasty Item Band: 急迫物品模块
+    When applied to armor or tools: 当应用于盔甲或工具时
+    gives you 2 levels of Haste: 给你2级的急迫
+    Tesseract Binder: 超立方体绑定器
+    Used to bind 2 Tesseract together: 用于绑定两个超立方体
+    Right click to get Location of Tesseract: 右键获取超立方体的实际坐标
+    Crouch Right Click to bind location to Tesseract: 蹲下，右击绑定超立方体的实际坐标
+    Wither Golem MultiBlock: 凋零傀儡方块结构
+    Spawns a Wither Skeleton: 生成凋零骷髅
+    Portable Liquid Tank: 便携式液体罐
+    Simple Liquid Snatcher: 简单的液体抓取器
+    Right click to grab a fluid: 右键单击以抓取流体
+    Shift click to place a fluid: 按住Shift键单击以放置流体

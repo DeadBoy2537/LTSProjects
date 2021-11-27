@@ -1,0 +1,11 @@
+isEnabled: true
+material: PAPER
+name: '&6唤狼卷轴'
+lore:
+- '&a召唤一只帮助你'
+- '&a对抗精英怪物的好朋友！'
+- '&a摸摸可爱的它吧！'
+enchantments:
+- SUMMON_WOLF,1
+potionEffects: []
+itemType: unique

@@ -1,0 +1,20 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+  # 描述
+  #喜欢的食物
+    Favourite Food: 喜欢的食物
+    Favorite Food: 喜欢的食物
+    

@@ -1,0 +1,4 @@
+isEnabled: true
+name: 冲击波
+powerCooldown: 60
+globalCooldown: 30

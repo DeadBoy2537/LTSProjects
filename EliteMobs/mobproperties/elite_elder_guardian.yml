@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: ELDER_GUARDIAN
+name: '&2$level级&f精英&3远古守卫者'
+deathMessages:
+  - '$entity&c阻止了$player&c探索深海！'
+baseDamage: 12.0

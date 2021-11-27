@@ -1,0 +1,14 @@
+isEnabled: true
+material: LEATHER
+name: '&b变色龙护符'
+lore:
+- '&a这个多彩的护符可以'
+- '&a与任何环境相适应,'
+- '&a缓缓地爬行着...'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- INVISIBILITY,0,self,onHit
+- SLOW,0,self,onHit
+- BLINDNESS,0,self,onHit
+dropWeight: '1'

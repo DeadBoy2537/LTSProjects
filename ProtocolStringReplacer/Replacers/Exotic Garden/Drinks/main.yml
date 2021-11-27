@@ -1,0 +1,61 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Drinks 饮品 - 果汁
+    Grape Juice: 葡萄汁
+    Blueberry Juice: 蓝莓汁
+    Elderberry Juice: 接骨木莓汁
+    Raspberry Juice: 覆盆子汁
+    Blackberry Juice: 黑莓汁
+    Cranberry Juice: 小红莓汁
+    Cowberry Juice: 越橘汁
+    Strawberry Juice: 草莓汁
+    Oak Apple Juice: 橡木苹果汁
+    Cherry Juice: 樱桃汁
+    Pomegranate Juice: 石榴汁
+    Lemon Juice: 柠檬汁
+    Plum Juice: 梅子汁
+    Lime Juice: 酸橙汁
+    Orange Juice: 橘子汁
+    Peach Juice: 桃子汁
+    Pear Juice: 梨子汁
+    Dragon Fruit Juice: 火龙果汁
+    Tomato Juice: 番茄汁
+    Pineapple Juice: 凤梨汁
+    # Drinks 饮品 - 冰沙
+    Grape Smoothie: 葡萄冰沙
+    Blueberry Smoothie: 蓝莓冰沙
+    Elderberry Smoothie: 接骨木莓冰沙
+    Raspberry Smoothie: 覆盆子冰沙
+    Blackberry Smoothie: 黑莓冰沙
+    Cranberry Smoothie: 小红莓冰沙
+    Cowberry Smoothie: 越橘冰沙
+    Strawberry Smoothie: 草莓冰沙
+    Lime Smoothie: 酸橙冰沙
+    Pineapple Smoothie: 凤梨冰沙
+    # Drinks 饮品 - 茶
+    Lemon Iced Tea: 柠檬冰茶
+    Raspberry Iced Tea: 覆盆子冰茶
+    Peach Iced Tea: 桃子冰茶
+    Strawberry Iced Tea: 草莓冰茶
+    Cherry Iced Tea: 樱桃冰茶
+    Thai Tea: 泰国茶
+    Sweetened Tea: 甜茶
+    # Drinks 饮品 - 其他
+    Hot Chocolate: 热巧克力
+    Coconut Milk: 椰奶
+    Wine: 葡萄酒
+    Pinacolada: 椰林飘香
+    Lemonade: 柠檬水

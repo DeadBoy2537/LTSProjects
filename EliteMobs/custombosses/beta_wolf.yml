@@ -1,0 +1,21 @@
+isEnabled: true
+entityType: WOLF
+name: $reinforcementLevel &7β
+level: dynamic
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers:
+- attack_poison.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []
+followDistance: 100

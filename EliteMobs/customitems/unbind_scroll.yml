@@ -1,0 +1,11 @@
+isEnabled: true
+material: PAPER
+name: '&5解绑卷轴'
+lore:
+- '&5可用铁砧解绑'
+- '&5灵魂绑定装备'
+- '&5请谨慎使用！'
+enchantments:
+- UNBIND,1
+potionEffects: []
+itemType: unique

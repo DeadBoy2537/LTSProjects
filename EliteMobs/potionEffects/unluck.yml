@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 霉运
+onHitDuration: 30
+value: 10.0

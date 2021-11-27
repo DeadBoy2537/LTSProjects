@@ -1,0 +1,22 @@
+---
+Shop name: '[EM] 自定义物品商店'
+Information button slot: 4
+Buy slot: 11
+Sell slot: 15
+Information button:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&c插件开发者: &4&lMagmaGuy'
+  lore:
+  - '&8译者：qsefthuopq, Jrua'
+  - '&a点击绿宝石购买物品！'
+  - '&c点击红石出售物品！'
+  owner: magmaguy
+Buy procedurally generated items:
+  material: EMERALD
+  name: 购买物品
+Buy custom items:
+  material: EMERALD
+  name: 购买自定义物品
+Sell items:
+  material: REDSTONE
+  name: 出售物品

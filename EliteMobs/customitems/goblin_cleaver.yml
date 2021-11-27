@@ -1,0 +1,14 @@
+isEnabled: true
+material: NETHERITE_AXE
+name: '&8哥布林剁肉斧'
+lore:
+- '&8哥布林的财宝！'
+enchantments:
+- DAMAGE_ALL,1
+- DAMAGE_UNDEAD,1
+- DURABILITY,1
+- KNOCKBACK,1
+- LOOT_BONUS_MOBS,5
+potionEffects:
+- POISON,0,target,onHit
+itemType: unique

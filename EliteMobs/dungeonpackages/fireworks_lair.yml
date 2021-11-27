@@ -1,0 +1,26 @@
+isEnabled: false
+name: '&a烟火盛宴'
+dungeonLocationType: WORLD
+customInfo:
+- '&f2021年7月4日更新的新地图！'
+- '&6制作者：MagmaGuy'
+relativeBossLocations:
+- ''
+relativeTreasureLocations:
+- ''
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: LAIR
+worldName: em_fireworks
+environment: NORMAL
+protect: true
+rotation: 0
+teleportPoint: 0,0,0
+teleportPointPitch: -130.0
+teleportPointYaw: 0.0
+dungeonVersion: 2
+playerInfo: |-
+  难度：&6Medium
+  $bossCount个$lowestTier级大Boss待你挑战！
+  &6An encounter full of explosions!
+regionEnterMessage: '&8[EM] &e欢迎来到烟火盛宴！'
+regionLeaveMessage: '&8[EM] &e你离开了派对！'

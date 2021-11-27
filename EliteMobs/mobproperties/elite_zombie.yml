@@ -1,0 +1,8 @@
+---
+isEnabled: true
+entityType: ZOMBIE
+name: '&2$level级&f精英&2僵尸'
+deathMessages:
+  - '$player被$entity咬死了！'
+  - '$entity吃掉了$player的脑子！'
+baseDamage: 5.0

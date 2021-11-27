@@ -1,0 +1,30 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Machines
+    Bullet Press: 子弹压缩器
+    Air Liquefier: 空气液化器
+    Explosive Synthesizer: 爆炸物合成器
+    Boominator 9000: 爆破聚合反应器 9000
+    Ion Exchange Separator: 量子分解转换器
+    Meteor Attractor: 陨石吸引器
+    Elemental Reactor: 元素反应堆
+    # Intro
+    Processes uranium for nuclear bombs: 制造核弹所需要的铀
+    Separates the hard-to-separate: 分解那些在稀土中难以
+    rare earths from monazite: 被分解的稀土金属
+    A magnet so strong, that it: 这种磁铁强大到可以
+    can pull meteors from space: 从太空中吸取矿物

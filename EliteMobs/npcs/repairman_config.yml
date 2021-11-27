@@ -1,0 +1,24 @@
+isEnabled: true
+name: Reggie
+role: <Repairman>
+profession: WEAPONSMITH
+spawnLocation: em_adventurers_guild,278.5,81,263.5,-90,0
+greetings:
+- Get your items repaired!
+- Repairing items for scrap!
+- Turn that scrap into durability!
+- Need a repair?
+- Got damaged items?
+dialog:
+- Best repairs in town!
+- I got your fix!
+- Need a fix?
+- I'll repair your items!
+- Need elite items repaired?
+farewell:
+- Don't forget to do maintenance!
+- I'll be here if you need me!
+- Call me beep me if you wanna reach me,\nif you wanna page me that's ok
+canTalk: true
+activationRadius: 3.0
+interactionType: REPAIRMAN

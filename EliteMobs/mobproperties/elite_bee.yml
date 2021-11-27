@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: BEE
+name: '&2$level级&f精英&e蜜蜂'
+deathMessages:
+  - '$player&c被$entity蛰死了！'
+baseDamage: 3.0

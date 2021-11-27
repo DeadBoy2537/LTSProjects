@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: ENDERMITE
+name: '&2$level级&f精英&7末影螨'
+deathMessages:
+  - '$entity&c之于$player&c就像是大卫之于歌利亚！'
+baseDamage: 3.0

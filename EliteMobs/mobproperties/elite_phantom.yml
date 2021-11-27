@@ -1,0 +1,9 @@
+---
+isEnabled: true
+entityType: PHANTOM
+name: '&2$level级&f精英&9幻翼'
+deathMessages:
+  - '$player做了关于$entity的噩梦！'
+  - '$player被$entity吓死了！'
+  - '$entity告诉了$player睡觉的重要性！'
+baseDamage: 9.0

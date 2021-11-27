@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: BLAZE
+name: $reinforcementLevel &c余烬
+level: dynamic
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+dropsEliteMobsLoot: false
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers: []
+onDamageMessages: []
+onDamagedMessages: []
+trails:
+- SPELL_WITCH
+phases: []

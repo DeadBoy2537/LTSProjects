@@ -1,0 +1,35 @@
+isEnabled: false
+name: '&6竞技场'
+dungeonLocationType: SCHEMATIC
+customInfo:
+- '&f包含第一个真正意义上的世界boss'
+- '&f有多阶段战斗的骑乘型boss和第一个伪装型boss'
+- '&f一场史诗级战斗将在这里打响！'
+- '&6制作者：MagmaGuy & Maldini'
+relativeBossLocations:
+- colosseum_tier_70_boss_p1.yml:-0.5,-1.5,47.5
+- colosseum_tier_70_gladiator.yml:5.5,-7.5,22.5
+- colosseum_tier_70_gladiator.yml:1.5,-7.5,22.5
+- colosseum_tier_70_gladiator.yml:0.5,-7.5,30.5
+- colosseum_tier_70_gladiator.yml:-5.5,-7.5,41.5
+- colosseum_tier_70_gladiator.yml:1.5,-7.5,41.5
+- colosseum_tier_70_gladiator.yml:-11.5,-7.5,41.5
+- colosseum_tier_70_gladiator.yml:-14.5,-7.5,23.5
+- colosseum_tier_70_gladiator.yml:-30.5,-7.5,31.5
+- colosseum_tier_70_gladiator.yml:-30.5,-7.5,31.5
+relativeTreasureLocations: []
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: LAIR
+schematicName: em_colosseum.schem
+protect: true
+rotation: 0
+corner1: 40,-14,0
+corner2: -41,31,88
+teleportPoint: 0,0,0
+dungeonVersion: 2
+playerInfo: |-
+  难度：&4非常困难
+  $bossCount个boss，等级范围为$lowestTier - $highestTier
+  &c适用于多名组队玩家的史诗级战斗
+regionEnterMessage: '&8[EM] &6捍卫者和挑战者们请准备！&e对抗强敌，证明你们的价值吧！'
+regionLeaveMessage: '&8[EM] &6再见，旅行者！&e尽快回来，再展雄风！'

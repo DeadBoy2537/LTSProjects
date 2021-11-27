@@ -1,0 +1,108 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Extra Heads
+    Extra Heads: 头颅拓展
+    Bat Head: 蝙蝠头颅
+    Blaze Head: 烈焰人头颅
+    Cave Spider Head: 洞穴蜘蛛头颅
+    Chicken Head: 鸡头颅
+    Cow Head: 牛头颅
+    Dolphin Head: 海豚头颅
+    Drowned Head: 溺尸头颅
+    Elder Guardian Head: 远古守卫者头颅
+    Enderman Head: 末影人头颅
+    Evoker Head: 唤魔者头颅
+    Ghast Head: 恶魂头颅
+    Guardian Head: 守卫者头颅
+    Horse Head: 马头颅
+    Husk Head: 尸壳头颅
+    Illusioner Head: 冰术士头颅
+    Iron Golem Head: 铁傀儡头颅
+    Llama Head: 羊驼头颅
+    Magma Cube Head: 岩浆怪头颅
+    Mooshroom Head: 哞菇头颅
+    Ocelot Head: 豹猫头颅
+    Parrot Head: 鹦鹉头颅
+    Pig Head: 猪头颅
+    Polar Bear Head: 北极熊头颅
+    Rabbit Head: 兔子头颅
+    Sheep Head: 羊头颅
+    Shulker Head: 潜影贝头颅
+    Slime Head: 史莱姆头颅
+    Spider Head: 蜘蛛头颅
+    Squid Head: 鱿鱼头颅
+    Stray Head: 流浪者头颅
+    Turtle Head: 海龟头颅
+    Vex Head: 恼鬼头颅
+    Villager Head: 村民头颅
+    Vindicator Head: 卫道士头颅
+    Witch Head: 女巫头颅
+    Wither Head: 凋零头颅
+    Zombie Villager Head: 僵尸村民头颅
+    Ravager Head: 劫掠兽头颅
+    Pillager Head: 劫掠者头颅
+    Fox Head: 狐狸头颅
+    Panda Head: 熊猫头颅
+    Wandering Trader Head: 流浪商人头颅
+    Piglin Head: 猪灵头颅
+    Zombified Piglin Head: 僵尸猪灵头颅
+    Strider Head: 炽足兽头颅
+    Kill the specified Mob: 杀死指定的怪物
+    Kill 1 Bat: 杀死一只蝙蝠
+    Kill 1 Blaze: 杀死一只烈焰人
+    Kill 1 Cave Spider: 杀死一只洞穴蜘蛛
+    Kill 1 Chicken: 杀死一只鸡
+    Kill 1 Cow: 杀死一只牛
+    Kill 1 Dolphin: 杀死一只海豚
+    Kill 1 Drowned: 杀死一只溺尸
+    Kill 1 Elder Guardian: 杀死一只远古守卫者
+    Kill 1 Enderman: 杀死一只末影人
+    Kill 1 Evoker: 杀死一只唤魔者
+    Kill 1 Ghast: 杀死一只恶魂
+    Kill 1 Guardian: 杀死一只守卫者
+    Kill 1 Horse: 杀死一只马
+    Kill 1 Husk: 杀死一只尸壳
+    Kill 1 Illusioner: 杀死一只冰术士
+    Kill 1 Iron Golem: 杀死一只铁傀儡
+    Kill 1 Llama: 杀死一只羊驼
+    Kill 1 Magma Cube: 杀死一只岩浆怪
+    Kill 1 Mooshroom: 杀死一只哞菇
+    Kill 1 Ocelot: 杀死一只豹猫
+    Kill 1 Parrot: 杀死一只鹦鹉
+    Kill 1 Pig: 杀死一只猪
+    Kill 1 Polar Bear: 杀死一只北极熊
+    Kill 1 Rabbit: 杀死一只兔子
+    Kill 1 Sheep: 杀死一只羊
+    Kill 1 Shulker: 杀死一只潜影贝
+    Kill 1 Slime: 杀死一只史莱姆
+    Kill 1 Spider: 杀死一只蜘蛛
+    Kill 1 Squid: 杀死一只鱿鱼
+    Kill 1 Stray: 杀死一只流浪者
+    Kill 1 Turtle: 杀死一只海龟
+    Kill 1 Vex: 杀死一只恼鬼
+    Kill 1 Villager: 杀死一只村民
+    Kill 1 Vindicator: 杀死一只卫道士
+    Kill 1 Witch: 杀死一只女巫
+    Kill 1 Wither: 杀死一只凋零
+    Kill 1 Zombie Villager: 杀死一只僵尸村民
+    Kill 1 Ravager: 杀死一只劫掠兽
+    Kill 1 Pillager: 杀死一只劫掠者
+    Kill 1 Fox: 杀死一只狐狸
+    Kill 1 Panda: 杀死一只熊猫
+    Kill 1 Wandering Trader: 杀死一只流浪商人
+    Kill 1 Piglin: 杀死一只猪灵
+    Kill 1 Zombified Piglin: 杀死一只僵尸猪灵
+    Kill 1 Strider: 杀死一只炽足兽

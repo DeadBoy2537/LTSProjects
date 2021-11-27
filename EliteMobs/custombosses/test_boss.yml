@@ -1,0 +1,42 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &e试验品
+level: dynamic
+healthMultiplier: 2.0
+damageMultiplier: 0.5
+onDeathCommands:
+- broadcast $players杀死了$level级的$name！
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4试验品已被击退！'
+- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+- '&4终结者: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- magmaguys_toothpick.yml:1
+powers:
+- invulnerability_knockback.yml
+onDamageMessages:
+  - 我击中你了！
+onDamagedMessages:
+  - 我受伤了！
+trails:
+- BARRIER
+phases: []
+locationMessage: '试验品：$distance'
+spawnMessage: 试验品boss已生成！
+deathMessage: 试验品boss被$players杀死了！
+escapeMessage: 试验品逃离了！
+announcementPriority: 3
+timeout: 10
+helmet: GOLDEN_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: CHAINMAIL_BOOTS
+mainHand: GOLDEN_AXE
+offHand: SHIELD

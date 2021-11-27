@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: CAVE_SPIDER
+name: '&f&2$level级&f精英&3洞穴蜘蛛'
+deathMessages:
+  - '$player被困在了$entity的天罗地网中！'
+baseDamage: 3.0

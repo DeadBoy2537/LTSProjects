@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 夜视
+onHitDuration: 30
+value: 50.0

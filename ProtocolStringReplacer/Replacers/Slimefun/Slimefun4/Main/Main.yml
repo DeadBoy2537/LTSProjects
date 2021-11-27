@@ -1,0 +1,29 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: regex
+  Filter:
+    Listen-Types:
+    - itemstack
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Slimefun - 能源与电力
+    (\d) J/s: $1 J/秒
+    '§8⇨ §7Speed: §a(\d)/time': '§8⇨ §7效率: §a$1/次'
+    §8⇨ §7Lasts (\d+)m (\d+)s: §8⇨ §7持续发电 $1分钟 $2秒
+    §e⚡ §7(\d+)K J in total: §e⚡ §7共可发电 $1 KJ
+    # Slimefun - Util
+    §([a7])Survival Mode: §$1生存模式
+    §([a7])Cheat Sheet: §$1作弊模式
+    # Slimefun - 有用的物品
+    Level (I+) - Medical Supply: 等级 $1 - 医疗用品
+    Restores (\d) Hearts: 回复 $1♥ 血量
+    '§7Size: §e(\d)': '§7容量: §e$1'
+    # Slimefun - 矿物资源
+    ' §7\((\d+)\-Carat\)': ' §7($1-克拉)'
+    # Slimefun - 货物管理
+    anything that can be crafted using a(n)?: 所有你想合成的物品. 相当于一个

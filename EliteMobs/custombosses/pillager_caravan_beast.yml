@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: RAVAGER
+name: $reinforcementLevel &c巡逻队野兽
+level: dynamic
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers:
+- attack_confusing.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []
+followDistance: 100

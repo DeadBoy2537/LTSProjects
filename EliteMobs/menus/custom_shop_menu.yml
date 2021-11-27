@@ -1,0 +1,55 @@
+Shop name: '[EM] 购买或出售'
+Reroll button slot: 4
+Store item slots:
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+Full inventory message: '[精英怪物] &4你的背包满了！你塞不下这么多东西了。'
+Reroll button:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&c插件开发者：&4&lMagmaGuy'
+  lore:
+    - '&8译者：qsefthuopq'
+  owner: magmaguy

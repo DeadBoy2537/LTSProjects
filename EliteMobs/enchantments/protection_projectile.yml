@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 弹射物保护
+maxLevel: 100
+value: 6.0

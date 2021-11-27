@@ -1,0 +1,36 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $eventBossLevel &6野兽驯服者
+level: dynamic
+isPersistent: true
+healthMultiplier: 2.0
+damageMultiplier: 2.0
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&e野兽驯服者被残害了！'
+- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+- '&4终结者: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- summon_wolf_scroll.yml:1
+powers:
+- attack_poison.yml
+- ground_pound.yml
+- bonus_loot.yml
+- summonable:summonType=ON_HIT:filename=wild_wolf.yml:spawnNearby=true:inheritAggro=true:inheritLevel=true:chance=0.2
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []
+locationMessage: '&c野兽驯服者: $distance格之外'
+spawnMessage: '&c野兽驯服者出现了！'
+deathMessage: '&a野兽驯服者被$players杀死了！'
+escapeMessage: '&4野兽驯服者返回了荒野！'
+announcementPriority: 2
+followDistance: 100

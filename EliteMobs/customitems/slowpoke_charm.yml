@@ -1,0 +1,12 @@
+isEnabled: true
+material: CARROT_ON_A_STICK
+name: '&b迟钝护符'
+lore:
+- '&a希望你不要被'
+- '&a这个护符所迷惑……'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,0,self,onHit
+- CONFUSION,0,target,onHit
+dropWeight: '1'

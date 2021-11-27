@@ -1,0 +1,7 @@
+isEnabled: true
+entityType: RABBIT
+name: '&2$level级&f精英&3&c杀手兔'
+deathMessages:
+- $entity&c杀死了$player&c！
+- $player，$entity&c可不吃胡萝卜！
+baseDamage: 12.0

@@ -1,0 +1,8 @@
+---
+isEnabled: true
+entityType: DROWNED
+name: '&2$level级&f精英&3溺尸'
+deathMessages:
+  - '$player被$entity扯入了万丈深渊！'
+  - '$player和$entity一同被水淹没！'
+baseDamage: 4.0

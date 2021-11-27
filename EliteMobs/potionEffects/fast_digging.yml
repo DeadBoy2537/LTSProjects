@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 急迫
+onHitDuration: 30
+value: 100.0

@@ -1,0 +1,17 @@
+isEnabled: true
+material: DIAMOND_AXE
+name: '&2伐木斧'
+lore:
+- '&a即使你在梦里'
+- '&a你也能感受到'
+- '&a这把斧头对树木的杀戮之欲'
+enchantments:
+- LOOT_BONUS_BLOCKS,4
+- SILK_TOUCH,1
+- DURABILITY,6
+- DIG_SPEED,6
+- VANISHING_CURSE,1
+potionEffects:
+- FAST_DIGGING,1,self,continuous
+- NIGHT_VISION,0,self,continuous
+itemType: unique

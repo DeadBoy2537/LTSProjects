@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: SKELETON
+name: $reinforcementLevel &7僵尸爸爸
+level: dynamic
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers: []
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []

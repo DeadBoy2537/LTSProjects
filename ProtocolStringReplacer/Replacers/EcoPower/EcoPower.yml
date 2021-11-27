@@ -1,0 +1,47 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Eco-Power Generators
+    Eco-Power Generators: 生态动力 - 发电机
+    # Machines
+    Simple Steam Turbine: 简易蒸汽涡轮
+    'Component of the': '此零件用于:'
+    Simple Steam Turbine Generator: 简易蒸汽涡轮发电机
+    Advanced Steam Turbine: 高级蒸汽涡轮
+    Advanced Steam Turbine Generator: 高级蒸汽涡轮发电机
+    Carbonado Steam Turbine: 黑金刚石蒸汽涡轮
+    Carbonado Steam Turbine Generator: 黑金刚石蒸汽涡轮发电机
+    Simple Wind Turbine: 简易风力涡轮
+    Simple Wind Turbine Generator: 简易风力涡轮发电机
+    Advanced Wind Turbine: 高级风力涡轮
+    Advanced Wind Turbine Generator: 高级风力涡轮发电机
+    Carbonado Wind Turbine: 黑金刚石风力涡轮
+    Carbonado Wind Turbine Generator: 黑金刚石风力涡轮发电机
+    Lightning Receptor: 闪电接收器
+    This machine can channel energy: 在雷雨天，这个机器
+    from lightning strikes during: 可以从避雷针
+    a thunderstorm: 中转换电力
+    per lightning strike: 每次雷击所产生
+    Lunar Generator: 月光发电机
+    This Lunar Generator only: 这种月光发电机
+    runs at night: 只能在夜晚工作
+    High-Energy Solar Generator: 高能太阳能发电机
+    This Solar Generator runs: 这个太阳能发电机可以
+    all day and night: 在白天或黑夜运作
+    High-Energy Solar Helmet: 高能太阳能头盔
+    This Solar Helmet charges: 这款太阳能头盔可为任何
+    any held or worn items: 携带或磨损的物品充电
+    Radiant Solar Generator: 辐射太阳能发电机
+    Psst, this Item is just a dummy. You need to place the actual structure down.: 嘘，这个东西只是个假的。你需要把实际的结构放下来。

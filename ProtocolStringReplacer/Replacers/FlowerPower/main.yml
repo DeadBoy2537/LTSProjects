@@ -1,0 +1,18 @@
+Options:
+  Enable: true
+  Priority: 35
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - Chat
+    - Entity
+    - Title
+    - itemstack
+    - window-title
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Flower Power

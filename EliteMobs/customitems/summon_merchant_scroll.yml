@@ -1,0 +1,11 @@
+isEnabled: true
+material: PAPER
+name: '&6唤商卷轴'
+lore:
+- '&a你想出售物品吗?'
+- '&a右击激活吧'
+- '&a或者喊出&9Jeeves&a的名字！'
+enchantments:
+- SUMMON_MERCHANT,1
+potionEffects: []
+dropWeight: '5'

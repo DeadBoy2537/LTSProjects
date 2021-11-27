@@ -1,0 +1,11 @@
+isEnabled: true
+material: GLASS_BOTTLE
+name: '&b萤火虫护符'
+lore:
+- '&a照亮黑暗！'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- NIGHT_VISION,0,self,continuous
+- GLOWING,0,target,onHit
+dropWeight: '1'

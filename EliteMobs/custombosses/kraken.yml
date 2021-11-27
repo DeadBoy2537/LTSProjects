@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: ELDER_GUARDIAN
+name: $eventBossLevel &3「深海巨妖」克拉肯
+level: dynamic
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList:
+- rod_of_the_depths.yml:1
+powers: []
+onDamageMessages: []
+onDamagedMessages: []
+trails:
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- FLAME
+- FLAME
+phases: []

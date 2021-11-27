@@ -1,0 +1,9 @@
+isEnabled: true
+material: WOODEN_SWORD
+name: '&4Magmaguy&c的&2牙签'
+lore:
+- '&a崭新出厂的牙签！'
+enchantments:
+- VANISHING_CURSE,1
+potionEffects: []
+customModelID: 1

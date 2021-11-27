@@ -1,0 +1,11 @@
+scrapItemName: '&2$level级废品'
+scrapItemLore:
+- '&a收集25件同级废品'
+- '&a以获得物品升级球'
+- '&a你也可以用废品来修复物品'
+- '&a或合成更高级的废品'
+- '&2请前往冒险者公会大厅合成'
+upgradeItemName: '&2$level级升级球'
+upgradeItemLore:
+- '&a在强化NPC处升级物品'
+- '&a最高级为$orbLevel'

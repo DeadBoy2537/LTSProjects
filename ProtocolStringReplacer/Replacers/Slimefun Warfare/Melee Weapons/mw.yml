@@ -1,0 +1,26 @@
+Options:
+  Enable: true
+  Priority: 32
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Melee Weapons
+    Battle Axe: 战斧
+    Osmium Sword: 锇剑
+    Energy Blade: 能量光剑
+    # Intro
+    This axe is designed for battle. No more annoying cooldowns!: 这把斧头是为战斗设计的。不再有烦人的冷却时间！
+    Heavy in the hand: 握在手里很重
+    Known in some circles as a "lightsaber",: 在一些圈子里被称为"光剑"
+    this advanced sword uses pure energy to: 这种先进的剑使用纯能量
+    slice through living tissue: 来切割活组织
+    Uses 5J per hit: 每次攻击使用 5J

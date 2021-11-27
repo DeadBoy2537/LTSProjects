@@ -1,0 +1,92 @@
+questTierSelectorMenuTitle: '[EM] 选择公会等级'
+lowTierWarning: '&c精英怪物不会掉落更好的战利品！'
+normalTierWarning: '&a精英怪物会掉落更好的战利品！'
+notEnoughCurrencyMessages: '&7[精英怪物] &4你的精英币不足($neededAmount $currencyName)！ 请出售一些精英怪物装备来换取精英币[/em\n  shop]！ 你现在拥有$currentAmount $currencyName。'
+unlockMessages: "&7[精英怪物] &a你$price $currencyName解锁了$rankName&a级公会用。\n&6狩猎愉快！"
+questCompleteBroadcastMessages: '&7[精英怪物] &a$player&a达到了$rankName &a公会等级！'
+failedMessages: '&7[精英怪物] &c你需要先解锁其它公会等级！'
+spawnRateModifierMessages: '&f精英怪物生成率倍数：&c$modifier%'
+lootModifierMessages: '&f精英怪物战利品倍数：&a$modifier%'
+difficultyModifierMessages: '&f精英怪物难度倍数：&c$modifier%'
+lootTierMessages: '&2精英怪物最高可掉落$tier级的战利品！'
+currencyBonusMessages: '&a增加$amount%杀怪和任务获得的精英币！'
+healthBonusMessages: '&c增加$amount❤血量上限'
+critBonusMessages: '&e增加$amount%的暴击率'
+dodgeBonusMessages: '&8增加$amount%的闪避率'
+unlockedButtons:
+  material: GRAY_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a该等级已解锁！
+  - §f你可以选择该等级了。
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+lockedButtons:
+  material: RED_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a该等级未解锁！
+  - §c你需要先达到$previousRank级！
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+currentButtons:
+  material: GREEN_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a§a这是你的公会等级！
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+nextButtons:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: 声望 $prestigeNumber
+  lore:
+  - §6这是你可以解锁的下一级公会
+  - §a准备好了的话就选择这个等级吧！
+  - §6消耗$price §6$currencyName
+  - §f你拥有§a$currentCurrency $currencyName
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+prestigeLockedButtons:
+  material: RED_STAINED_GLASS
+  name: 声望 $rank
+  lore:
+  - §f§m-------------------------------
+  - §4你必须先解锁所有等级的公会！
+  - §f§m-------------------------------
+prestigeNextUnlockButtons:
+  material: GOLD_BLOCK
+  name: 声望 $rank
+  lore:
+  - §f§m-------------------------------
+  - §2你现在可以解锁声望了！
+  -  §6消耗$price §6$currencyName
+  -  §c购买声望会重置公会等级
+  -  §a但你可以解锁：
+  -  §a- 更高级的公会
+  -  §a- 更高级的战利品
+  -  §a- 杀怪和任务获得更多精英币
+  -  §a- 更高的血量上限
+  -  §a- 暴击率
+  -  §a- 闪避率
+  -  §4警告：这会重置你当前的
+  -  §4精英怪物物品和精英币！
+  - §f§m-------------------------------

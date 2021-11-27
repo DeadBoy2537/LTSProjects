@@ -1,0 +1,29 @@
+Options:
+  Enable: true
+  Priority: 30
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+    
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Tools
+    Bandaid: 已安装模块
+    FAST_DIGGING: 快速挖掘
+    HEALTH_BOOST: 生命提升
+    Flight: 飞行
+    Enable: 启用
+    Disable: 禁用
+    Speed: 速度
+    Fluid Held: 所含液体
+    NO_FLUID: 无液体
+    WATER: 水
+    LAVA: 岩浆
+    Amount: 总额

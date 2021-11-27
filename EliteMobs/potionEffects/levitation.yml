@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 飘浮
+onHitDuration: 5
+value: 50.0

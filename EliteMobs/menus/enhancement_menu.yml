@@ -1,0 +1,44 @@
+shopName: '[EM] 强化菜单'
+infoButtonSlot: 4
+eliteItemInputInformationSlot: 20
+eliteItemInputSlot: 29
+eliteUpgradeOrbInputInformationSlot: 22
+eliteUpgradeOrbInputSlot: 31
+informationOutputButtonSlot: 24
+outputSlot: 33
+cancelButtonSlot: 27
+confirmRepairSlot: 35
+outputInformationButton:
+  material: RED_BANNER
+  name: §2输出格
+  lore:
+  - §a这里显示你的升级结果！
+cancelButton:
+  material: BARRIER
+  name: §4取消
+  lore:
+  - §c取消升级
+eliteUpgradeOrbInputInformationButton:
+  material: GREEN_BANNER
+  name: §2升级球输入格
+  lore:
+  - §a在这里放置你的精英物品升级球！
+eliteItemInputInformationButton:
+  material: GREEN_BANNER
+  name: §2精英物品输入格
+  lore:
+  - §a在这里放置你的精英物品！
+infoButton:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs&r&c插件开发者：&4&lMagmaGuy'
+  lore:
+  - '&8译者：qsefthuopq'
+  - '&a用高于精英物品一级的'
+  - '升级球来升级'
+  - 你的精英物品！
+  owner: magmaguy
+confirmButton:
+  material: EMERALD
+  name: §2确认
+  lore:
+  - §a确认升级物品

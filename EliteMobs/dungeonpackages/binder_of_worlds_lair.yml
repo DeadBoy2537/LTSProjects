@@ -1,0 +1,24 @@
+isEnabled: false
+name: Binder Of Worlds
+dungeonLocationType: WORLD
+customInfo:
+- '&5准备好面临终极挑战吧！'
+- '&6制作者：MagmaGuy & 69OzCanOfBepis'
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: LAIR
+worldName: em_binder_of_worlds
+environment: THE_END
+protect: true
+rotation: 0
+teleportPoint: 0,0,0
+teleportPointPitch: 0.0
+teleportPointYaw: 0.0
+dungeonVersion: 1
+playerInfo: |-
+  Difficulty: &6Nightmare
+  $bossCount level $highestTier final boss!
+  &5This is the hardest fight in EliteMobs!
+regionEnterMessage: '&8[EM] &5Reality unravels around you. You face the final challenge.
+  &4You are not prepared!'
+regionLeaveMessage: '&8[EM] &5You have left the unravelling. Did you find what you
+  sought? Was it worth it?'

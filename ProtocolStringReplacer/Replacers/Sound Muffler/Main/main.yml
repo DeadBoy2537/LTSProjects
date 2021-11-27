@@ -1,0 +1,27 @@
+Options:
+  Enable: true
+  Priority: 30
+  Version: '1.20210728'
+  Author: Rothes
+  Match-Type: contain
+  Filter:
+    Listen-Types:
+    - itemstack
+    - window-title
+    - chat
+    - entity
+Replaces:
+  # 常规文本替换模式.
+  Common:
+    # Sound Muffler - Main
+    SoundMuffler: 消声器
+    Sound Muffler: 消声器
+    Muffles all sound in a: 在半径为8方块内进行所有声音
+    8 block radius: 的消声/调节音量
+    Requires power to use: 需要连接电源才能使用
+    # Sound Muffler - GUI
+    Volume: 音量
+    'Valid value range: 0-100': '音量有效值范围: 0-100'
+    L-click: 左键
+    R-click: 右键
+    With shift held: 按住潜行

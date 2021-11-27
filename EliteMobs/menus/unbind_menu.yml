@@ -1,0 +1,41 @@
+shopName: '[EM] 解绑菜单'
+infoButtonSlot: 4
+eliteItemInputInformationSlot: 20
+eliteItemInputSlot: 29
+unbindScrollInputInformationSlot: 22
+unbindScrollInputSlot: 31
+informationOutputButtonSlot: 24
+outputSlot: 33
+cancelButtonSlot: 27
+confirmUnbindSlot: 35
+infoButton:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&c插件作者：&4&lMagmaGuy'
+  lore:
+  - '&a用&5解绑卷轴&a来移除物品的灵魂绑定！'
+  owner: magmaguy
+eliteItemInputInformationButton:
+  material: GREEN_BANNER
+  name: §2精英物品输入格
+  lore:
+  - §a这里放你的精英物品
+unbindScrollInputInformationButton:
+  material: GREEN_BANNER
+  name: §5解绑卷轴§a输入格
+  lore:
+  - §a这里放你的§9解绑卷轴
+outputInformationButton:
+  material: RED_BANNER
+  name: §2解绑物品输出格
+  lore:
+  - §a这里预览你的解绑结果
+cancelButton:
+  material: BARRIER
+  name: §4取消
+  lore:
+  - §c取消解绑
+confirmButton:
+  material: EMERALD
+  name: §2确认
+  lore:
+  - §a确认解绑物品

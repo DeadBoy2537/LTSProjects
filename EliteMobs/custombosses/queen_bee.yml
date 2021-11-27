@@ -1,0 +1,23 @@
+isEnabled: true
+entityType: BEE
+name: $eventBossLevel &6蜂后
+level: dynamic
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList:
+- the_stinger.yml:1
+powers:
+- summonable:summonType=ON_HIT:chance=0.5:filename=imperial_bee_guard.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails:
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- SMOKE_LARGE
+- FLAME
+- FLAME
+phases: []

@@ -1,0 +1,7 @@
+---
+isEnabled: true
+entityType: SILVERFISH
+name: '&fLvl &2$level &fElite &7Silverfish'
+deathMessages:
+  - '$player &cmistook $entity &cfor a stone block！'
+baseDamage: 1.0

@@ -1,0 +1,18 @@
+isEnabled: true
+material: FISHING_ROD
+name: '&2深渊探索者'
+lore:
+- '&9来自无底深渊'
+- '&9取自至恶怪物'
+- '&9不知这根鱼竿'
+- '&9见过何等恐怖'
+enchantments:
+- LURE,3
+- LUCK,3
+- DURABILITY,10
+- FIRE_ASPECT,1
+- VANISHING_CURSE,1
+potionEffects:
+- WATER_BREATHING,0,self,continuous
+- LUCK,0,self,continuous
+itemType: unique

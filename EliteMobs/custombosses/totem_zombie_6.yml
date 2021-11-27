@@ -1,0 +1,23 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel 图腾僵尸
+level: dynamic
+healthMultiplier: 1.5
+damageMultiplier: 1.5
+isBaby: true
+onDeathCommands: []
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages: []
+uniqueLootList: []
+powers:
+- attack_wither.yml
+- bonus_loot.yml
+onDamageMessages: []
+onDamagedMessages: []
+trails: []
+phases: []
+followDistance: 100
+helmet: LEATHER_HELMET
+cullReinforcements: false

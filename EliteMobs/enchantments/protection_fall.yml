@@ -1,0 +1,5 @@
+---
+isEnabled: true
+name: 摔落保护
+maxLevel: 4
+value: 6.0
