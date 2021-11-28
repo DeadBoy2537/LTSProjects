@@ -4,7 +4,7 @@ name: "Automatic Releases"
 on:
   push:
     branches:
-      - "master"
+      - "backup"
 
 jobs:
   release:
