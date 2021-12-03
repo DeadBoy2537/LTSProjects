@@ -107,9 +107,9 @@ items:
     update: true
     material: OAK_SIGN
     slot: 32
-    display_name: '§6服务器全部玩家名字'
+    display_name: '§6服务器在线玩家名字'
     lore:
-    - '§6服务器全部玩家名字: §4%playerlist_all,normal,yes,list%'
+    - '§6服务器在线玩家名字: §4%playerlist_online,normal,yes,list%'
   nextmenu:
     material: GREEN_STAINED_GLASS_PANE
     slot: 40
