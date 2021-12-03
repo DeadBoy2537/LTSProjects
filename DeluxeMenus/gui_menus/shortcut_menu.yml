@@ -97,7 +97,7 @@ items:
   em:
     material: BOOKSHELF
     slot: 25
-    display_name: '§6打开EliteMobs菜单（仅Java版）'
+    display_name: '§6打开EliteMobs菜单 (仅Java版)'
     left_click_commands:
     - '[message] 打开EliteMobs菜单'
     - '[player] em'

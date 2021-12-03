@@ -61,13 +61,13 @@ items:
   em_adventurers_guild:
     material: MAP
     slot: 13
-    display_name: '§9EliteMobs-冒险者公会（主城）'
+    display_name: '§9EliteMobs-冒险者公会 (主城)'
     left_click_commands:
-    - '[message] EliteMobs-冒险者公会（主城）'
+    - '[message] EliteMobs-冒险者公会 (主城)'
     - '[player] ag'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
     right_click_commands:
-    - '[message] EliteMobs-冒险者公会（主城）'
+    - '[message] EliteMobs-冒险者公会 (主城)'
     - '[player] ag'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
   em_binder_of_worlds:
@@ -83,7 +83,7 @@ items:
     - '[player] em dungeontp binder_of_worlds_lair.yml'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
   em_hallosseum:
-    material: BOOK
+    material: MAP
     slot: 19
     display_name: '§5EliteMobs-Hallosseum'
     left_click_commands:
@@ -132,7 +132,7 @@ items:
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
   em_fireworks:
     material: MAP
-    slot: 30
+    slot: 31
     display_name: '§6EliteMobs-Fireworks'
     left_click_commands:
     - '[message] EliteMobs-Fireworks'

@@ -103,13 +103,13 @@ items:
     display_name: '§6个人所持资产'
     lore:
     - '§6个人所持资产: §4%vault_eco_balance%'
-  worldqt:
+  playercount:
     update: true
-    material: MAP
+    material: OAK_SIGN
     slot: 32
-    display_name: '§6服务器世界数量'
+    display_name: '§6服务器全部玩家名字'
     lore:
-    - '§6服务器世界数量: §4%aac_world%'
+    - '§6服务器全部玩家名字: §4%playerlist_all,normal,yes,list%'
   nextmenu:
     material: GREEN_STAINED_GLASS_PANE
     slot: 40
