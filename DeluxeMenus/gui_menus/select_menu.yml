@@ -71,3 +71,15 @@ items:
     - '[message] 已打开快捷菜单'
     - '[openguimenu] shortcut_menu'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  world_menu:
+    material: ENCHANTED_BOOK
+    slot: 31
+    display_name: '§6前往世界菜单'
+    left_click_commands:
+    - '[message] 已打开世界菜单'
+    - '[openguimenu] world_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] 已打开世界菜单'
+    - '[openguimenu] world_menu'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'

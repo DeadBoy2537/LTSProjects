@@ -94,17 +94,17 @@ items:
     - '[message] 已获取种族说明书'
     - '[player] plr gethelpbook'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  job:
+  em:
     material: BOOKSHELF
     slot: 25
-    display_name: '§6选择职业'
+    display_name: '§6打开EliteMobs菜单（仅Java版）'
     left_click_commands:
-    - '[message] 请选择你的职业'
-    - '[player] job list'
+    - '[message] 打开EliteMobs菜单'
+    - '[player] em'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
     right_click_commands:
-    - '[message] 请选择你的职业'
-    - '[player] job list'
+    - '[message] 打开EliteMobs菜单'
+    - '[player] em'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
   pltshop:
     material: NAME_TAG

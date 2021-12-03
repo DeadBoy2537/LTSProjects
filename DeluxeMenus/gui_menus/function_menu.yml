@@ -58,7 +58,7 @@ items:
     - '[message] 你的坐标已被公布'
     - '[console] say §6玩家 §4%player_name% §6所在坐标 §4%player_world% X: %player_x% Y: %player_y% Z: %player_z%'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  tps:
+  afk:
     material: OBSERVER
     slot: 22
     display_name: '§a挂机模式'

@@ -1,0 +1,144 @@
+menu_title: '&fLeafTown世界菜单'
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_BELL'
+  - '[message] 已打开LeafTown世界菜单!'
+update_interval: 1
+size: 54
+args:
+  menu: -1
+items:
+  menu:
+    material: WHITE_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 17
+    - 26
+    - 35
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: '[菜单边界]'
+    lore:
+    - '左键以§4关闭菜单'
+    - '右键回到§1主菜单'
+    left_click_commands:
+    - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+    - '[close]'
+    - '[message] 已关闭菜单!'
+    right_click_commands:
+    - '[openguimenu] main_menu'
+  world:
+    material: MAP
+    slot: 10
+    display_name: '§a传送至主世界'
+    left_click_commands:
+    - '[message] 已传送至主世界'
+    - '[player] warp overworld'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] 已传送至主世界'
+    - '[player] warp overworld'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_adventurers_guild:
+    material: MAP
+    slot: 13
+    display_name: '§9EliteMobs-冒险者公会（主城）'
+    left_click_commands:
+    - '[message] EliteMobs-冒险者公会（主城）'
+    - '[player] ag'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-冒险者公会（主城）'
+    - '[player] ag'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_binder_of_worlds:
+    material: MAP
+    slot: 16
+    display_name: '§aEliteMobs-Binder Of Worlds'
+    left_click_commands:
+    - '[message] EliteMobs-Binder Of Worlds'
+    - '[player] em dungeontp binder_of_worlds_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-Binder Of Worlds'
+    - '[player] em dungeontp binder_of_worlds_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_hallosseum:
+    material: BOOK
+    slot: 19
+    display_name: '§5EliteMobs-Hallosseum'
+    left_click_commands:
+    - '[message] EliteMobs-Hallosseum'
+    - '[player] em dungeontp hallosseum_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-Hallosseum'
+    - '[player] em dungeontp hallosseum_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_invasion:
+    material: MAP
+    slot: 25
+    display_name: '§6EliteMobs-The Invasion'
+    left_click_commands:
+    - '[message] EliteMobs-The Invasion'
+    - '[player] em dungeontp invasion_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-The Invasion'
+    - '[player] em dungeontp invasion_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_north_pole:
+    material: MAP
+    slot: 28
+    display_name: '§gEliteMobs-The North Pole'
+    left_click_commands:
+    - '[message] EliteMobs-The North Pole'
+    - '[player] em dungeontp north_pole_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-The North Pole'
+    - '[player] em dungeontp north_pole_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_sewer_maze:
+    material: MAP
+    slot: 34
+    display_name: '§eEliteMobs-The Sewers'
+    left_click_commands:
+    - '[message] EliteMobs-The Sewers'
+    - '[player] em dungeontp sewers_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-The Sewers'
+    - '[player] em dungeontp sewers_minidungeon.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  em_fireworks:
+    material: MAP
+    slot: 30
+    display_name: '§6EliteMobs-Fireworks'
+    left_click_commands:
+    - '[message] EliteMobs-Fireworks'
+    - '[player] em dungeontp fireworks_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[message] EliteMobs-Fireworks'
+    - '[player] em dungeontp fireworks_lair.yml'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
