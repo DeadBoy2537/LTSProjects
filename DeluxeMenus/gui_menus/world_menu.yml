@@ -142,3 +142,15 @@ items:
     - '[message] EliteMobs-Fireworks'
     - '[player] em dungeontp fireworks_lair.yml'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  flat_world:
+      material: MAP
+      slot: 40
+      display_name: '§6超平坦创造世界'
+      left_click_commands:
+      - '[message] 超平坦创造世界'
+      - '[player] warp flatworld'
+      - '[sound] BLOCK_NOTE_BLOCK_HARP'
+      right_click_commands:
+      - '[message] 超平坦创造世界'
+      - '[player] warp flatworld'
+      - '[sound] BLOCK_NOTE_BLOCK_HARP'
