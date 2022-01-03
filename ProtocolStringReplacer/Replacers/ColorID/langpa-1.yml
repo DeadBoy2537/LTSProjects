@@ -7,19 +7,17 @@ Options:
   Filter:
     Listen-Types:
     - itemstack
-    - entity
-    - chat
     
 Replaces:
   # 常规文本替换模式.
   Common:
     # ColorID
     White: 白色
-    Orange: 橘子/橙色
+    Orange: 橘子 (橙色)
     Magenta: 洋红色
     Light Blue: 浅蓝色
     Yellow: 黄色
-    Lime: 酸橙/浅绿色
+    Lime: 酸橙 (浅绿色)
     Pink: 粉色
     Dark Gray: 深灰色
     Light Gray: 浅灰色
