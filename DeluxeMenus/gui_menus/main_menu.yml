@@ -52,7 +52,7 @@ items:
     update: true
     material: head-%player_name%
     slot: 13
-    display_name: '§6%player_name% 的数据'
+    display_name: '§b%player_name% 的数据'
     lore:
     - '§6玩家名字: §4%player_name% (UUID: %player_uuid%)'
     - '§6是否为OP: §4%player_is_op%'
@@ -72,7 +72,7 @@ items:
     update: true
     material: OBSERVER
     slot: 20
-    display_name: '§6服务器数据'
+    display_name: '§b服务器数据'
     lore:
     - '§6服务器名字: §4%server_name%'
     - '§6服务器人数: §4%server_online%/%server_max_players%'
@@ -88,7 +88,7 @@ items:
     update: true
     material: OAK_SIGN
     slot: 24
-    display_name: '§6世界数据'
+    display_name: '§b世界数据'
     lore:
     - '§6世界名字: §4%world_name_world%'
     - '§6世界难度: §4%world_difficulty_world%'
@@ -100,20 +100,20 @@ items:
     update: true
     material: PAPER
     slot: 30
-    display_name: '§6个人所持资产'
+    display_name: '§b个人所持资产'
     lore:
     - '§6个人所持资产: §4%vault_eco_balance%'
   playercount:
     update: true
     material: OAK_SIGN
     slot: 32
-    display_name: '§6服务器在线玩家名字'
+    display_name: '§b服务器在线玩家名字'
     lore:
     - '§6服务器在线玩家名字: §4%playerlist_online,normal,yes,list%'
   nextmenu:
     material: GREEN_STAINED_GLASS_PANE
     slot: 40
-    display_name: '§a前往 菜单选择页面'
+    display_name: '§b前往 菜单选择页面'
     left_click_commands:
     - '[openguimenu] select_menu'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
