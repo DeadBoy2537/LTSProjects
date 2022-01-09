@@ -58,18 +58,6 @@ items:
     - '[message] 已传送至主世界'
     - '[player] warp overworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  em_adventurers_guild:
-    material: MAP
-    slot: 13
-    display_name: '§9EliteMobs-冒险者公会 (主城)'
-    left_click_commands:
-    - '[message] EliteMobs-冒险者公会 (主城)'
-    - '[player] ag'
-    - '[sound] BLOCK_NOTE_BLOCK_HARP'
-    right_click_commands:
-    - '[message] EliteMobs-冒险者公会 (主城)'
-    - '[player] ag'
-    - '[sound] BLOCK_NOTE_BLOCK_HARP'
   flat_world:
     material: MAP
     slot: 16
