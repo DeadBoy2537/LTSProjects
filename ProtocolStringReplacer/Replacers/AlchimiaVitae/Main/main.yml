@@ -3,7 +3,6 @@ Options:
   Priority: 35
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - Chat
@@ -11,12 +10,17 @@ Options:
     - Title
     - itemstack
     - window-title
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Alchimia Vitae
-    Alchimia Vitae: 炼金术士
-    §6Alchimia Vitae §7- §2General: §6炼金术士 §7- §2一般物品
-    §6Alchimia Vitae §7- §5Altar Transformation Recipes: §6炼金术士 §7- §5祭坛与物品配方
-    §6Alchimia Vitae §7- §dInfusion: §6炼金术士 §7- §d改造与灌注
+  Common:
+  - Original: Alchimia Vitae
+    Replacement: 炼金术士
+  - Original: §6Alchimia Vitae §7- §2General
+    Replacement: §6炼金术士 §7- §2一般物品
+  - Original: §6Alchimia Vitae §7- §5Altar Transformation Recipes
+    Replacement: §6炼金术士 §7- §5祭坛与物品配方
+  - Original: §6Alchimia Vitae §7- §dInfusion
+    Replacement: §6炼金术士 §7- §d改造与灌注

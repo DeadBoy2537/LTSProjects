@@ -3,7 +3,6 @@ Options:
   Priority: 33
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - Chat
@@ -11,28 +10,46 @@ Options:
     - Title
     - itemstack
     - window-title
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Slimefun Warfare
-    Slimefun Warfare: 粘液科技战争
-    Slimefun Warfare - General: 粘液科技战争 - 一般物品
-    Slimefun Warfare - Machines: 粘液科技战争 - 机器
-    Slimefun Warfare - Guns: 粘液科技战争 - 枪械
-    Slimefun Warfare - Melee Weapons: 粘液科技战争 - 近战武器
-    Slimefun Warfare - Explosives: 粘液科技战争 - 炸药
-    Slimefun Warfare - Resources: 粘液科技战争 - 资源
-    Slimefun Warfare - Power Suits: 粘液科技战争 - 能量装备
-    When In Main Hand: 放在主手时
-    Attack Damage: 攻击伤害
-    Attack Speed: 攻击速度
-    Enter a new encryption key: 输入新的加密密钥
     # Chat
-    The gun is still reloading!: 这把枪还在装填弹药!
-    You have run out of bullets!: 你没子弹了!
     # Entity
-    Dummy: 训练假人
     # Title
-    You have dealt: 你对训练假人造成了
-    half-hearts of damage: 点伤害 (四舍五入)
+  Common:
+  - Original: Slimefun Warfare
+    Replacement: 粘液科技战争
+  - Original: Slimefun Warfare - General
+    Replacement: 粘液科技战争 - 一般物品
+  - Original: Slimefun Warfare - Machines
+    Replacement: 粘液科技战争 - 机器
+  - Original: Slimefun Warfare - Guns
+    Replacement: 粘液科技战争 - 枪械
+  - Original: Slimefun Warfare - Melee Weapons
+    Replacement: 粘液科技战争 - 近战武器
+  - Original: Slimefun Warfare - Explosives
+    Replacement: 粘液科技战争 - 炸药
+  - Original: Slimefun Warfare - Resources
+    Replacement: 粘液科技战争 - 资源
+  - Original: Slimefun Warfare - Power Suits
+    Replacement: 粘液科技战争 - 能量装备
+  - Original: When In Main Hand
+    Replacement: 放在主手时
+  - Original: Attack Damage
+    Replacement: 攻击伤害
+  - Original: Attack Speed
+    Replacement: 攻击速度
+  - Original: Enter a new encryption key
+    Replacement: 输入新的加密密钥
+  - Original: The gun is still reloading!
+    Replacement: 这把枪还在装填弹药!
+  - Original: You have run out of bullets!
+    Replacement: 你没子弹了!
+  - Original: Dummy
+    Replacement: 训练假人
+  - Original: You have dealt
+    Replacement: 你对训练假人造成了
+  - Original: half-hearts of damage
+    Replacement: 点伤害 (四舍五入)

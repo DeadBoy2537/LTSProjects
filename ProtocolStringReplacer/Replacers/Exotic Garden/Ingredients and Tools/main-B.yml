@@ -3,15 +3,16 @@ Options:
   Priority: 31
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Ingredients and Tools
-    Mustard: 芥末
+  Common:
+  - Original: Mustard
+    Replacement: 芥末

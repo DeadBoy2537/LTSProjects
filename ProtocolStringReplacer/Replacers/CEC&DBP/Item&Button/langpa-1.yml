@@ -3,24 +3,33 @@ Options:
   Priority: 33
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Colored Ender Chests
-    Colored Ender Chests: 彩色末影箱
-    Colored Ender Chest: 彩色末影箱
     # Dyed Backpacks
-    Dyed Backpacks: 彩色背包
-    Small Backpack: 小型背包
-    Backpack: 背包
-    Large Backpack: 大型背包
-    Woven Backpack: 编织背包
-    Gilded Backpack: 镀金背包
-    Radiant Backpack: 金光闪闪的背包
+  Common:
+  - Original: Colored Ender Chests
+    Replacement: 彩色末影箱
+  - Original: Colored Ender Chest
+    Replacement: 彩色末影箱
+  - Original: Dyed Backpacks
+    Replacement: 彩色背包
+  - Original: Small Backpack
+    Replacement: 小型背包
+  - Original: Backpack
+    Replacement: 背包
+  - Original: Large Backpack
+    Replacement: 大型背包
+  - Original: Woven Backpack
+    Replacement: 编织背包
+  - Original: Gilded Backpack
+    Replacement: 镀金背包
+  - Original: Radiant Backpack
+    Replacement: 金光闪闪的背包

@@ -3,16 +3,18 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Colored Ender Chests
-    Big: 大的
-    Small: 小的
+  Common:
+  - Original: Big
+    Replacement: 大的
+  - Original: Small
+    Replacement: 小的

@@ -3,56 +3,97 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Power Suits
-    Element Forge: 元件锻造台
-    Power Suit Generator: 能量装备动力核心
-    Module Case: 模块箱
-    Power Suit Helmet: 能量头盔
-    Power Suit Chestplate: 能量盔甲
-    Power Suit Leggings: 能量护腿
-    Power Suit Boots: 能量靴子
-    Module Manipulator: 模块操纵器
-    Nanofober Cushion: 纳米纤维垫
-    Mini Jets: 小型喷气式飞机
-    Life Support Systems: 生命保障系统
-    Heat Sinks: 散热片
-    Integrated Hydraulics: 力量增强模块
-    Reaction Wheels: 反作用轮
-    Personal Energy Shield: 个人能量盾
-    AquaMask: 水面膜
-    Electronic Springs: 电子弹簧
-    Auxiliary Generator: 备用动力核心
     # Intro
-    Used to create new elements: 用于创建新元件
-    Multiblock Structure: 多方块结构
-    The central power: 任何能量
-    source of any power: 装备的中心
-    suit: 动力源
-    A powerful piece of armor: 一种强大的盔甲
-    that is designed to be modified.: 可以用于改装
-    Allows you to install, uninstall: 允许你安装、卸载
-    and view modules: 与查看模块
-    This module keeps you from: 此模块可以防止
-    taking fall damage: 你受到摔落伤害
-    Gives you creative flight: 给你创造的飞行模式
-    Regeneration: 生命恢复
-    Fire Resistance: 防火
-    Increase Damage: 力量
-    This module makes you: 这个模块可以让
-    sprint faster: 你更快地冲刺
-    Damage Resistance: 抗性提升
-    Conduit Power: 潮涌能量
-    Jump: 跳跃提升
-    Boosts the suit's energy production: 增加能量装备的总电量
-    Mini Pistons: 迷你活塞
-    Fast Digging: 快速挖掘
+  Common:
+  - Original: Element Forge
+    Replacement: 元件锻造台
+  - Original: Power Suit Generator
+    Replacement: 能量装备动力核心
+  - Original: Module Case
+    Replacement: 模块箱
+  - Original: Power Suit Helmet
+    Replacement: 能量头盔
+  - Original: Power Suit Chestplate
+    Replacement: 能量盔甲
+  - Original: Power Suit Leggings
+    Replacement: 能量护腿
+  - Original: Power Suit Boots
+    Replacement: 能量靴子
+  - Original: Module Manipulator
+    Replacement: 模块操纵器
+  - Original: Nanofober Cushion
+    Replacement: 纳米纤维垫
+  - Original: Mini Jets
+    Replacement: 小型喷气式飞机
+  - Original: Life Support Systems
+    Replacement: 生命保障系统
+  - Original: Heat Sinks
+    Replacement: 散热片
+  - Original: Integrated Hydraulics
+    Replacement: 力量增强模块
+  - Original: Reaction Wheels
+    Replacement: 反作用轮
+  - Original: Personal Energy Shield
+    Replacement: 个人能量盾
+  - Original: AquaMask
+    Replacement: 水面膜
+  - Original: Electronic Springs
+    Replacement: 电子弹簧
+  - Original: Auxiliary Generator
+    Replacement: 备用动力核心
+  - Original: Used to create new elements
+    Replacement: 用于创建新元件
+  - Original: Multiblock Structure
+    Replacement: 多方块结构
+  - Original: The central power
+    Replacement: 任何能量
+  - Original: source of any power
+    Replacement: 装备的中心
+  - Original: suit
+    Replacement: 动力源
+  - Original: A powerful piece of armor
+    Replacement: 一种强大的盔甲
+  - Original: that is designed to be modified.
+    Replacement: 可以用于改装
+  - Original: Allows you to install, uninstall
+    Replacement: 允许你安装、卸载
+  - Original: and view modules
+    Replacement: 与查看模块
+  - Original: This module keeps you from
+    Replacement: 此模块可以防止
+  - Original: taking fall damage
+    Replacement: 你受到摔落伤害
+  - Original: Gives you creative flight
+    Replacement: 给你创造的飞行模式
+  - Original: Regeneration
+    Replacement: 生命恢复
+  - Original: Fire Resistance
+    Replacement: 防火
+  - Original: Increase Damage
+    Replacement: 力量
+  - Original: This module makes you
+    Replacement: 这个模块可以让
+  - Original: sprint faster
+    Replacement: 你更快地冲刺
+  - Original: Damage Resistance
+    Replacement: 抗性提升
+  - Original: Conduit Power
+    Replacement: 潮涌能量
+  - Original: Jump
+    Replacement: 跳跃提升
+  - Original: Boosts the suit's energy production
+    Replacement: 增加能量装备的总电量
+  - Original: Mini Pistons
+    Replacement: 迷你活塞
+  - Original: Fast Digging
+    Replacement: 快速挖掘

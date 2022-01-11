@@ -3,16 +3,17 @@ Options:
   Priority: 31
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
-  # 描述
   #喜欢的食物
-    Seeds: 种子
+  # 描述
+  Common:
+  - Original: Seeds
+    Replacement: 种子

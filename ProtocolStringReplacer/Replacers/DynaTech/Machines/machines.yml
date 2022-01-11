@@ -3,66 +3,117 @@ Options:
   Priority: 35
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - window-title
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Machines
-    Auto Kitchen: 自动厨房
-    Automatically makes Kitchen recipes: 根据厨房食谱自动制作食物
-    Smells like cookies: 闻起来像曲奇
-    Growth Chamber: 植物生长室
-    Automatically grows §eplants: 自动种植§e植物
-    Its like a small greenhouse: 看起来像一个小温室
-    production: 生长速率
-    End Growth Chamber: 末地植物生长室
-    Automatically grows §dchorus flowers: 自动种植§d紫颂花
-    Nether Growth Chamber: 下界植物生长室
-    Automatically grows §cnether §fplants: 自动种植§c下界§f植物
-    Ocean Growth Chamber: 海洋植物生长室
-    Automatically grows §9water §fplants: 自动种植§9水生§f植物
-    Can revive dead coral: 能使死珊瑚复活
-    Antigravity Bubble: 反重力泡
-    Creative Flight within an 45 block area: 使半径45方块内区域的玩家可以飞行
-    Weather Controller: 天气控制器
-    Controls the weather when given a key item: 在给定关键物品时控制天气
-    Potion Sprinkler: 药水喷洒器
-    Ranged Multiple person potion effect applier: 远程多人药水效果施放器
-    Barbed Wire: 铁丝网
-    Pushes mobs away in a radius: 推开半径范围内的怪物
-    Material Hive: 材料蜂巢
-    Using power and bees, slowly generates materials: 使用电力和蜜蜂，慢慢产生材料
-    Wireless Charger: 无线充电器
-    Wireless charge items in your inventory: 为你物品栏中的物品无线充电
-    Seed Plucker: 种子采摘器
-    Pull seeds out of plant based items: 将种子从植物中提取出来
-    Item Band Manager: 物品模块管理器
-    Manages Item Bands: 管理物品模块
-    Orechid: 矿石转换器
-    Using Stone or Netherack and power, it makes their respective ores: 使用石头或下界岩，将它们转换为矿石
-    per block converted: 每个转换的方块所使用
-    Wireless Energy Bank: 无线能量储存库
-    Stores power for an: 使用无线能量节点
-    Wireless Energy Point to use: 储存无线能量
-    Wireless Energy Point: 无线能量节点
-    Transfers Energy Wirelessly: 使用无线能量储存库
-    from a Wireless Energy Bank: 来传输无线能量
-    Right Click on the Wireless Energy Bank to connect: 右键无线能量储存库来连接
-    Wireless Item Input: 无线物品输入端
-    Transfer Items Wirelessly: 无线传输物品到
-    to Wireless Item Output: 无线物品输出端
-    per stack of items: 每组物品所使用
-    Wireless Item Output: 无线物品输出端
-    Transfers Items Wirelessly: 从无线物品输出端中
-    from Wireless Item Input: 传输物品
-    Right Click on the Wireless Item Output to connect: 右键无线物品输入端来连接
-    Transfers Items and Energy Wirelessly: 无线传输物品与能量
-    These are even 2-way: 甚至是双向的
-    Right Click on another Tesseract to connect: 右键其他的超立方体来连接
+  Common:
+  - Original: Auto Kitchen
+    Replacement: 自动厨房
+  - Original: Automatically makes Kitchen recipes
+    Replacement: 根据厨房食谱自动制作食物
+  - Original: Smells like cookies
+    Replacement: 闻起来像曲奇
+  - Original: Growth Chamber
+    Replacement: 植物生长室
+  - Original: Automatically grows §eplants
+    Replacement: 自动种植§e植物
+  - Original: Its like a small greenhouse
+    Replacement: 看起来像一个小温室
+  - Original: production
+    Replacement: 生长速率
+  - Original: End Growth Chamber
+    Replacement: 末地植物生长室
+  - Original: Automatically grows §dchorus flowers
+    Replacement: 自动种植§d紫颂花
+  - Original: Nether Growth Chamber
+    Replacement: 下界植物生长室
+  - Original: Automatically grows §cnether §fplants
+    Replacement: 自动种植§c下界§f植物
+  - Original: Ocean Growth Chamber
+    Replacement: 海洋植物生长室
+  - Original: Automatically grows §9water §fplants
+    Replacement: 自动种植§9水生§f植物
+  - Original: Can revive dead coral
+    Replacement: 能使死珊瑚复活
+  - Original: Antigravity Bubble
+    Replacement: 反重力泡
+  - Original: Creative Flight within an 45 block area
+    Replacement: 使半径45方块内区域的玩家可以飞行
+  - Original: Weather Controller
+    Replacement: 天气控制器
+  - Original: Controls the weather when given a key item
+    Replacement: 在给定关键物品时控制天气
+  - Original: Potion Sprinkler
+    Replacement: 药水喷洒器
+  - Original: Ranged Multiple person potion effect applier
+    Replacement: 远程多人药水效果施放器
+  - Original: Barbed Wire
+    Replacement: 铁丝网
+  - Original: Pushes mobs away in a radius
+    Replacement: 推开半径范围内的怪物
+  - Original: Material Hive
+    Replacement: 材料蜂巢
+  - Original: Using power and bees, slowly generates materials
+    Replacement: 使用电力和蜜蜂，慢慢产生材料
+  - Original: Wireless Charger
+    Replacement: 无线充电器
+  - Original: Wireless charge items in your inventory
+    Replacement: 为你物品栏中的物品无线充电
+  - Original: Seed Plucker
+    Replacement: 种子采摘器
+  - Original: Pull seeds out of plant based items
+    Replacement: 将种子从植物中提取出来
+  - Original: Item Band Manager
+    Replacement: 物品模块管理器
+  - Original: Manages Item Bands
+    Replacement: 管理物品模块
+  - Original: Orechid
+    Replacement: 矿石转换器
+  - Original: Using Stone or Netherack and power, it makes their respective ores
+    Replacement: 使用石头或下界岩，将它们转换为矿石
+  - Original: per block converted
+    Replacement: 每个转换的方块所使用
+  - Original: Wireless Energy Bank
+    Replacement: 无线能量储存库
+  - Original: Stores power for an
+    Replacement: 使用无线能量节点
+  - Original: Wireless Energy Point to use
+    Replacement: 储存无线能量
+  - Original: Wireless Energy Point
+    Replacement: 无线能量节点
+  - Original: Transfers Energy Wirelessly
+    Replacement: 使用无线能量储存库
+  - Original: from a Wireless Energy Bank
+    Replacement: 来传输无线能量
+  - Original: Right Click on the Wireless Energy Bank to connect
+    Replacement: 右键无线能量储存库来连接
+  - Original: Wireless Item Input
+    Replacement: 无线物品输入端
+  - Original: Transfer Items Wirelessly
+    Replacement: 无线传输物品到
+  - Original: to Wireless Item Output
+    Replacement: 无线物品输出端
+  - Original: per stack of items
+    Replacement: 每组物品所使用
+  - Original: Wireless Item Output
+    Replacement: 无线物品输出端
+  - Original: Transfers Items Wirelessly
+    Replacement: 从无线物品输出端中
+  - Original: from Wireless Item Input
+    Replacement: 传输物品
+  - Original: Right Click on the Wireless Item Output to connect
+    Replacement: 右键无线物品输入端来连接
+  - Original: Transfers Items and Energy Wirelessly
+    Replacement: 无线传输物品与能量
+  - Original: These are even 2-way
+    Replacement: 甚至是双向的
+  - Original: Right Click on another Tesseract to connect
+    Replacement: 右键其他的超立方体来连接

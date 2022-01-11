@@ -3,28 +3,44 @@ Options:
   Priority: 30
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # ColorID
-    White: 白色
-    Orange: 橘子 (橙色)
-    Magenta: 洋红色
-    Light Blue: 浅蓝色
-    Yellow: 黄色
-    Lime: 酸橙 (浅绿色)
-    Pink: 粉色
-    Dark Gray: 深灰色
-    Light Gray: 浅灰色
-    Cyan: 青色
-    Purple: 紫色
-    Blue: 蓝色
-    Brown: 棕色
-    Green: 绿色
-    Red: 红色
-    Black: 黑色
+  Common:
+  - Original: White
+    Replacement: 白色
+  - Original: Orange
+    Replacement: 橘子 (橙色)
+  - Original: Magenta
+    Replacement: 洋红色
+  - Original: Light Blue
+    Replacement: 浅蓝色
+  - Original: Yellow
+    Replacement: 黄色
+  - Original: Lime
+    Replacement: 酸橙 (浅绿色)
+  - Original: Pink
+    Replacement: 粉色
+  - Original: Dark Gray
+    Replacement: 深灰色
+  - Original: Light Gray
+    Replacement: 浅灰色
+  - Original: Cyan
+    Replacement: 青色
+  - Original: Purple
+    Replacement: 紫色
+  - Original: Blue
+    Replacement: 蓝色
+  - Original: Brown
+    Replacement: 棕色
+  - Original: Green
+    Replacement: 绿色
+  - Original: Red
+    Replacement: 红色
+  - Original: Black
+    Replacement: 黑色

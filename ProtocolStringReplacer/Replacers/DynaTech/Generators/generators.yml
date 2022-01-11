@@ -3,28 +3,41 @@ Options:
   Priority: 35
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - window-title
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Generators
-    Hydro Generator: 水力发电机
-    Hydro Turbine: 水力涡轮
-    Creates energy from flowing water: 从流动的水中供给能量
-    Dragon Egg Generator: 龙蛋发电机
-    Creates energy from the warmth of a Dragon Egg: 从龙蛋的余温中供给能量
-    Chipping Generator: 磨研发电机
-    Creates energy from broken items: 从磨碎破损的物品中获得电力
-    (Durability based items): (以耐久为基础)
-    Culinary Generator: 沼气发电机
-    Creates energy from food energy: 从食物热量中获取电力
-    Stardust Reactor: 陨星反应堆
-    Uses Star Dust to produce larges amount of power: 消耗陨星生产巨量电力
-    per durability point: 每个耐久点数所产生
+  Common:
+  - Original: Hydro Generator
+    Replacement: 水力发电机
+  - Original: Hydro Turbine
+    Replacement: 水力涡轮
+  - Original: Creates energy from flowing water
+    Replacement: 从流动的水中供给能量
+  - Original: Dragon Egg Generator
+    Replacement: 龙蛋发电机
+  - Original: Creates energy from the warmth of a Dragon Egg
+    Replacement: 从龙蛋的余温中供给能量
+  - Original: Chipping Generator
+    Replacement: 磨研发电机
+  - Original: Creates energy from broken items
+    Replacement: 从磨碎破损的物品中获得电力
+  - Original: (Durability based items)
+    Replacement: (以耐久为基础)
+  - Original: Culinary Generator
+    Replacement: 沼气发电机
+  - Original: Creates energy from food energy
+    Replacement: 从食物热量中获取电力
+  - Original: Stardust Reactor
+    Replacement: 陨星反应堆
+  - Original: Uses Star Dust to produce larges amount of power
+    Replacement: 消耗陨星生产巨量电力
+  - Original: per durability point
+    Replacement: 每个耐久点数所产生

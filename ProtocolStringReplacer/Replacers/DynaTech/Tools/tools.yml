@@ -3,50 +3,83 @@ Options:
   Priority: 35
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - window-title
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Tools
-    Picnic Basket: 野餐袋
-    Allows you to store food: 允许你存储任何食物
-    "Automatically consumes them when you're hungry": "当你饥饿时自动把食物塞进你嘴里"
-    Must be in your inventory: 必须在你的物品栏中
-    §eRight Click §7to open: §e右键§7打开
-    Inventory Filter: 物品栏过滤器
-    "Filters out items on the floor that are in it's inventory": "自动过滤地面上那些在物品栏过滤器中的物品"
-    Electrical Stimulator: 电力刺激器
-    Automatically feed you for energy: 自动释放能量
-    Stimulate your senses: 刺激你的感官
-    Flight Gem: 飞行宝石
-    Permanent Creative Flight: 永久创造飞行
-    Has some speed adjustment settings: 具有一些速度调整设置
-    Scoop: 捕虫网
-    Used to capture bees: 用来捕捉蜜蜂
-    Make sure not to get stung: 确保不要被蛰
-    Dimensional Home: 维度之家
-    Teleports you to a: 把你传送到纬度之家
-    seperate dimensional home and back: 或者返回
-    Healthy Item Band: 健康物品模块
-    When applied to armor or tools: 当应用于盔甲或工具时
-    gives you 2 levels of Health Boost: 给你2级的生命提升
-    Hasty Item Band: 急迫物品模块
-    When applied to armor or tools: 当应用于盔甲或工具时
-    gives you 2 levels of Haste: 给你2级的急迫
-    Tesseract Binder: 超立方体绑定器
-    Used to bind 2 Tesseract together: 用于绑定两个超立方体
-    Right click to get Location of Tesseract: 右键获取超立方体的实际坐标
-    Crouch Right Click to bind location to Tesseract: 蹲下，右击绑定超立方体的实际坐标
-    Wither Golem MultiBlock: 凋零傀儡方块结构
-    Spawns a Wither Skeleton: 生成凋零骷髅
-    Portable Liquid Tank: 便携式液体罐
-    Simple Liquid Snatcher: 简单的液体抓取器
-    Right click to grab a fluid: 右键单击以抓取流体
-    Shift click to place a fluid: 按住Shift键单击以放置流体
+  Common:
+  - Original: Picnic Basket
+    Replacement: 野餐袋
+  - Original: Allows you to store food
+    Replacement: 允许你存储任何食物
+  - Original: Automatically consumes them when you're hungry
+    Replacement: 当你饥饿时自动把食物塞进你嘴里
+  - Original: Must be in your inventory
+    Replacement: 必须在你的物品栏中
+  - Original: §eRight Click §7to open
+    Replacement: §e右键§7打开
+  - Original: Inventory Filter
+    Replacement: 物品栏过滤器
+  - Original: Filters out items on the floor that are in it's inventory
+    Replacement: 自动过滤地面上那些在物品栏过滤器中的物品
+  - Original: Electrical Stimulator
+    Replacement: 电力刺激器
+  - Original: Automatically feed you for energy
+    Replacement: 自动释放能量
+  - Original: Stimulate your senses
+    Replacement: 刺激你的感官
+  - Original: Flight Gem
+    Replacement: 飞行宝石
+  - Original: Permanent Creative Flight
+    Replacement: 永久创造飞行
+  - Original: Has some speed adjustment settings
+    Replacement: 具有一些速度调整设置
+  - Original: Scoop
+    Replacement: 捕虫网
+  - Original: Used to capture bees
+    Replacement: 用来捕捉蜜蜂
+  - Original: Make sure not to get stung
+    Replacement: 确保不要被蛰
+  - Original: Dimensional Home
+    Replacement: 维度之家
+  - Original: Teleports you to a
+    Replacement: 把你传送到纬度之家
+  - Original: seperate dimensional home and back
+    Replacement: 或者返回
+  - Original: Healthy Item Band
+    Replacement: 健康物品模块
+  - Original: When applied to armor or tools
+    Replacement: 当应用于盔甲或工具时
+  - Original: gives you 2 levels of Health Boost
+    Replacement: 给你2级的生命提升
+  - Original: Hasty Item Band
+    Replacement: 急迫物品模块
+  - Original: gives you 2 levels of Haste
+    Replacement: 给你2级的急迫
+  - Original: Tesseract Binder
+    Replacement: 超立方体绑定器
+  - Original: Used to bind 2 Tesseract together
+    Replacement: 用于绑定两个超立方体
+  - Original: Right click to get Location of Tesseract
+    Replacement: 右键获取超立方体的实际坐标
+  - Original: Crouch Right Click to bind location to Tesseract
+    Replacement: 蹲下，右击绑定超立方体的实际坐标
+  - Original: Wither Golem MultiBlock
+    Replacement: 凋零傀儡方块结构
+  - Original: Spawns a Wither Skeleton
+    Replacement: 生成凋零骷髅
+  - Original: Portable Liquid Tank
+    Replacement: 便携式液体罐
+  - Original: Simple Liquid Snatcher
+    Replacement: 简单的液体抓取器
+  - Original: Right click to grab a fluid
+    Replacement: 右键单击以抓取流体
+  - Original: Shift click to place a fluid
+    Replacement: 按住Shift键单击以放置流体

@@ -3,27 +3,39 @@ Options:
   Priority: 30
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - window-title
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Tools
-    Bandaid: 已安装模块
-    FAST_DIGGING: 快速挖掘
-    HEALTH_BOOST: 生命提升
-    Flight: 飞行
-    Enable: 启用
-    Disable: 禁用
-    Speed: 速度
-    Fluid Held: 所含液体
-    NO_FLUID: 无液体
-    WATER: 水
-    LAVA: 岩浆
-    Amount: 总额
+  Common:
+  - Original: Bandaid
+    Replacement: 已安装模块
+  - Original: FAST_DIGGING
+    Replacement: 快速挖掘
+  - Original: HEALTH_BOOST
+    Replacement: 生命提升
+  - Original: Flight
+    Replacement: 飞行
+  - Original: Enable
+    Replacement: 启用
+  - Original: Disable
+    Replacement: 禁用
+  - Original: Speed
+    Replacement: 速度
+  - Original: Fluid Held
+    Replacement: 所含液体
+  - Original: NO_FLUID
+    Replacement: 无液体
+  - Original: WATER
+    Replacement: 水
+  - Original: LAVA
+    Replacement: 岩浆
+  - Original: Amount
+    Replacement: 总额

@@ -3,52 +3,90 @@ Options:
   Priority: 31
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Magical Plants - Magical Essence
-    Magical Essence: 魔法精髓
-    Dirt: 泥土
-    Coal: 煤炭
-    Iron: 铁
-    Gold: 金
-    Copper: 铜
-    Aluminum: 铝
-    Tin: 锡
-    Silver: 银
-    Lead: 铅
-    Redstone: 红石
-    Lapis: 青金石
-    Ender: 末影
-    Quartz: 石英
-    Diamond: 钻石
-    Emerald: 绿宝石
-    Netherite: 下界合金
-    Glowstone: 萤石
-    Obsidian: 黑曜石
-    # Slime: 史莱姆
     # Magical Plants - Plants
-    Dirt Plant: 泥土植物
-    Coal Plant: 煤炭植物
-    Iron Plant: 铁植物
-    Gold Plant: 金植物
-    Copper Plant: 铜植物
-    Aluminum Plant: 铝植物
-    Tin Plant: 锡植物
-    Silver Plant: 银植物
-    Lead Plant: 铅植物
-    Redstone Plant: 红石植物
-    Lapis Plant: 青金石植物
-    Ender Plant: 末影植物
-    Quartz Plant: 石英植物
-    Diamond Plant: 钻石植物
-    Emerald Plant: 绿宝石植物
-    Netherite Plant: 下界合金植物
-    Glowstone Plant: 萤石植物
-    Obsidian Plant: 黑曜石植物
-    Slime Plant: 史莱姆植物
+    # Slime: 史莱姆
+  Common:
+  - Original: Magical Essence
+    Replacement: 魔法精髓
+  - Original: Dirt
+    Replacement: 泥土
+  - Original: Coal
+    Replacement: 煤炭
+  - Original: Iron
+    Replacement: 铁
+  - Original: Gold
+    Replacement: 金
+  - Original: Copper
+    Replacement: 铜
+  - Original: Aluminum
+    Replacement: 铝
+  - Original: Tin
+    Replacement: 锡
+  - Original: Silver
+    Replacement: 银
+  - Original: Lead
+    Replacement: 铅
+  - Original: Redstone
+    Replacement: 红石
+  - Original: Lapis
+    Replacement: 青金石
+  - Original: Ender
+    Replacement: 末影
+  - Original: Quartz
+    Replacement: 石英
+  - Original: Diamond
+    Replacement: 钻石
+  - Original: Emerald
+    Replacement: 绿宝石
+  - Original: Netherite
+    Replacement: 下界合金
+  - Original: Glowstone
+    Replacement: 萤石
+  - Original: Obsidian
+    Replacement: 黑曜石
+  - Original: Dirt Plant
+    Replacement: 泥土植物
+  - Original: Coal Plant
+    Replacement: 煤炭植物
+  - Original: Iron Plant
+    Replacement: 铁植物
+  - Original: Gold Plant
+    Replacement: 金植物
+  - Original: Copper Plant
+    Replacement: 铜植物
+  - Original: Aluminum Plant
+    Replacement: 铝植物
+  - Original: Tin Plant
+    Replacement: 锡植物
+  - Original: Silver Plant
+    Replacement: 银植物
+  - Original: Lead Plant
+    Replacement: 铅植物
+  - Original: Redstone Plant
+    Replacement: 红石植物
+  - Original: Lapis Plant
+    Replacement: 青金石植物
+  - Original: Ender Plant
+    Replacement: 末影植物
+  - Original: Quartz Plant
+    Replacement: 石英植物
+  - Original: Diamond Plant
+    Replacement: 钻石植物
+  - Original: Emerald Plant
+    Replacement: 绿宝石植物
+  - Original: Netherite Plant
+    Replacement: 下界合金植物
+  - Original: Glowstone Plant
+    Replacement: 萤石植物
+  - Original: Obsidian Plant
+    Replacement: 黑曜石植物
+  - Original: Slime Plant
+    Replacement: 史莱姆植物

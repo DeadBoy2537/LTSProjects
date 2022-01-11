@@ -3,15 +3,16 @@ Options:
   Priority: 33
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # General
-    Dummy Spawn Egg: 训练假人
+  Common:
+  - Original: Dummy Spawn Egg
+    Replacement: 训练假人

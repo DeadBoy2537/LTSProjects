@@ -3,48 +3,81 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Guns
-    Pistol: 手枪
-    Revolver: 左轮手枪
-    Machine Gun: 机关枪
-    Minigun: 米尼冈
-    Rifle: 步枪
-    Shotgun: 猎枪
-    Assault Rifle: 突击步枪
-    Sniper Rifle: 狙击步枪
-    Energy Rifle: 能量步枪
     # Intro
-    Range: 最大距离
-    Minimum Range: 最小距离
-    Damage: 伤害
-    hearts: 血量
-    Cooldown: 冷却
-    seconds: 秒
-    A short range gun: 近距离枪械
-    that reloads quickly.: 能快速装弹
-    Useful for close combat: 对近距离战斗有用
-    The ultimate device: 用来刺激你的
-    to pepper your friends with.: 朋友的终极设备
-    A standard rifle: 标准步枪
-    Less range than a: 比步枪射程小
-    rifle, but more damage.: 但伤害更大
-    A derivative of: 步枪的衍生物
-    the rifle, the assault: 突击步枪
-    rifle is the standard: 是标准的
-    military weapon.: 军事武器
-    The ultimate long-range: 狙击步枪
-    gun, the sniper is very powerful: 拥有超高射程和超高的伤害力
-    Finally, no need to carry around bullets!: 终于不用随身携带子弹了！
-    'Note: The bullets visually shoot a little off': '注:子弹的视觉射击有点偏'
-    but you still hit the target: 但你仍然能击中目标
-    Uses 5J per shot: 每次发射弹药使用 5J
+  Common:
+  - Original: Pistol
+    Replacement: 手枪
+  - Original: Revolver
+    Replacement: 左轮手枪
+  - Original: Machine Gun
+    Replacement: 机关枪
+  - Original: Minigun
+    Replacement: 米尼冈
+  - Original: Rifle
+    Replacement: 步枪
+  - Original: Shotgun
+    Replacement: 猎枪
+  - Original: Assault Rifle
+    Replacement: 突击步枪
+  - Original: Sniper Rifle
+    Replacement: 狙击步枪
+  - Original: Energy Rifle
+    Replacement: 能量步枪
+  - Original: Range
+    Replacement: 最大距离
+  - Original: Minimum Range
+    Replacement: 最小距离
+  - Original: Damage
+    Replacement: 伤害
+  - Original: hearts
+    Replacement: 血量
+  - Original: Cooldown
+    Replacement: 冷却
+  - Original: seconds
+    Replacement: 秒
+  - Original: A short range gun
+    Replacement: 近距离枪械
+  - Original: that reloads quickly.
+    Replacement: 能快速装弹
+  - Original: Useful for close combat
+    Replacement: 对近距离战斗有用
+  - Original: The ultimate device
+    Replacement: 用来刺激你的
+  - Original: to pepper your friends with.
+    Replacement: 朋友的终极设备
+  - Original: A standard rifle
+    Replacement: 标准步枪
+  - Original: Less range than a
+    Replacement: 比步枪射程小
+  - Original: rifle, but more damage.
+    Replacement: 但伤害更大
+  - Original: A derivative of
+    Replacement: 步枪的衍生物
+  - Original: the rifle, the assault
+    Replacement: 突击步枪
+  - Original: rifle is the standard
+    Replacement: 是标准的
+  - Original: military weapon.
+    Replacement: 军事武器
+  - Original: The ultimate long-range
+    Replacement: 狙击步枪
+  - Original: gun, the sniper is very powerful
+    Replacement: 拥有超高射程和超高的伤害力
+  - Original: Finally, no need to carry around bullets!
+    Replacement: 终于不用随身携带子弹了！
+  - Original: 'Note: The bullets visually shoot a little off'
+    Replacement: 注:子弹的视觉射击有点偏
+  - Original: but you still hit the target
+    Replacement: 但你仍然能击中目标
+  - Original: Uses 5J per shot
+    Replacement: 每次发射弹药使用 5J

@@ -3,46 +3,76 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Resources - Items
-    Borax: 硼砂
-    Boron: 硼
-    Osmium Meteor: 锇陨石
-    Segganesson Meteor: Segganesson 陨石
-    Osmium Dust: 锇尘
-    Osmium Ingot: 锇锭
     #Segganesson: Segganesson 聚合态
-    Monazite: 稀土
-    Lanthanum Ingot: 镧锭
-    Neodymium Ingot: 钕锭
-    Gadolinium Ingot: 钆锭
-    Terbium Ingot: 铽锭
-    Dysprosium Ingot: 镝锭
-    Holmium Ingot: 钬锭
-    Erbium Ingot: 铒锭
-    Ytterbium Ingot: 镱锭
-    Unpatentablium: 隐性聚合物
     # Resources - Intro
-    A common mineral dropped from stone: 一种在石头中掉落的普通矿物
-    The source of the rare metal osmium: 稀有的锇单质的来源
-    The source of the rare element segganesson: 稀有的Segganesson元素来源
-    Highly toxic. Do not inhale!: 剧毒，千万不要吸入！
-    A very strong metal found only in outer space: 一种只能在太空中找到的非常强大的金属
-    A rare element that has the potential of powering: 一种稀有元素，其潜在能量
-    entire cities: 可以供给整个城市
-    The source of all the rare earths.: 所有稀土金属的聚合体
-    Find it in igneous rock: 可以从火成岩中找到
-    Can be used as infinite flint and steel: 可以被用来当做无限的打火石
-    For some reason, the: 因为一些原因
-    Feds wouldn't let you: 这种化合物
-    patent this powerful: 并不能让你
-    power source: 获得它的专利
+  Common:
+  - Original: Borax
+    Replacement: 硼砂
+  - Original: Boron
+    Replacement: 硼
+  - Original: Osmium Meteor
+    Replacement: 锇陨石
+  - Original: Segganesson Meteor
+    Replacement: Segganesson 陨石
+  - Original: Osmium Dust
+    Replacement: 锇尘
+  - Original: Osmium Ingot
+    Replacement: 锇锭
+  - Original: Monazite
+    Replacement: 稀土
+  - Original: Lanthanum Ingot
+    Replacement: 镧锭
+  - Original: Neodymium Ingot
+    Replacement: 钕锭
+  - Original: Gadolinium Ingot
+    Replacement: 钆锭
+  - Original: Terbium Ingot
+    Replacement: 铽锭
+  - Original: Dysprosium Ingot
+    Replacement: 镝锭
+  - Original: Holmium Ingot
+    Replacement: 钬锭
+  - Original: Erbium Ingot
+    Replacement: 铒锭
+  - Original: Ytterbium Ingot
+    Replacement: 镱锭
+  - Original: Unpatentablium
+    Replacement: 隐性聚合物
+  - Original: A common mineral dropped from stone
+    Replacement: 一种在石头中掉落的普通矿物
+  - Original: The source of the rare metal osmium
+    Replacement: 稀有的锇单质的来源
+  - Original: The source of the rare element segganesson
+    Replacement: 稀有的Segganesson元素来源
+  - Original: Highly toxic. Do not inhale!
+    Replacement: 剧毒，千万不要吸入！
+  - Original: A very strong metal found only in outer space
+    Replacement: 一种只能在太空中找到的非常强大的金属
+  - Original: A rare element that has the potential of powering
+    Replacement: 一种稀有元素，其潜在能量
+  - Original: entire cities
+    Replacement: 可以供给整个城市
+  - Original: The source of all the rare earths.
+    Replacement: 所有稀土金属的聚合体
+  - Original: Find it in igneous rock
+    Replacement: 可以从火成岩中找到
+  - Original: Can be used as infinite flint and steel
+    Replacement: 可以被用来当做无限的打火石
+  - Original: For some reason, the
+    Replacement: 因为一些原因
+  - Original: Feds wouldn't let you
+    Replacement: 这种化合物
+  - Original: patent this powerful
+    Replacement: 并不能让你
+  - Original: power source
+    Replacement: 获得它的专利

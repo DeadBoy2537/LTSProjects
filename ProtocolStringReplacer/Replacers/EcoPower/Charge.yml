@@ -3,17 +3,19 @@ Options:
   Priority: 30
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Eco-Power Generators
-    Eco-Power Generators: 生态动力 - 发电机
     # Machines
-    charge: 充电
+  Common:
+  - Original: Eco-Power Generators
+    Replacement: 生态动力 - 发电机
+  - Original: charge
+    Replacement: 充电

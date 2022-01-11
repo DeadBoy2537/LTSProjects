@@ -3,18 +3,21 @@ Options:
   Priority: 33
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - window-title
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Intro
-    Generates energy from the: 可以从能量富饶的
-    energy-rich elements Unpatentablium: 隐性聚合物和
-    and Segganesson: Segganesson中汲取能力
+  Common:
+  - Original: Generates energy from the
+    Replacement: 可以从能量富饶的
+  - Original: energy-rich elements Unpatentablium
+    Replacement: 隐性聚合物和
+  - Original: and Segganesson
+    Replacement: Segganesson中汲取能力

@@ -3,29 +3,44 @@ Options:
   Priority: 35
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Exotic Garden
-    Exotic Garden: 异域花园
-    Exotic Garden - Plants and Fruits: 异域花园 - 蔬菜与水果
-    Exotic Garden - Ingredients and Tools: 异域花园 - 配料与工具
-    Exotic Garden - Food: 异域花园 - 食物
-    Exotic Garden - Drinks: 异域花园 - 饮品
-    Exotic Garden - Magical Plants: 异域花园 - 魔法植物
-    This item must be made: 这个物品必须在
-    in a Kitchen: 厨房里制作
-    Breaking Grass: 破坏草丛
-    Harvesting a Bush: 果丛结果
-    Harvesting a Tree: 果树结果
-    You can obtain this Item by: 你可以通过以下方式获得此物品
-    harvesting the shown Bush: 果丛结果
-    harvesting the shown Tree: 果树结果
-    Can be planted on Dirt: 可以种在泥土上
+  Common:
+  - Original: Exotic Garden
+    Replacement: 异域花园
+  - Original: Exotic Garden - Plants and Fruits
+    Replacement: 异域花园 - 蔬菜与水果
+  - Original: Exotic Garden - Ingredients and Tools
+    Replacement: 异域花园 - 配料与工具
+  - Original: Exotic Garden - Food
+    Replacement: 异域花园 - 食物
+  - Original: Exotic Garden - Drinks
+    Replacement: 异域花园 - 饮品
+  - Original: Exotic Garden - Magical Plants
+    Replacement: 异域花园 - 魔法植物
+  - Original: This item must be made
+    Replacement: 这个物品必须在
+  - Original: in a Kitchen
+    Replacement: 厨房里制作
+  - Original: Breaking Grass
+    Replacement: 破坏草丛
+  - Original: Harvesting a Bush
+    Replacement: 果丛结果
+  - Original: Harvesting a Tree
+    Replacement: 果树结果
+  - Original: You can obtain this Item by
+    Replacement: 你可以通过以下方式获得此物品
+  - Original: harvesting the shown Bush
+    Replacement: 果丛结果
+  - Original: harvesting the shown Tree
+    Replacement: 果树结果
+  - Original: Can be planted on Dirt
+    Replacement: 可以种在泥土上

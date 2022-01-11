@@ -3,13 +3,15 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
   Common:
-    §cNo Cargo Nodes found: §c未找到货运网络节点
-    §4Multiple Cargo Regulators connected: §4连接多个货运网络管理器
+  - Original: §cNo Cargo Nodes found
+    Replacement: §c未找到货运网络节点
+  - Original: §4Multiple Cargo Regulators connected
+    Replacement: §4连接多个货运网络管理器

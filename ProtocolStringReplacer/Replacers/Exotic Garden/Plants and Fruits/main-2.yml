@@ -3,15 +3,16 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Plants and Fruits - 蔬菜&水果-成品
-    Grass Seeds: 草籽
+  Common:
+  - Original: Grass Seeds
+    Replacement: 草籽

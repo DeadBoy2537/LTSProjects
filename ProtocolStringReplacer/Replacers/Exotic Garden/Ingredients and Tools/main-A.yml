@@ -3,30 +3,45 @@ Options:
   Priority: 32
   Version: '1.20210728'
   Author: Rothes
-  Match-Type: contain
   Filter:
     Listen-Types:
     - itemstack
     - chat
     - entity
-    
+  Match-Mode: contain
+    #
 Replaces:
   # 常规文本替换模式.
-  Common:
     # Ingredients and Tools
-    Kitchen: 厨房
-    Ice Cube: 冰块
-    Mayo: 蛋黄酱
-    ＃ Mustard: 芥末
-    BBQ Sauce: 烧烤酱
-    Vegetable Oil: 植物油
-    Cornmeal: 玉米淀粉
-    Yeast: 酵母菌
-    Molasses: 蜜糖
-    Brown Sugar: 赤砂糖
-    Country Gravy: 乡村肉汁
-    Crook: 钩子
     # 描述
-    You can make a bunch of different yummies here: 你可以在厨房里制作美味的食物
-    The result goes in the Furnace output slot: 成品会出现在熔炉输出栏里
-    Sapling Drop Rate: 树苗掉落率
+  Common:
+  - Original: Kitchen
+    Replacement: 厨房
+  - Original: Ice Cube
+    Replacement: 冰块
+  - Original: Mayo
+    Replacement: 蛋黄酱
+  - Original: ＃ Mustard
+    Replacement: 芥末
+  - Original: BBQ Sauce
+    Replacement: 烧烤酱
+  - Original: Vegetable Oil
+    Replacement: 植物油
+  - Original: Cornmeal
+    Replacement: 玉米淀粉
+  - Original: Yeast
+    Replacement: 酵母菌
+  - Original: Molasses
+    Replacement: 蜜糖
+  - Original: Brown Sugar
+    Replacement: 赤砂糖
+  - Original: Country Gravy
+    Replacement: 乡村肉汁
+  - Original: Crook
+    Replacement: 钩子
+  - Original: You can make a bunch of different yummies here
+    Replacement: 你可以在厨房里制作美味的食物
+  - Original: The result goes in the Furnace output slot
+    Replacement: 成品会出现在熔炉输出栏里
+  - Original: Sapling Drop Rate
+    Replacement: 树苗掉落率
