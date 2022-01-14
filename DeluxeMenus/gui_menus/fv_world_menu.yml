@@ -47,8 +47,20 @@ items:
     right_click_commands:
     - '[openguimenu] main_menu'
   flat_world:
-    material: DIRT
-    slot: 10
+      material: DIRT
+      slot: 10
+      display_name: '§6超平坦创造世界'
+      left_click_commands:
+      - '[message] 超平坦创造世界'
+      - '[player] warp flatworld'
+      - '[sound] BLOCK_NOTE_BLOCK_HARP'
+      right_click_commands:
+      - '[message] 超平坦创造世界'
+      - '[player] warp flatworld'
+      - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  void_world:
+    material: BEDROCK
+    slot: 16
     display_name: '§6超平坦虚空世界'
     left_click_commands:
     - '[message] 超平坦虚空世界'
@@ -57,16 +69,4 @@ items:
     right_click_commands:
     - '[message] 超平坦虚空世界'
     - '[player] warp voidworld'
-    - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  void_world:
-    material: BEDROCK
-    slot: 16
-    display_name: '§6超平坦创造世界'
-    left_click_commands:
-    - '[message] 超平坦创造世界'
-    - '[player] warp flatworld'
-    - '[sound] BLOCK_NOTE_BLOCK_HARP'
-    right_click_commands:
-    - '[message] 超平坦创造世界'
-    - '[player] warp flatworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'

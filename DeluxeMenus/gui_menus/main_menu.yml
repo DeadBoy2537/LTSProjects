@@ -4,6 +4,8 @@ open_command:
   - 'm'
   - 'ltmenu'
   - 'ltm'
+  - 'leaftownmenu'
+  - 'leaftownm'
 register_command: true
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_BELL'
