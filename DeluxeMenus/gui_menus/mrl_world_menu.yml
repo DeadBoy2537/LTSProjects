@@ -46,8 +46,8 @@ items:
     - '[message] 已关闭菜单!'
     right_click_commands:
     - '[openguimenu] main_menu'
-  world:
-    material: MAP
+  main_world:
+    material: STONE
     slot: 10
     display_name: '§a传送至主世界'
     left_click_commands:
@@ -58,8 +58,8 @@ items:
     - '[message] 已传送至主世界'
     - '[player] warp overworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  flat_world:
-    material: MAP
+  rl_world:
+    material: GRASS_BLOCK
     slot: 16
     display_name: '§a传送至资源世界'
     left_click_commands:

@@ -46,8 +46,8 @@ items:
     - '[message] 已关闭菜单!'
     right_click_commands:
     - '[openguimenu] main_menu'
-  world:
-    material: MAP
+  flat_world:
+    material: DIRT
     slot: 10
     display_name: '§6超平坦虚空世界'
     left_click_commands:
@@ -58,8 +58,8 @@ items:
     - '[message] 超平坦虚空世界'
     - '[player] warp voidworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
-  flat_world:
-    material: MAP
+  void_world:
+    material: BEDROCK
     slot: 16
     display_name: '§6超平坦创造世界'
     left_click_commands:

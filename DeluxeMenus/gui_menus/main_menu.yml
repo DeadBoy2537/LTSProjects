@@ -1,5 +1,9 @@
 menu_title: '&fLeafTown主菜单'
-open_command: menu
+open_command:
+  - 'menu'
+  - 'm'
+  - 'ltmenu'
+  - 'ltm'
 register_command: true
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_BELL'
