@@ -1,7 +1,7 @@
-menu_title: '&fLeafTown世界菜单'
+menu_title: '&fLeafTown世界菜单 (主/资源世界)'
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_BELL'
-  - '[message] 已打开LeafTown世界菜单!'
+  - '[message] 已打开LeafTown世界菜单 (主/资源世界)!'
 update_interval: 1
 size: 54
 args:
@@ -49,20 +49,24 @@ items:
   world:
     material: MAP
     slot: 10
-    display_name: '§a主/资源世界'
+    display_name: '§a传送至主世界'
     left_click_commands:
-    - '[openguimenu] mrl_world_menu'
+    - '[message] 已传送至主世界'
+    - '[player] warp overworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
     right_click_commands:
-    - '[openguimenu] mrl_world_menu'
+    - '[message] 已传送至主世界'
+    - '[player] warp overworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
   flat_world:
     material: MAP
     slot: 16
-    display_name: '§6超平坦世界'
+    display_name: '§a传送至资源世界'
     left_click_commands:
-    - '[openguimenu] fv_world_menu'
+    - '[message] 已传送至资源世界'
+    - '[player] warp rlworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
     right_click_commands:
-    - '[openguimenu] fv_world_menu'
+    - '[message] 已传送至资源世界'
+    - '[player] warp rlworld'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
