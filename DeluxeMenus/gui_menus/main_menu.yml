@@ -14,7 +14,7 @@ update_interval: 1
 size: 54
 args:
   menu: -1
-args_usage_message: "命令使用方式不对,/menu <玩家ID>"
+args_usage_message: "命令使用方式不对,使用/menu 来打开菜单"
 items:
   menu:
     material: RED_STAINED_GLASS_PANE
