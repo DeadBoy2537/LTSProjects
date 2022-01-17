@@ -60,6 +60,8 @@ items:
     material: BEACON
     slot: 13
     display_name: '§3冒险者公会'
+    lore:
+    - '§4(当EliteMobs插件出错时本按钮将不可用)'
     left_click_commands:
     - '[player] ag'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
