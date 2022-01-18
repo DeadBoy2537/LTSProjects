@@ -111,7 +111,7 @@ items:
     - '§6个人所持资产: §4%vault_eco_balance%'
   playercount:
     update: true
-    material: OAK_SIGN
+    material: ENDER_EYE
     slot: 32
     display_name: '§b服务器在线玩家名字'
     lore:
