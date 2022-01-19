@@ -1,6 +1,6 @@
 Options:
   Enable: true
-  Priority: 34
+  Priority: 32
   Version: '1.20210728'
   Author: Rothes
   Filter:
@@ -17,3 +17,5 @@ Replaces:
   Common:
   - Original: Vex
     Replacement: 恼鬼
+  - Original: Bee
+    Replacement: 蜜蜂
