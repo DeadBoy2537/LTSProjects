@@ -80,3 +80,23 @@ items:
     right_click_commands:
     - '[player] suicide'
     - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  tpsbar:
+    material: DRAGON_HEAD
+    slot: 39
+    display_name: '§a打开TPS显示'
+    left_click_commands:
+    - '[player] tpsbar'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[player] tpsbar'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+  compass:
+    material: COMPASS
+    slot: 41
+    display_name: '§a打开方向显示'
+    left_click_commands:
+    - '[player] compass'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
+    right_click_commands:
+    - '[player] compass'
+    - '[sound] BLOCK_NOTE_BLOCK_HARP'
