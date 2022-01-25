@@ -149,3 +149,7 @@ Releases: <a href="https://github.com/DeadBoy2537/LTSProjects/releases/latest" t
 QQ群聊: <a href="https://jq.qq.com/?_wv=1027&k=nC0T6Jua" target="_blank">加入</a>
 
 Telegram群聊: <a href="https://t.me/+V4iovZgXfEp2c62B" target="_blank">加入</a>
+
+### 返回主页
+
+[点我返回](https://deadboy2537.github.io/).
