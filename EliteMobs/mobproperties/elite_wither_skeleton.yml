@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: WITHER_SKELETON
-name: '&2$level级&f精英&8凋灵骷髅'
-deathMessages:
-  - '$entity使$player凋零了！'
-  - '$entity杀死了$player！'
-baseDamage: 12.0

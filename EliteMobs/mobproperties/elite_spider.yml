@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: SPIDER
-name: '&2$level级&f精英&7蜘蛛'
-deathMessages:
-  - '$player被$entity困在了蜘蛛网中无法动弹！'
-  - '$entity吞下了$player！'
-baseDamage: 3.0

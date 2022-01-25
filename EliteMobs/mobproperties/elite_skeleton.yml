@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: SKELETON
-name: '&2$level级&f精英&f骷髅'
-deathMessages:
-  - '$entity使$player如坐针毡'
-  - '$entity&c想看看$player的&c骨头！'
-baseDamage: 5.0

@@ -1,7 +1,0 @@
----
-isEnabled: true
-name: 致命打击
-maxLevel: 2
-value: 13.0
-criticalHitColor: '&5'
-criticalHitPopup: '&5正中要害!'

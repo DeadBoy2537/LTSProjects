@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: IRON_GOLEM
-name: '&2$level级&f精英&f铁傀儡'
-deathMessages:
-  - '$player碰上了硬茬$entity！'
-  - '$player被$entity一拳拍飞了！'
-baseDamage: 15.0

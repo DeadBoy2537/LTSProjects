@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: WOLF
-name: '&2$level级&f精英&b狼'
-deathMessages:
-  - '$entity撕碎了$player！'
-  - '$player被$entity撕成了碎片！'
-baseDamage: 6.0

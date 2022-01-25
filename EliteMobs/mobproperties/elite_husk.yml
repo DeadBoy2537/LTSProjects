@@ -1,7 +1,0 @@
----
-isEnabled: true
-entityType: HUSK
-name: '&2$level级&f精英&7尸壳'
-deathMessages:
-  - '$player的身体被$entity掏空！'
-baseDamage: 5.0

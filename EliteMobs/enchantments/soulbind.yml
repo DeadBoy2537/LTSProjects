@@ -1,6 +1,0 @@
-isEnabled: true
-name: 灵魂绑定
-maxLevel: 1
-value: 10.0
-hologramString: $player&f的
-loreStrings: '&7绑定了$player&7的灵魂'
