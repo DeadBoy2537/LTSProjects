@@ -146,7 +146,7 @@ Releases: <a href="https://github.com/DeadBoy2537/LTSProjects/releases/latest" t
 
 落叶小镇服务器的讨论群，欢迎加入
 
-QQ群聊: <a href="https://jq.qq.com/?_wv=1027&k=nC0T6Jua" target="_blank">加入</a>
+QQ群聊: <a href="https://jq.qq.com/?_wv=1027&k=nC0T6Jua" target="_blank">加入</a> （项目组: <a href="https://jq.qq.com/?_wv=1027&k=vmq91hTr" target="_blank">加入</a>）
 
 Telegram群聊: <a href="https://t.me/+V4iovZgXfEp2c62B" target="_blank">加入</a>
 
