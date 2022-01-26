@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: ZOMBIFIED_PIGLIN
-name: '&2$level级&f精英&6僵尸猪灵'
-deathMessages:
-  - '$player&c被$entity&c杀死了！'
-  - '$entity&c把$player烤成了肉！'
-baseDamage: 12.0

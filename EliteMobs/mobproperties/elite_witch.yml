@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: WITCH
-name: '&2$level级&f精英&5女巫'
-deathMessages:
-  - '$player成为了$entity的实验对象！'
-  - '$player被$entity的魔法杀死了！'
-baseDamage: 6.0

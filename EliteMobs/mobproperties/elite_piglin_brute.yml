@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: PIGLIN_BRUTE
-name: '&2$level级&f精英&e猪灵蛮兵'
-deathMessages:
-  - '$entity&c残忍地杀害了$player！'
-  - '$entity&c将$player碎尸万段！'
-baseDamage: 19.5

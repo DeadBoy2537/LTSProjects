@@ -1,9 +1,0 @@
----
-isEnabled: true
-entityType: GHAST
-name: '&2$level级&f精英&f恶魂'
-deathMessages:
-  - '$player&c没能躲过$entity&c&c的火球'
-  - '$player&c被$entity&c炸成了灰！'
-  - '$entity&c杀死了$player！'
-baseDamage: 25.0

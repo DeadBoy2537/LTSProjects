@@ -1,7 +1,0 @@
----
-isEnabled: true
-entityType: VINDICATOR
-name: '&2$level级&f精英&7卫道士'
-deathMessages:
-  - '$entity教会了$player如何战斗！'
-baseDamage: 19.5

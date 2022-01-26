@@ -1,8 +1,0 @@
----
-isEnabled: true
-entityType: CREEPER
-name: '&2$level级&f精英&2苦力怕'
-deathMessages:
-  - '$player被$entity炸飞了！'
-  - '$player&c：Creeper?Aw man?'
-baseDamage: 73.0

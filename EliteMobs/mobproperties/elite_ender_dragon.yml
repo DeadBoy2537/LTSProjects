@@ -1,7 +1,0 @@
----
-isEnabled: true
-entityType: ENDER_DRAGON
-name: '&2$level级&f精英&3&5末影龙'
-deathMessages:
-  - '$entity&c终结了$player!'
-baseDamage: 7.0
