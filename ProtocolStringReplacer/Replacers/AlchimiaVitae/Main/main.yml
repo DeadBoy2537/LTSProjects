@@ -5,7 +5,7 @@ Options:
   Author: Rothes
   Filter:
     Listen-Types:
-    - Chat
+#    - chat
     - Entity
     - Title
     - itemstack

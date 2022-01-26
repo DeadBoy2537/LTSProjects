@@ -7,7 +7,7 @@ Options:
     Listen-Types:
     - itemstack
     - entity
-    - chat
+#    - chat
   Match-Mode: contain
     #
 Replaces:

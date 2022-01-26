@@ -6,7 +6,7 @@ Options:
   Filter:
     Listen-Types:
     - itemstack
-    - chat
+#    - chat
     - entity
     - window-title
   Match-Mode: contain
